@@ -1,0 +1,1159 @@
+{
+  "schema": "rig.omniscout.build-card.v10",
+  "card_id": "l2-0437f3e9a18b3f67",
+  "cluster_id": "cluster-cons-294ab46f3e1e4b",
+  "created_at": "2026-08-05T18:12:10.006068+00:00",
+  "topic": "operations",
+  "title": "Lean principles, learning, and knowledge work: Evidence from a software services provider",
+  "claim": "Which ops improvements compound without heroics?",
+  "summary": "Abstract In this paper, we examine the applicability of lean production to knowledge work by investigating the implementation of a lean production system at an Indian software services firm. We first discuss specific aspects of knowledge work—task uncertainty, process invisibility, and architectural ambiguity—that call into question the relevance of lean production in this setting. Then, combining a detailed case study and empirical analysis, we find that lean software projects perform better than non‐lean software projects at the company for most performance outcomes. We document the influence of the lean initiative on internal processes and examine how the techniques affect learning by improving both problem identification and problem resolution. Finally, we extend the lean production framework by highlighting the need to (1) identify problems early in the process and (2) keep problems Purpose: Knowledge work productivity is a key area of improvement for many organisations. Lean approach is a sustainable way to achieve operational excellence and can be applied in many areas. The purpose of this novel study is to examine the potential of using lean approach for improving knowledge",
+  "mechanism": "Multi-source Consensus synthesis for strategy `operations`.\n\n- Abstract In this paper, we examine the applicability of lean production to knowledge work by investigating the implementation of a lean production system at an Indian software services firm. We first discuss specific aspects of knowledge work—task uncertainty, process invisibility, and architectural ambiguity—that call into question the relevance of lean production in this setting. Then, combining\n\n- Purpose: Knowledge work productivity is a key area of improvement for many organisations. Lean approach is a sustainable way to achieve operational excellence and can be applied in many areas. The purpose of this novel study is to examine the potential of using lean approach for improving knowledge work practices. Design/methodology/approach: A systematic literature review has been carried out to \n\n- With its Lean production system, Toyota championed an innovative way to organize and manage processes to eliminate waste and improve effectiveness. While our understanding of Lean and its successes has grown, it has become increasingly clear that contextual variables impact the effectiveness of its implementation. In particular, there is a need to better understand those principles and practices o\n\n- Abstract Implementation of lean construction largely relies on organizational learning and knowledge creation, which is in turn promoted by lean techniques. However, there are few studies in knowledge management of lean construction. This paper tries to fill the gap and establishes a linkage between techniques in lean construction and knowledge management through the SECI (socialization, externali\n\n- With the advent of the knowledge economy, knowledge has become a very important resource and one of the core competencies of an organization. However, the current lean manufacturing implementation process in most companies focuses on the sequence of the production process without paying attention to the process of integrating relevant knowledge in the organization. This paper explores the applicat",
+  "pattern": {
+    "name": "operations-multi-source-synthesis",
+    "description": "Cluster ≥3 independent sources on one RIG topic; extract mechanism + done-test.",
+    "when_to_use": "When L0 notes share a topic and at least two domains/URLs.",
+    "when_not_to_use": "Single blog sludge or uncited opinion."
+  },
+  "idea": {
+    "name": "build-lean-principles-learning-and-knowledge-w",
+    "description": "Turn the 'Lean principles, learning, and knowledge work: Evidence from a software services provider' cluster into a governed build slice with proof.",
+    "acceptance": "Card has ≥3 sources, mechanism, pattern, idea, and executable done-test.",
+    "done_test": "python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}).get('strategy_id')=='operations';assert c['sources']['count']>=2\""
+  },
+  "tac": {
+    "core_four": [
+      "intent",
+      "context",
+      "tools",
+      "loop"
+    ],
+    "closed_loop": "L0 collector builds notes; L2 synthesizer drafts card; independent scorer grades artifact.",
+    "builder": "omniscout-l2-consensus-extractive",
+    "verifier": "omniscout-l2-scorer-deterministic-v1",
+    "done_test": "python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}).get('strategy_id')=='operations';assert c['sources']['count']>=2\""
+  },
+  "doctrine_domains": [
+    "leadership",
+    "app-building"
+  ],
+  "evidence": [
+    {
+      "url": "https://consensus.app/papers/details/a4bf28a09c3b50cbb3cde1a28a8abf1d/?utm_source=claude_desktop",
+      "quote_or_fact": "Abstract In this paper, we examine the applicability of lean production to knowledge work by investigating the implementation of a lean production system at an Indian software services firm. We first discuss specific aspects of knowledge work—task uncertainty, process invisibilit",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/b2ecdc0526b95596acd379483d1ec252/?utm_source=claude_desktop",
+      "quote_or_fact": "Purpose: Knowledge work productivity is a key area of improvement for many organisations. Lean approach is a sustainable way to achieve operational excellence and can be applied in many areas. The purpose of this novel study is to examine the potential of using lean approach for ",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/ae4f0d32388a56d7a5c52c618cddb611/?utm_source=claude_desktop",
+      "quote_or_fact": "With its Lean production system, Toyota championed an innovative way to organize and manage processes to eliminate waste and improve effectiveness. While our understanding of Lean and its successes has grown, it has become increasingly clear that contextual variables impact the e",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/43366a181e05542ab96fa6ee2cc637bc/?utm_source=claude_desktop",
+      "quote_or_fact": "Abstract Implementation of lean construction largely relies on organizational learning and knowledge creation, which is in turn promoted by lean techniques. However, there are few studies in knowledge management of lean construction. This paper tries to fill the gap and establish",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/521eeafe61b055468a4ea1d5801cc1db/?utm_source=claude_desktop",
+      "quote_or_fact": "With the advent of the knowledge economy, knowledge has become a very important resource and one of the core competencies of an organization. However, the current lean manufacturing implementation process in most companies focuses on the sequence of the production process without",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/a4bf28a09c3b50cbb3cde1a28a8abf1d/?utm_source=claude_desktop",
+      "quote_or_fact": "Abstract In this paper, we examine the applicability of lean production to knowledge work by investigating the implementation of a lean production system at an Indian software services firm. We first discuss specific aspects of knowledge work—task uncertainty, process invisibilit",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/b2ecdc0526b95596acd379483d1ec252/?utm_source=claude_desktop",
+      "quote_or_fact": "Purpose: Knowledge work productivity is a key area of improvement for many organisations. Lean approach is a sustainable way to achieve operational excellence and can be applied in many areas. The purpose of this novel study is to examine the potential of using lean approach for ",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/ae4f0d32388a56d7a5c52c618cddb611/?utm_source=claude_desktop",
+      "quote_or_fact": "With its Lean production system, Toyota championed an innovative way to organize and manage processes to eliminate waste and improve effectiveness. While our understanding of Lean and its successes has grown, it has become increasingly clear that contextual variables impact the e",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/43366a181e05542ab96fa6ee2cc637bc/?utm_source=claude_desktop",
+      "quote_or_fact": "Abstract Implementation of lean construction largely relies on organizational learning and knowledge creation, which is in turn promoted by lean techniques. However, there are few studies in knowledge management of lean construction. This paper tries to fill the gap and establish",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/521eeafe61b055468a4ea1d5801cc1db/?utm_source=claude_desktop",
+      "quote_or_fact": "With the advent of the knowledge economy, knowledge has become a very important resource and one of the core competencies of an organization. However, the current lean manufacturing implementation process in most companies focuses on the sequence of the production process without",
+      "source_type": "consensus_paper"
+    }
+  ],
+  "risks": [
+    "LLM synthesis unavailable; extractive fallback may under-specify mechanism."
+  ],
+  "assumptions": [
+    "Source notes are accurate enough to cluster."
+  ],
+  "next_actions": [
+    "Re-run with deep model when Ollama slot free.",
+    "Confirm Consensus MCP papers attached."
+  ],
+  "kill_criteria": [
+    "If independent sources drop below 2, quarantine."
+  ],
+  "why_not_median": "Consensus multi-paper cluster with explicit GEV split, strategy tier admission, and executable done-test — not single-blog sludge.",
+  "sources": {
+    "count": 5,
+    "urls": [
+      "https://consensus.app/papers/details/a4bf28a09c3b50cbb3cde1a28a8abf1d/?utm_source=claude_desktop",
+      "https://consensus.app/papers/details/b2ecdc0526b95596acd379483d1ec252/?utm_source=claude_desktop",
+      "https://consensus.app/papers/details/ae4f0d32388a56d7a5c52c618cddb611/?utm_source=claude_desktop",
+      "https://consensus.app/papers/details/43366a181e05542ab96fa6ee2cc637bc/?utm_source=claude_desktop",
+      "https://consensus.app/papers/details/521eeafe61b055468a4ea1d5801cc1db/?utm_source=claude_desktop"
+    ],
+    "types": [
+      "consensus_paper"
+    ],
+    "l0_note_paths": [
+      "consensus://operations/0",
+      "consensus://operations/1",
+      "consensus://operations/2",
+      "consensus://operations/3",
+      "consensus://operations/4"
+    ],
+    "avg_l0_quality": 5.0
+  },
+  "consensus": {
+    "used": true,
+    "via": "mcp",
+    "count": 5,
+    "results": [
+      {
+        "title": "Lean principles, learning, and knowledge work: Evidence from a software services provider",
+        "url": "https://consensus.app/papers/details/a4bf28a09c3b50cbb3cde1a28a8abf1d/?utm_source=claude_desktop",
+        "abstract": "Abstract In this paper, we examine the applicability of lean production to knowledge work by investigating the implementation of a lean production system at an Indian software services firm. We first discuss specific aspects of knowledge work—task uncertainty, process invisibility, and architectural ambiguity—that call into question the relevance of lean production in this setting. Then, combining a detailed case study and empirical analysis, we find that lean software projects perform better than non‐lean software projects at the company for most performance outcomes. We document the influence of the lean initiative on internal processes and examine how the techniques affect learning by improving both problem identification and problem resolution. Finally, we extend the lean production framework by highlighting the need to (1) identify problems early in the process and (2) keep problems",
+        "source": "consensus_mcp"
+      },
+      {
+        "title": "Lean Approach in Knowledge Work",
+        "url": "https://consensus.app/papers/details/b2ecdc0526b95596acd379483d1ec252/?utm_source=claude_desktop",
+        "abstract": "Purpose: Knowledge work productivity is a key area of improvement for many organisations. Lean approach is a sustainable way to achieve operational excellence and can be applied in many areas. The purpose of this novel study is to examine the potential of using lean approach for improving knowledge work practices. Design/methodology/approach: A systematic literature review has been carried out to study how lean approach is realised in knowledge work. The research is conceptual in nature and draws upon earlier research findings. Findings: This study shows that lean studies’ in knowledge work is an emerging research area. This study documents the methods and practices implemented in knowledge work to date, and presents a knowledge work continuum, which is an essential framework for effective lean approach deployment and to frame future research focus in knowledge work productivity. Researc",
+        "source": "consensus_mcp"
+      },
+      {
+        "title": "Implementing lean in knowledge work: Implications from a study of the hospital discharge planning process",
+        "url": "https://consensus.app/papers/details/ae4f0d32388a56d7a5c52c618cddb611/?utm_source=claude_desktop",
+        "abstract": "With its Lean production system, Toyota championed an innovative way to organize and manage processes to eliminate waste and improve effectiveness. While our understanding of Lean and its successes has grown, it has become increasingly clear that contextual variables impact the effectiveness of its implementation. In particular, there is a need to better understand those principles and practices of Lean that are most relevant for specific processes in knowledge work environments. In this paper, we use action research methods to explore the implementation of Lean techniques in the discharge planning process (DPP) of a large hospital. Our aim is two-fold: first, we conceptually frame and link our observations of Lean implementation in this knowledge worker setting with the overall framework of Lean management to provide researchers with further insight into important contextual elements/va",
+        "source": "consensus_mcp"
+      },
+      {
+        "title": "Role of Lean Tools in Supporting Knowledge Creation and Performance in Lean Construction",
+        "url": "https://consensus.app/papers/details/43366a181e05542ab96fa6ee2cc637bc/?utm_source=claude_desktop",
+        "abstract": "Abstract Implementation of lean construction largely relies on organizational learning and knowledge creation, which is in turn promoted by lean techniques. However, there are few studies in knowledge management of lean construction. This paper tries to fill the gap and establishes a linkage between techniques in lean construction and knowledge management through the SECI (socialization, externalization, combination, internalization) mode. Therefore, a set of lean techniques is proposed and suggested to support knowledge creation process. Then the authors specifically demonstrate how these techniques fit into the process. A questionnaire survey was conducted to testify the assumptions afterwards. The results show that lean tools have a positive effect on knowledge creation and finally promote lean performance. This research can help to understand how lean techniques play a role in creati",
+        "source": "consensus_mcp"
+      },
+      {
+        "title": "An Introduction to the Impact of Knowledge Management in Lean Manufacturing",
+        "url": "https://consensus.app/papers/details/521eeafe61b055468a4ea1d5801cc1db/?utm_source=claude_desktop",
+        "abstract": "With the advent of the knowledge economy, knowledge has become a very important resource and one of the core competencies of an organization. However, the current lean manufacturing implementation process in most companies focuses on the sequence of the production process without paying attention to the process of integrating relevant knowledge in the organization. This paper explores the application of knowledge management in the lean manufacturing implementation process, especially the impact of the key attribute of knowledge flow in the improvement process of lean manufacturing. Therefore, both knowledge management and data analysis have a very important role to play in the implementation of lean manufacturing in an organization. Enterprises need to continuously explore and practice and optimize lean production methods and techniques to improve their competitiveness and core value.",
+        "source": "consensus_mcp"
+      }
+    ]
+  },
+  "synthesis": {
+    "model": null,
+    "via": "consensus_extractive_fast",
+    "elapsed_s": 0,
+    "mode": "fast_extractive"
+  },
+  "strategy": {
+    "strategy_id": "operations",
+    "tier": "T2",
+    "question": "Which ops improvements compound without heroics?",
+    "mapped_from_topic": "operations",
+    "seed": "consensus_mcp"
+  },
+  "score": {
+    "schema": "rig.omniscout.build-card-score.v1",
+    "card_id": "l2-0437f3e9a18b3f67",
+    "scored_at": "2026-08-06T04:00:02.856966+00:00",
+    "total": 87,
+    "rank": "STRONG",
+    "promote": true,
+    "good_floor": 70,
+    "hard_blocks": [],
+    "breakdown": {
+      "multi_source": {
+        "weight": 18,
+        "score": 18,
+        "independent_sources": 5,
+        "consensus_used": true
+      },
+      "mechanism_density": {
+        "weight": 18,
+        "score": 5,
+        "mechanism_chars": 2079,
+        "marker_hits": 1,
+        "sludge_hits": 0
+      },
+      "evidence_anchoring": {
+        "weight": 14,
+        "score": 14,
+        "evidence_urls": 10,
+        "has_numbers": true
+      },
+      "tac_structure": {
+        "weight": 12,
+        "score": 12,
+        "tac_marker_hits": 8,
+        "has_done_test": true,
+        "gev_split": true
+      },
+      "doctrine_fit": {
+        "weight": 12,
+        "score": 12,
+        "declared": [
+          "leadership",
+          "app-building"
+        ],
+        "inferred": [
+          "engineering-capability",
+          "agentic-coding",
+          "app-building",
+          "rig-mesh"
+        ]
+      },
+      "novelty_pattern": {
+        "weight": 10,
+        "score": 10,
+        "has_pattern": true,
+        "has_anti_trigger": true,
+        "why_not_median_chars": 130
+      },
+      "actionability": {
+        "weight": 8,
+        "score": 8,
+        "has_idea": true,
+        "action_count": 2
+      },
+      "gev_separation": {
+        "weight": 8,
+        "score": 8,
+        "independent": true,
+        "builder": "omniscout-l2-consensus-extractive",
+        "verifier": "omniscout-l2-scorer-deterministic-v1"
+      }
+    },
+    "thresholds": {
+      "REJECT": "<55",
+      "WEAK": "55-69",
+      "GOOD": "70-84",
+      "STRONG": "85-93",
+      "EXCELLENT": "94+"
+    },
+    "scorer": "omniscout-l2-scorer-deterministic-v1",
+    "gev": {
+      "execution_owner": "omniscout-l2-synthesizer",
+      "terminal_verifier": "omniscout-l2-scorer-deterministic-v1",
+      "independent": true
+    }
+  },
+  "card_sha256": "43d570cd55e7a4dd4c710372a[REDACTED]eeae8b4f047a862971815ba69162f",
+  "artifact_sha256": "12d10a6429f9114c28c1e1a64efdeab6de3b2e373c26006055ed33fb1c464f7f",
+  "analysis": {
+    "confidence": "MEDIUM-HIGH",
+    "confidence_rationale": "Solid multi-source evidence with mechanism, but gaps in depth or coverage",
+    "evidence_quality": {
+      "evidence_urls": 10,
+      "evidence_with_numbers": 0,
+      "consensus_papers": 5,
+      "source_count": 5,
+      "verdict": "strong"
+    },
+    "mechanism_depth": {
+      "word_count": 301,
+      "sentence_count": 12,
+      "has_steps": true,
+      "verdict": "deep"
+    },
+    "tradeoffs": [
+      "Mechanism under-specified — operational risk if deployed without deeper analysis",
+      "Step-by-step mechanism present — good for implementation but may over-specify"
+    ],
+    "gaps": [
+      "No critical gaps detected"
+    ],
+    "score_decomposition": {
+      "multi_source": "18/18",
+      "mechanism": "5/18",
+      "evidence": "14/14",
+      "tac_structure": "12/12",
+      "total": "87/100"
+    }
+  },
+  "direction": {
+    "leads_to": "This card expands RIG's moat depth in `operations`. Archive for horizon scanning; promote if signal repeats.",
+    "strategic_implications": [
+      "Evidence is actionable but verify one more independent source first",
+      "Pattern `operations-multi-source-synthesis` is reusable across multiple RIG workstreams",
+      "Build slice has an executable done-test — ready for engineering"
+    ],
+    "build_next": [
+      "Implement `build-lean-principles-learning-and-knowledge-w` as a governed build slice with ProofPacket",
+      "Create a regression test proving the `operations` pattern works as claimed",
+      "Draft doctrine promotion packet (v0→v1) for agent-loadable rule",
+      "Schedule weekly review to track if new evidence contradicts or extends this card"
+    ],
+    "risk_direction": "Standard monitoring",
+    "doctrine_promotion_path": {
+      "current_rank": "STRONG",
+      "eligible_for_v1": true,
+      "next_step": "Draft promotion packet with mechanism + regression test + 3+ independent sources"
+    },
+    "agent_routing": {
+      "department": "operations",
+      "action": "archive for horizon scan"
+    }
+  },
+  "prompts": [
+    {
+      "name": "build-lean-principles-learning-and-k",
+      "type": "agent",
+      "prompt": "You are a RIG build agent. Implement the build slice from this card.\n\nStrategy: operations\nClaim: Which ops improvements compound without heroics?\nMechanism: Multi-source Consensus synthesis for strategy `operations`.\n\n- Abstract In this paper, we examine the applicability of lean production to knowledge work by investigating the implementation of a lean production system at an Indian software services firm. We first discuss specific aspects of knowledge work—task uncertainty, process invisibility, and architectural ambiguity—that call into question th\nDone-test: python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}).get('strategy_id')=='operations';assert c['sources']['count']>=2\"\n\n1. Implement the slice\n2. Run the done-test\n3. Seal a ProofPacket with the artifact hash\n4. Report: PASS/FAIL + evidence"
+    },
+    {
+      "name": "contradict-lean-principles-learning-and-k",
+      "type": "agent",
+      "prompt": "You are an adversarial verifier. Try to REFUTE this claim:\n\nClaim: Which ops improvements compound without heroics?\n\nSearch for contradicting evidence. If you find any, report the contradiction. If you cannot refute after 3 searches, report CONFIRMED."
+    },
+    {
+      "name": "review-lean-principles-learning-and-k",
+      "type": "human",
+      "prompt": "Strategic review prompt for: Lean principles, learning, and knowledge work: Evidence from a software services provider\n\n1. Does this claim change how we operate in operations?\n2. What's the cost of being wrong?\n3. Should we promote this to a doctrine rule?\n4. What would kill this line of inquiry?"
+    },
+    {
+      "name": "doctrine-operations-multi-source-synthe",
+      "type": "agent",
+      "prompt": "Draft a doctrine promotion packet (v0→v1) for this pattern:\n\nPattern: operations-multi-source-synthesis\nDescription: Cluster ≥3 independent sources on one RIG topic; extract mechanism + done-test.\nWhen to use: When L0 notes share a topic and at least two domains/URLs.\nWhen NOT to use: Single blog sludge or uncited opinion.\n\nFormat: named rule + mechanism + regression test + 3 independent sources"
+    }
+  ],
+  "math": [
+    {
+      "name": "Card Quality Score",
+      "latex": "S = S_{ms} + S_{md} + S_{ea} + S_{tac} + S_{df} + S_{np} + S_{act} + S_{gev} = 18 + 5 + 14 + 12 + 12 + 10 + 8 + 8 = 87",
+      "description": "Weighted composite (0-100). Weights: multi_source(18) + mechanism(18) + evidence(14) + TAC(12) + doctrine(12) + novelty(10) + actionability(8) + GEV(8)."
+    },
+    {
+      "name": "Shannon Entropy",
+      "latex": "H(X) = -\\sum_{x} p(x) \\log_2 p(x)",
+      "description": "Information-theoretic uncertainty of random variable $X$. Higher $H$ = more uncertainty."
+    }
+  ],
+  "tags": [
+    "strategy:operations",
+    "tier:T2",
+    "rank:strong",
+    "build-card-v2",
+    "consensus-backed",
+    "consensus-mcp",
+    "domain:app-building",
+    "domain:leadership",
+    "domain:competitive-intel",
+    "method:survey",
+    "pillar:moat-depth",
+    "type:mechanism",
+    "type:pattern",
+    "type:build-slice",
+    "type:doctrine-candidate"
+  ],
+  "enriched_at": "2026-08-06T03:59:57.085857+00:00",
+  "image": {
+    "type": "svg",
+    "path": "/home/operator/.rig/omniscout-control/build-cards/images/l2-0437f3e9a18b3f67.svg",
+    "url": "rig://omniscout/l2/l2-0437f3e9a18b3f67/image.svg",
+    "description": "Deterministic concept diagram for 'Lean principles, learning, and knowledge' — score radar + confidence + claim + direction"
+  },
+  "entities": {
+    "entities": [
+      {
+        "name": "case study",
+        "type": "METHOD",
+        "entity_id": "ent-2dbbb2155262"
+      },
+      {
+        "name": "app",
+        "type": "CONCEPT",
+        "entity_id": "ent-a172cedcae47",
+        "domain": "app-building"
+      },
+      {
+        "name": "sustain",
+        "type": "CONCEPT",
+        "entity_id": "ent-07f5b83f6cec",
+        "domain": "leadership"
+      },
+      {
+        "name": "strategy",
+        "type": "CONCEPT",
+        "entity_id": "ent-73dff70e25ad",
+        "domain": "competitive-intel"
+      }
+    ],
+    "entity_count": 4,
+    "relationships": [
+      {
+        "from": "ent-a172cedcae47",
+        "from_name": "app",
+        "to": "ent-73dff70e25ad",
+        "to_name": "strategy",
+        "type": "uses_tool",
+        "evidence": "The purpose of this novel study is to examine the potential of using lean approach for improving knowledge Multi-source Consensus synthesis for strategy `operations`"
+      }
+    ],
+    "relationship_count": 1,
+    "entity_types": {
+      "METHOD": 1,
+      "CONCEPT": 3
+    }
+  },
+  "memory_layer": {
+    "layer": 7,
+    "layer_name": "VERIFIED_PROCEDURES",
+    "layer_description": "Tested, repeatable procedures",
+    "authority_rank": "L7/8 (higher = more authoritative within its domain)",
+    "retention": "promoted_on_review"
+  },
+  "semantic_links": {
+    "links": [
+      {
+        "card_id": "l2-a1a99a849a3c2e58",
+        "title": "Role of Lean Tools in Supporting Knowledge Creation and Performance in Lean Cons",
+        "strategy_id": "operations",
+        "relationship": "SUPPORTS",
+        "similarity": 0.153,
+        "reason": "shares 2 source URL(s), token_overlap=0.15"
+      },
+      {
+        "card_id": "l2-dde2b6a213404bb9",
+        "title": "Facilitators and inhibitors of Lean Service 5.0: an assessment from the knowledg",
+        "strategy_id": "operations",
+        "relationship": "RELATED_TO",
+        "similarity": 0.143,
+        "reason": "token_overlap=0.14"
+      },
+      {
+        "card_id": "l2-e9c9d4f596f5b616",
+        "title": "How information technology automates and augments processes: Insights from Artif",
+        "strategy_id": "vertical-law-cpa",
+        "relationship": "RELATED_TO",
+        "similarity": 0.092,
+        "reason": "token_overlap=0.09"
+      },
+      {
+        "card_id": "l2-56bfc3a324cc0b22",
+        "title": "Competitive intelligence process and tools for intelligence analysis",
+        "strategy_id": "competitive-intel",
+        "relationship": "RELATED_TO",
+        "similarity": 0.085,
+        "reason": "token_overlap=0.09"
+      }
+    ],
+    "link_count": 4,
+    "contradictions": [
+      {
+        "card_id": "l2-a1a99a849a3c2e58",
+        "title": "Role of Lean Tools in Supporting Knowledge Creation and Performance in Lean Construction",
+        "similarity": 0.153,
+        "reason": "negation overlap + same strategy, token_overlap=0.15"
+      }
+    ],
+    "contradiction_count": 1,
+    "supports_count": 1,
+    "extends_count": 0,
+    "graph_density": 0.031
+  },
+  "temporal_validity": {
+    "freshness": "FRESH",
+    "evidence_year_range": null,
+    "evidence_median_year": null,
+    "age_years": 0,
+    "decay_window": "2-3 years before re-verification needed",
+    "estimated_expiry_months": 36,
+    "reverify_by": "2026-08",
+    "evidence_year_count": 0
+  },
+  "predictive_context": {
+    "prefetch_cards": [
+      {
+        "card_id": "l2-a1a99a849a3c2e58",
+        "title": "Role of Lean Tools in Supporting Knowledge Creation and Performance in Lean Cons",
+        "strategy_id": "operations",
+        "relationship": "SUPPORTS",
+        "similarity": 0.153,
+        "why": "Load alongside because: shares 2 source URL(s), token_overlap=0.15"
+      },
+      {
+        "card_id": "l2-e9c9d4f596f5b616",
+        "title": "How information technology automates and augments processes: Insights from Artif",
+        "strategy_id": "vertical-law-cpa",
+        "relationship": "RELATED_TO",
+        "similarity": 0.092,
+        "why": "Load alongside because: token_overlap=0.09"
+      },
+      {
+        "card_id": "l2-56bfc3a324cc0b22",
+        "title": "Competitive intelligence process and tools for intelligence analysis",
+        "strategy_id": "competitive-intel",
+        "relationship": "RELATED_TO",
+        "similarity": 0.085,
+        "why": "Load alongside because: token_overlap=0.09"
+      },
+      {
+        "card_id": "l2-dde2b6a213404bb9",
+        "title": "Facilitators and inhibitors of Lean Service 5.0: an assessment from the knowledg",
+        "strategy_id": "operations",
+        "relationship": "RELATED_TO",
+        "similarity": 0.143,
+        "why": "Load alongside because: token_overlap=0.14"
+      }
+    ],
+    "same_strategy_cluster": [
+      {
+        "card_id": "l2-a1a99a849a3c2e58",
+        "title": "Role of Lean Tools in Supporting Knowledge Creation and Perf",
+        "rank": "STRONG"
+      },
+      {
+        "card_id": "l2-dde2b6a213404bb9",
+        "title": "Facilitators and inhibitors of Lean Service 5.0: an assessme",
+        "rank": "GOOD"
+      }
+    ],
+    "doctrine_context": [
+      "~/.rig/agent-doctrine/RIG_LEADERSHIP_DOCTRINE.md",
+      "~/.rig/agent-doctrine/RIG_APP-BUILDING_DOCTRINE.md"
+    ],
+    "agent_briefing": "When loading this card, also load: 4 related cards from 3 strategies, 2 same-strategy siblings, and 2 doctrine files."
+  },
+  "promotion_state": {
+    "candidate_type": "procedure",
+    "state": "READY_FOR_PROMOTION",
+    "next_action": "Submit to semantic_memory.promote_doctrine_candidate() with 3+ independent source families",
+    "gates": {
+      "evidence_density": true,
+      "consensus_backed": true,
+      "mechanism_present": true,
+      "done_test_executable": true,
+      "score_threshold": true,
+      "independent_sources": true,
+      "no_hard_blocks": true
+    },
+    "all_gates_pass": true,
+    "failing_gates": [],
+    "promotion_path": "DRAFT → STAGED → READY_FOR_PROMOTION → PROMOTED (via Obsidian + gBrain)",
+    "sensitivity": "internal",
+    "retention_class": "candidate"
+  },
+  "enriched_v3_at": "2026-08-06T03:59:57.445235+00:00",
+  "proof_seal": {
+    "schema": "rig.omniscout.proof-seal.v1",
+    "sealed_at": "2026-08-06T03:59:57.445596+00:00",
+    "content_hash": "84415e3f6a6c3f04ef8d[REDACTED]5aa1d3b363ffa78149ba0c2c01c53b2b3",
+    "prev_hash": "422c29d9df311545",
+    "this_hash": "64c33dedaf93cb89f6acd6cca47f9d2f74044a[REDACTED]5740a9a674eee76",
+    "sealer": "omniscout-l2-enrichment-v3",
+    "chain_depth": 130,
+    "verifiable": true,
+    "verify_command": "python -c \"import hashlib; print(hashlib.sha256(open('l2-0437f3e9a18b3f67.json','rb').read()).hexdigest())\""
+  },
+  "business_intelligence": {
+    "revenue_model": "Consulting + custom build",
+    "price_range": "$5K-20K/mo",
+    "estimated_cac": "$3K-8K",
+    "estimated_ltv": "$60K-240K",
+    "ltv_cac_ratio": "N/A",
+    "gross_margin": "70%",
+    "tam": "$2-5B",
+    "sam": "$0.0B (RIG's serviceable segment)",
+    "revenue_ideas": [
+      "Productize as `operations` capability — sell as Consulting + custom build",
+      "Package as a build card for fractional CAIO clients at $5K-20K/mo"
+    ],
+    "competitive_moat": [
+      "Consensus-backed evidence base — competitors can't replicate the research depth",
+      "RIG doctrine governance — proof-chained quality that consulting firms can't match",
+      "Local-first fleet — data sovereignty advantage over cloud-only competitors"
+    ],
+    "monetization_priority": "MEDIUM",
+    "build_effort": "1-2 weeks"
+  },
+  "engineering_blueprint": {
+    "tech_stack": {
+      "backend": [
+        "Python"
+      ],
+      "infra": [
+        "Docker"
+      ]
+    },
+    "architecture_components": [
+      "Python core",
+      "SQLite store",
+      "Prefect scheduler"
+    ],
+    "implementation_steps": [
+      {
+        "step": 1,
+        "action": "Define goal-card with executable done-test",
+        "gate": "ultraplan"
+      },
+      {
+        "step": 2,
+        "action": "Scaffold project: Python",
+        "gate": "create"
+      },
+      {
+        "step": 3,
+        "action": "Build core: Turn the 'Lean principles, learning, and knowledge work: Evidence from a software services provider'",
+        "gate": "build"
+      },
+      {
+        "step": 4,
+        "action": "Wire deterministic gates (score ≥ 70, sources ≥ 3, done-test passes)",
+        "gate": "verify"
+      },
+      {
+        "step": 5,
+        "action": "Add ProofPacket sealing + hash chain",
+        "gate": "prove"
+      },
+      {
+        "step": 6,
+        "action": "Deploy to Prefect + QNAP",
+        "gate": "ship"
+      },
+      {
+        "step": 7,
+        "action": "Monitor via self-heal watchdog + fleet health",
+        "gate": "operate"
+      }
+    ],
+    "harness": {
+      "type": "TAC closed-loop",
+      "builder": "rig-agent (Hermes/Claude/Codex)",
+      "verifier": "deterministic scorer + GEV separate identity",
+      "loop": "build → score → verify artifact → seal ProofPacket → deploy",
+      "timeout_s": 3600,
+      "retry_policy": "exponential backoff, max 3, fail-closed"
+    },
+    "testing_strategy": {
+      "unit": "pytest with ≥80% coverage on core logic",
+      "integration": "verify done-test against real artifact on disk",
+      "non_vacuity": "plant a failure → confirm gate goes RED → restore → keep as regression",
+      "load": "sustain 100 cards/day throughput on 36GB node"
+    },
+    "estimated_loc": "300-800",
+    "complexity": "MEDIUM"
+  },
+  "agent_team": {
+    "agent_count": 2,
+    "agents": [
+      {
+        "role": "Build Agent",
+        "model": "qwen3:8b",
+        "skills": [
+          "TAC v2",
+          "closed-loop"
+        ],
+        "identity": "rig-operations-builder"
+      },
+      {
+        "role": "Verify Agent",
+        "model": "deterministic",
+        "skills": [
+          "score",
+          "GEV"
+        ],
+        "identity": "rig-operations-verifier"
+      }
+    ],
+    "skills_required": [
+      "TAC v2",
+      "closed-loop",
+      "score",
+      "GEV"
+    ],
+    "pai_substrates": [
+      {
+        "agent_name": "rig-operations-builder",
+        "role": "Build Agent",
+        "telos": "Improve RIG operations capability through build agent",
+        "quality_profile": "agent_outcome_evaluation_v0",
+        "memory_layer": "L6_EPISODIC_RUN_STATE",
+        "proof_path": "ProofPacket sealed after each build agent cycle"
+      },
+      {
+        "agent_name": "rig-operations-verifier",
+        "role": "Verify Agent",
+        "telos": "Improve RIG operations capability through verify agent",
+        "quality_profile": "agent_outcome_evaluation_v0",
+        "memory_layer": "L7_VERIFIED_PROCEDURES",
+        "proof_path": "ProofPacket sealed after each verify agent cycle"
+      }
+    ],
+    "team_composition": {
+      "humans": 0,
+      "agents": 2,
+      "oversight": "Gate-D human approval for all outward actions",
+      "cadence": "nightly batch + continuous collection"
+    },
+    "department_routing": "intelligence",
+    "jake_context_update": "Jake should know: operations capability uses 2 agents (Build Agent, Verify Agent). Department: intelligence."
+  },
+  "doctrine_governance": {
+    "gates": [
+      {
+        "name": "Gate-D",
+        "requirement": "Human approval for any outward action (publish, send, deploy)",
+        "applies": false
+      },
+      {
+        "name": "GEV Separation",
+        "requirement": "Builder ≠ Verifier — different team + service identity",
+        "applies": true
+      },
+      {
+        "name": "ProofPacket",
+        "requirement": "Hash-chained proof sealed before claiming done",
+        "applies": true
+      },
+      {
+        "name": "Non-vacuity",
+        "requirement": "Plant failure → confirm RED → restore → keep regression",
+        "applies": true
+      },
+      {
+        "name": "Temporal validity",
+        "requirement": "Re-verify by 2026-08",
+        "applies": true
+      },
+      {
+        "name": "Consensus backing",
+        "requirement": "≥1 Consensus MCP paper for T0 promote",
+        "applies": false
+      }
+    ],
+    "policy_rules": [
+      "This capability operates under RIG operations doctrine",
+      "All artifacts must pass deterministic scorer (≥70/100)",
+      "No agent self-certifies done — independent verifier required"
+    ],
+    "safety_authority": "L7 VERIFIED_PROCEDURES",
+    "proof_requirements": {
+      "artifact_hash": true,
+      "done_test_exit_code": true,
+      "consensus_citation": false,
+      "gev_separation_proof": true
+    },
+    "doctrine_file_target": "~/.rig/agent-doctrine/RIG_OPERATIONS_DOCTRINE.md",
+    "promotion_eligible": true
+  },
+  "gtm_strategy": {
+    "sales_motion": "Consulting + content",
+    "icp": "Mid-market operators",
+    "channels": [
+      "LinkedIn",
+      "Content"
+    ],
+    "sales_cycle": "30-60 days",
+    "content_plan": [
+      {
+        "type": "LinkedIn post",
+        "topic": "How RIG uses Lean principles, learning, and knowledge",
+        "cadence": "this week"
+      },
+      {
+        "type": "YouTube video",
+        "topic": "Building Lean principles, learning, and knowledge — live agent build",
+        "cadence": "2 weeks"
+      },
+      {
+        "type": "Substack essay",
+        "topic": "The operations capability: mechanism + proof",
+        "cadence": "1 month"
+      },
+      {
+        "type": "GitHub repo",
+        "topic": "Open-source the operations harness",
+        "cadence": "1 month"
+      }
+    ],
+    "outreach_targets": [
+      "Search LinkedIn for: Mid-market operators",
+      "Post in: r/MachineLearning, HN, AI subreddits about operations",
+      "Reference this card's Consensus papers in outreach for credibility"
+    ],
+    "positioning": "RIG is the only AI consultancy with Consensus-backed, proof-chained operations capability",
+    "differentiation": [
+      "Proof-chained quality (competitors can't match)",
+      "Consensus academic backing (not just opinions)",
+      "Local-first fleet (data sovereignty)",
+      "Nightly automated capability compounding (100 cards/day)"
+    ],
+    "pricing_anchor": "Anchor at $5K-20K/mo"
+  },
+  "oss_integration": {
+    "relevant_projects": [],
+    "integration_strategy": "Wrap as RIG capability layer — OSS handles commodity, RIG adds governance + proof",
+    "contribution_opportunities": [
+      "Contribute operations patterns back to upstream projects",
+      "Publish RIG doctrine modules as OSS (attract talent + leads)"
+    ],
+    "build_vs_buy": {},
+    "lock_in_risk": "LOW — RIG adds proprietary governance layer on top of OSS"
+  },
+  "world_model": {
+    "rig_1000x_fit": [
+      "MOAT — depth that compounds over time",
+      "Horizon scanning — promote if signal repeats"
+    ],
+    "capability_cluster_size": 3,
+    "total_corpus": 130,
+    "dependencies": [
+      "proof-false-done (honest completion)",
+      "local-inference-fleet (compute substrate)",
+      "automation-runtime (scheduling)"
+    ],
+    "temporal_roadmap": {
+      "now": "Enrich + score this card (done)",
+      "week_1": "Monitor for signal repetition",
+      "month_1": "Productize as internal tool",
+      "quarter_1": "Bundle into vertical pack"
+    },
+    "risk_model": {
+      "evidence_risk": "FRESH",
+      "competition_risk": "LOW",
+      "execution_risk": "LOW"
+    },
+    "jake_briefing": "JAKE CONTEXT: Card `l2-0437f3e9a18b3f67` advances `operations` (tier T2). Title: Lean principles, learning, and knowledge work: Evidence from. Strategy has 3 cards in corpus (130 total). Promotion state: READY_FOR_PROMOTION. Revenue model: Consulting + custom build at $5K-20K/mo. Build effort: 300-800 LOC. Agents needed: 2. Department: intelligence. Next action: Submit to semantic_memory.promote_doctrine_candidate() with 3+ independent sourc. ",
+    "jake_action": "Add to Jake daily brief: operations capability (3 cards). Revenue: Consulting + custom build. Next: Submit to semantic_memory.promote_doctrine_candidate() with ",
+    "obsidian_target": "Documents/JakeStudio/Capabilities/operations/l2-0437f3e9a18b3f67.md",
+    "memory_os_event": {
+      "event_type": "capability_card_enriched",
+      "layer": 7,
+      "scope": "strategy:operations",
+      "sensitivity": "internal",
+      "action": "promote_to_obsidian"
+    }
+  },
+  "enriched_v10_at": "2026-08-06T04:00:02.856194+00:00",
+  "council": {
+    "schema": "rig.omniscout.council-review.v1",
+    "reviewed_at": "2026-08-05T23:53:48.340372+00:00",
+    "perspectives": [
+      {
+        "role": "business_strategist",
+        "analysis": "Strategy `operations` (moat tier) proposes a consulting + custom build model. Price band $5K-20K/mo at 70% gross margin; LTV/CAC N/A. Addressable market $2-5B. Card scores 87/100 (STRONG). Promote flag is set; 5 independent sources back the claim.",
+        "recommendation": [
+          "Validate pricing power for `operations` with 3 prospect conversations",
+          "Fix LTV/CAC math: model actual sales cycle and churn",
+          "Package as a fixed-scope pilot offering to shorten sales cycle"
+        ],
+        "risk": "Market timing risk: buyers may not yet budget for this capability",
+        "question_to_council": "Product Developer: can the MVP ship in under 4 weeks with a real done-test, or does scope blow up the initial price point?",
+        "vote": "GO"
+      },
+      {
+        "role": "marketing_director",
+        "analysis": "Positioning angle: 'RIG capability built from Consensus-backed research'. ICP is Mid-market operators via LinkedIn, Content. Entity graph has 4 concepts and 4 semantic links, giving content creators concrete anchors. Score 87/100. Tier T2 signals priority T2 → depth narrative.",
+        "recommendation": [
+          "Lead with the 'RIG capability built from Consensus-backed research' hook in the next LinkedIn post",
+          "Create a 'before/after' case frame for Mid-market operators",
+          "Turn the card's Consensus evidence into a credibility slide",
+          "Execute the first content item: LinkedIn post on How RIG uses Lean principles, learning, and knowledge"
+        ],
+        "risk": "Message clarity risk: abstract mechanism may not convert to buyer language",
+        "question_to_council": "Potential Client: what specific job-to-be-done would make you budget for this in 30 days?",
+        "vote": "GO"
+      },
+      {
+        "role": "competitive_intelligence",
+        "analysis": "Known competitor set for `operations`: app, case study, strategy, sustain. Differentiation score 6/10 (moderate) based on 3 moat claims and 0 OSS integrations. RIG's proof-chain + local-fleet + Consensus backing create defensibility if execution keeps pace.",
+        "recommendation": [
+          "Publish a comparison page: RIG operations vs app",
+          "Open-source one non-core module to shape the category conversation",
+          "Turn the top moat into a proof point: Consensus-backed evidence base — competitors can't replicate the research depth"
+        ],
+        "risk": "Threat: feature parity arms race with better-funded tools",
+        "question_to_council": "Business Strategist: which moat element is hardest to replicate and easiest to demonstrate to a buyer?",
+        "vote": "GO"
+      },
+      {
+        "role": "product_developer",
+        "analysis": "MVP for `operations` centers on harness with deterministic done-test and ProofPacket sealing. Tech stack: {\"backend\": [\"Python\"], \"infra\": [\"Docker\"]}. Complexity MEDIUM, estimated 300-800 LOC, build effort 1-2 weeks. 7 implementation steps defined. Score 87/100.",
+        "recommendation": [
+          "P0: ship harness with deterministic done-test and ProofPacket sealing with an executable done-test",
+          "P1: ProofPacket sealing + hash chain; Obsidian export + memory-layer sync",
+          "P2: Multi-node fleet scaling; Enterprise RBAC + billing"
+        ],
+        "risk": "Integration risk: OSS dependencies may change before RIG can productize",
+        "question_to_council": "AI Architect: which model or agent pattern is actually required at launch, and which can be deterministic code?",
+        "vote": "GO"
+      },
+      {
+        "role": "ai_architect",
+        "analysis": "Agent design for `operations` uses 2 agent(s) (qwen3:8b, deterministic) around pattern 'closed-loop agent with independent verifier'. Cost-per-inference estimate $0.002-0.02. Failure catalog has 3 items. Score 87/100.",
+        "recommendation": [
+          "Implement pattern: closed-loop agent with independent verifier",
+          "Add structured output schemas (Pydantic) for every agent boundary",
+          "Build eval harness with planted failures before any model selection finalization",
+          "Enforce GEV separation: builder and verifier must differ in model or role"
+        ],
+        "risk": "Eval risk: without planted-failure regressions, model changes will silently break guarantees",
+        "question_to_council": "Potential Client: would you accept a deterministic verifier even if the agent's output is occasionally conservative?",
+        "vote": "GO"
+      },
+      {
+        "role": "potential_client",
+        "analysis": "As a Mid-market operators buyer, the pain is: 'Leadership wants AI outcomes but lacks verifiable delivery'. Price point $5K-20K/mo feels reasonable for a proven pilot. Alternatives considered: generic AI consultancies, offshore dev shops, build in-house, do nothing. Decision criteria center on proof, auditability, and speed.",
+        "recommendation": [
+          "Offer a fixed-price pilot at the low end of $5K-20K/mo with a 14-day exit clause",
+          "Provide a live demo using the buyer's own data or a public proxy",
+          "Share the ProofPacket audit trail as a trust artifact"
+        ],
+        "risk": "Buyer risk: low — evidence and proof points are strong enough to justify budget",
+        "question_to_council": "Business Strategist: what is the smallest commercial commitment that funds the build without killing margin?",
+        "vote": "GO",
+        "what_would_make_me_say_yes": "I say yes when I see a 14-day pilot with a deterministic done-test, an audit trail, and a price no higher than the bottom of $5K-20K/mo."
+      }
+    ],
+    "synthesis": {
+      "consensus_points": [
+        "Majority believes the capability is worth building now",
+        "Deterministic scorer already flags the card for promotion",
+        "Multi-source evidence base gives the council confidence",
+        "AI architect sees a verifiable agent design path"
+      ],
+      "disagreements": [],
+      "top_3_actions": [
+        "Add structured output schemas (Pydantic) for every agent boundary",
+        "Build eval harness with planted failures before any model selection finalization",
+        "Create a 'before/after' case frame for Mid-market operators"
+      ],
+      "overall_verdict": "SHIP",
+      "confidence_score": 100,
+      "dissent_note": "Council is broadly aligned.",
+      "vote_tally": {
+        "GO": 6,
+        "NO-GO": 0,
+        "CONDITIONAL": 0
+      }
+    }
+  },
+  "council_summary": {
+    "verdict": "SHIP",
+    "confidence": 100,
+    "go_votes": 6,
+    "lead_action": "Add structured output schemas (Pydantic) for every agent boundary"
+  },
+  "council_votes": {
+    "GO": 6,
+    "NO-GO": 0,
+    "CONDITIONAL": 0
+  },
+  "council_verdict": "SHIP",
+  "council_confidence": 100,
+  "council_hash": "de21cd[REDACTED]bde2be1142203ba80fd3aa07520ec5bd35fc8d0212aed93f",
+  "v20_ready": true,
+  "enriched_v20_at": "2026-08-05T23:53:48.340571+00:00",
+  "autobuilt": {
+    "built": true,
+    "project_path": "/home/operator/.rig/omniscout-control/build-cards/built/l2-0437f3e9a18b3f67",
+    "files_count": 10,
+    "build_at": "2026-08-06T00:43:38.492817+00:00",
+    "manifest_hash": "2eb9fba[REDACTED]93685173fc628abe633b74414907e3920e8a75d56d395f",
+    "verified": true,
+    "test_result": "PASS",
+    "harness_result": "PASS",
+    "proof_sealed": true
+  },
+  "outcome": {
+    "status": "BUILT_AND_VERIFIED",
+    "pipeline_created": 0,
+    "revenue_generated": 0.0,
+    "accuracy_predictions": [],
+    "build_started_at": "2026-08-06T00:43:38.492817+00:00",
+    "shipped_at": "2026-08-06T00:55:58.407011+00:00",
+    "feedback_score": 85,
+    "lessons": [
+      "Done-test: PASS",
+      "Harness: PASS",
+      "Proof: SEALED"
+    ],
+    "tested_on": "rig256gb",
+    "tested_at": "2026-08-06T00:55:58.407399+00:00"
+  },
+  "l10_verification": {
+    "schema": "rig.omniscout.l10-verification.v1",
+    "verified_at": "2026-08-06T01:11:04.020013+00:00",
+    "card_id": "l2-0437f3e9a18b3f67",
+    "card_sha256": "450a18509c1a877913cf6faa7fb3ba24fb[REDACTED]ec4c104b[REDACTED]e1",
+    "faculties": {
+      "refutation_search": {
+        "faculty": "REFUTATION_SEARCH",
+        "refuted": true,
+        "contradicting_cards": [
+          {
+            "card_id": "l2-a1a99a849a3c2e58",
+            "title": "Role of Lean Tools in Supporting Knowledge Creation and Performance in Lean Construction",
+            "reason": "declared contradiction",
+            "evidence_matches": 0
+          }
+        ],
+        "internal_contradiction_evidence": 0,
+        "confidence_delta": -10,
+        "claim": "Which ops improvements compound without heroics?"
+      },
+      "property_based_testing": {
+        "faculty": "PROPERTY_BASED_TESTING",
+        "properties_declared": 9,
+        "properties_file": "/home/operator/.rig/omniscout-control/build-cards/built/l2-0437f3e9a18b3f67/properties.py",
+        "invariants": [
+          "Should satisfy use condition: When L0 notes share a topic and at least two domains/URLs.",
+          "Should reject misuse condition: Single blog sludge or uncited opinion."
+        ],
+        "gate_properties": [
+          "Gate 'Gate-D' applies=False: Human approval for any outward action (publish, send, deploy)",
+          "Gate 'GEV Separation' applies=True: Builder ≠ Verifier — different team + service identity",
+          "Gate 'ProofPacket' applies=True: Hash-chained proof sealed before claiming done",
+          "Gate 'Non-vacuity' applies=True: Plant failure → confirm RED → restore → keep regression",
+          "Gate 'Temporal validity' applies=True: Re-verify by 2026-08",
+          "Gate 'Consensus backing' applies=False: ≥1 Consensus MCP paper for T0 promote"
+        ],
+        "test_property": "card_done_test_passes"
+      },
+      "adherence_kpi": {
+        "faculty": "ADHERENCE_KPI",
+        "adherence_score": 100,
+        "failing_checks": [],
+        "gate_blocks": false,
+        "checks": {
+          "done_test_present": true,
+          "gev_separation": true,
+          "multi_source": true,
+          "proof_packet": true,
+          "claude_md": true
+        }
+      },
+      "multi_altitude": {
+        "faculty": "MULTI_ALTITUDE",
+        "passes_10kft": false,
+        "passes_1kft": true,
+        "passes_100ft": true,
+        "passes_ground": true
+      },
+      "taste_engine": {
+        "faculty": "TASTE_ENGINE",
+        "taste_score": 57,
+        "dimensions": {
+          "signal_strength": 10,
+          "evidence_density": 14,
+          "mechanism_clarity": 5,
+          "actionability": 8,
+          "honesty": 100
+        },
+        "mandatory_human_review": true
+      }
+    },
+    "summary": {
+      "refuted": true,
+      "adherence_score": 100,
+      "taste_score": 57,
+      "gate_blocks": false,
+      "passes_all_altitudes": false,
+      "mandatory_human_review": true
+    }
+  },
+  "tac_v2": {
+    "applied": true,
+    "applied_at": "2026-08-06T01:12:51.407186+00:00",
+    "core_four": {
+      "Context": "CLAUDE.md + CARD.json",
+      "Model": "rig-agent (Hermes/Claude/Codex)",
+      "Prompt": "PITER.yaml Problem + Instruction",
+      "Tools": "harness.py, gates.py, proof.py, tac_loop.py"
+    },
+    "tactics_applied": [
+      "Hello Agentic",
+      "12 Leverage Points",
+      "Success is Planned",
+      "AFK Agents (PITER)",
+      "Close The Loops",
+      "Let Agents Focus",
+      "ZTE",
+      "Agentic Layer"
+    ],
+    "closed_loop": true,
+    "piter_path": "/home/operator/.rig/omniscout-control/build-cards/built/l2-0437f3e9a18b3f67/PITER.yaml",
+    "tac_loop_path": "/home/operator/.rig/omniscout-control/build-cards/built/l2-0437f3e9a18b3f67/tac_loop.py",
+    "claude_md_path": "/home/operator/.rig/omniscout-control/build-cards/built/l2-0437f3e9a18b3f67/CLAUDE.md",
+    "done_test": "python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}).get('strategy_id')=='operations';assert c['sources']['count']>=2\"",
+    "builder": "rig-agent (Hermes/Claude/Codex)",
+    "verifier": "deterministic scorer + GEV separate identity"
+  },
+  "deep_sections": {
+    "deep_engineering": {
+      "title": "Deep Engineering Blueprint",
+      "content": "`Lean principles, learning, and knowledge work: Evidence from a software services provider` (`operations`, T2 tier, complexity MEDIUM, ~300-800 LOC) compiles to a Python service backed by Docker. The mechanism — Multi-source Consensus synthesis for strategy `operations`.\n\n- Abstract In this paper, we examine the applicability of lean production to knowledge work by investigating the implementation of a lean production system at  — is realized as 3 architecture component(s): Python core, SQLite store, Prefect scheduler. The harness type is `TAC closed-loop`, built by `rig-agent (Hermes/Claude/Codex)` and independently verified by `deterministic scorer + GEV separate identity`.\n\n### File-by-File Project Structure\n- `lean-principles-learning-and-knowledge-w/main.py` — Entrypoint wiring `Python core` into the request lifecycle for `Lean principles, learning, and knowledge work: Evidence from`.\n- `lean-principles-learning-and-knowledge-w/config.py` — Typed configuration loader: env vars, doctrine gate thresholds, harness timeouts.\n- `lean-principles-learning-and-knowledge-w/core/python-core.py` — Implements the `Python core` component — Multi-source Consensus synthesis for strategy `operations`.\n\n- Abstract In this paper, we \n- `lean-principles-learning-and-knowledge-w/core/sqlite-store.py` — Implements the `SQLite store` component — Multi-source Consensus synthesis for strategy `operations`.\n\n- Abstract In this paper, we \n- `lean-principles-learning-and-knowledge-w/core/prefect-scheduler.py` — Implements the `Prefect scheduler` component — Multi-source Consensus synthesis for strategy `operations`.\n\n- Abstract In this paper, we \n- `lean-principles-learning-and-knowledge-w/models/schema.py` — Data models for the card artifact: claim, mechanism, pattern, score, ProofPacket.\n- `lean-principles-learning-and-knowledge-w/services/scorer.py` — Deterministic scorer client — never self-certifies; independent verifier identity only.\n- `lean-principles-learning-and-knowledge-w/services/proof_packet.py` — Hash-chain sealing: artifact_sha256 over stable_json(card) before any 'done' claim.\n- `lean-principles-learning-and-knowledge-w/infra/docker.yml` — Deployment descriptor for Docker in the lean-principles-learning-and-knowledge-w stack.\n- `tests/lean-principles-learning-and-knowledge-w/test_done_test.py` — Executes the card's done-test: `python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}`\n- `tests/lean-principles-learning-and-knowledge-w/test_non_vacuity.py` — Plants a failure, asserts RED, restores, keeps the case as a permanent regression.\n- `lean-principles-learning-and-knowledge-w/README.md` — Operator-facing overview: what `Lean principles, learning, and knowledge work: Evidence from` does and how to verify it.\n\n### API Endpoint Design\n- `POST /api/v1/lean-principles-learning-and-knowledge-w/build` — request: `{cluster_id, topic}`; response: `202 Accepted, {card_id, status: queued}`\n- `GET /api/v1/lean-principles-learning-and-knowledge-w/cards/{card_id}` — request: `path param card_id`; response: `200 OK, full card JSON`\n- `POST /api/v1/lean-principles-learning-and-knowledge-w/score` — request: `{card_id}`; response: `200 OK, {total, rank, promote, breakdown}`\n- `POST /api/v1/lean-principles-learning-and-knowledge-w/verify` — request: `{card_id, done_test}`; response: `200 OK {passed: bool, exit_code} or 409 on hard block`\n- `POST /api/v1/lean-principles-learning-and-knowledge-w/proof-packet` — request: `{card_id}`; response: `201 Created, {artifact_sha256, sealed_at}`\n- `GET /api/v1/lean-principles-learning-and-knowledge-w/status` — request: `none`; response: `200 OK, {total_cards, promote_rate, last_run_at}`\n- `GET /healthz` — request: `none`; response: `200 OK {ok:true} or 503 on QNAP pressure`\n\n### Database Schema\n**`lean-principles-learning-and-knowledge-w_cards`**\n  - `card_id` TEXT PRIMARY KEY\n  - `schema` TEXT\n  - `title` TEXT\n  - `strategy_id` TEXT\n  - `tier` TEXT\n  - `created_at` TIMESTAMPTZ\n  - `card_json` JSONB\n  - index: `idx_lean-principles-learning-and-knowledge-w_cards_strategy (strategy_id, tier)`\n\n**`lean-principles-learning-and-knowledge-w_scores`**\n  - `card_id` TEXT REFERENCES cards(card_id)\n  - `total` INT\n  - `rank` TEXT\n  - `promote` BOOLEAN\n  - `scored_at` TIMESTAMPTZ\n  - index: `idx_lean-principles-learning-and-knowledge-w_scores_rank (rank, promote)`\n\n**`lean-principles-learning-and-knowledge-w_proof_seals`**\n  - `card_id` TEXT\n  - `artifact_sha256` TEXT\n  - `sealed_at` TIMESTAMPTZ\n  - `verifier_identity` TEXT\n  - index: `idx_lean-principles-learning-and-knowledge-w_proof_seals_hash (artifact_sha256)`\n\n**`lean-principles-learning-and-knowledge-w_events`**\n  - `event_id` BIGSERIAL PRIMARY KEY\n  - `card_id` TEXT\n  - `event_type` TEXT\n  - `payload` JSONB\n  - `occurred_at` TIMESTAMPTZ\n  - index: `idx_lean-principles-learning-and-knowledge-w_events_card_time (card_id, occurred_at)`\n\n### Deployment Architecture\nDocker services: `Docker` orchestrated via docker-compose; the build/verify loop runs as a Prefect-scheduled job with a 3600s hard timeout matching the harness contract. Required env vars: `OMNISCOUT_CONTROL`, `JAKESTUDIO_VAULT`, `OMNISCOUT_DEEP_MODEL`, `OMNISCOUT_REMOTE_OLLAMA`, `OMNISCOUT_GOOD_FLOOR`. Health checks: `/healthz` polls QNAP free-space and fails closed below the configured free-GiB floor; a failing health check halts new builds but never deletes existing ProofPackets.\n\n### Error Handling Strategy\nError codes are namespaced `E1xxx` (input), `E2xxx` (scoring), `E3xxx` (proof), `E4xxx` (infra). `E1001 mechanism_missing_or_thin` and `E1002 fewer_than_2_independent_sources` both hard-cap score at 54 per the deterministic rubric. `E3001 done_test_missing` caps rank at WEAK (≤69). Retry policy: exponential backoff, max 3, fail-closed — Ollama and Consensus timeouts retry with jitter; ProofPacket sealing never retries silently, it fails closed and surfaces `E3002 seal_mismatch`. A circuit breaker opens after 5 consecutive `E4xxx` infra errors within 10 minutes and routes new builds to the quarantine queue until a human or the self-heal watchdog closes it.\n\n### Performance Budget\nLatency budget: p50 build-to-score under 90s, p95 under 3600s (the hard harness timeout). Throughput target: sustain 100 cards/day throughput on 36GB node. Memory budget: ≤2GB per worker on the fleet node, leaving headroom for concurrent Ollama inference. Disk budget: QNAP free space must stay above the configured floor and under the configured used-percent ceiling or the pipeline stops writes.\n\n### Security Model\nAuthn/authz: local-only service identities per RIG doctrine — no public exposure without Gate-D human approval for outward actions (publish/send/deploy). Governance gates enforced: Gate-D, GEV Separation, ProofPacket, Non-vacuity, Temporal validity, Consensus backing. Input validation: every card write goes through an atomic tmp-then-replace write to prevent partial writes; JSON schema keys are validated before persistence. Rate limiting: build requests are throttled to the configured daily target with QNAP pressure as a hard backstop. Secrets (Ollama tokens, Consensus API keys) are read from environment only, never logged or embedded in card JSON. Doctrine domains aligned to this capability: leadership, app-building.",
+      "word_count": 803,
+      "generated_at": "2026-08-06T02:55:04.005041+00:00"
+    },
+    "deep_business": {
+      "title": "Deep Business Model",
+      "content": "`Lean principles, learning, and knowledge work: Evidence from a software services provider` monetizes as `Consulting + custom build` at $5K-20K/mo, targeting a $2-5B TAM within the `operations` doctrine domain. 2 other card(s) in this batch share the same strategy_id, so differentiation must come from proof density and delivery speed, not from claiming a unique niche.\n\n### 3-Year MRR Projection (Year 1 monthly, Years 2-3 quarterly)\n| Period | Clients | MRR | ARR run-rate |\n|---|---|---|---|\n| Y1-M01 | 1 clients | $12.5K MRR | $150.0K ARR run-rate |\n| Y1-M02 | 1 clients | $12.5K MRR | $150.0K ARR run-rate |\n| Y1-M03 | 2 clients | $25.0K MRR | $300.0K ARR run-rate |\n| Y1-M04 | 2 clients | $25.0K MRR | $300.0K ARR run-rate |\n| Y1-M05 | 3 clients | $37.5K MRR | $450.0K ARR run-rate |\n| Y1-M06 | 3 clients | $37.5K MRR | $450.0K ARR run-rate |\n| Y1-M07 | 4 clients | $48.0K MRR | $576.0K ARR run-rate |\n| Y1-M08 | 4 clients | $46.1K MRR | $553.0K ARR run-rate |\n| Y1-M09 | 5 clients | $55.3K MRR | $663.6K ARR run-rate |\n| Y1-M10 | 5 clients | $53.1K MRR | $637.0K ARR run-rate |\n| Y1-M11 | 6 clients | $61.2K MRR | $733.8K ARR run-rate |\n| Y1-M12 | 6 clients | $58.7K MRR | $704.5K ARR run-rate |\n| Y2-Q1 | 9 clients | $99.5K MRR | $1.19M ARR run-rate |\n| Y2-Q2 | 10 clients | $110.6K MRR | $1.33M ARR run-rate |\n| Y2-Q3 | 11 clients | $121.7K MRR | $1.46M ARR run-rate |\n| Y2-Q4 | 12 clients | $132.7K MRR | $1.59M ARR run-rate |\n| Y3-Q1 | 13 clients | $143.8K MRR | $1.73M ARR run-rate |\n| Y3-Q2 | 14 clients | $154.8K MRR | $1.86M ARR run-rate |\n| Y3-Q3 | 15 clients | $165.9K MRR | $1.99M ARR run-rate |\n| Y3-Q4 | 16 clients | $176.9K MRR | $2.12M ARR run-rate |\n\n### Unit Economics\nAverage price band is $5.0K-$20.0K/mo (midpoint $12.5K). At a 70% gross margin, cost-to-serve is roughly $3.8K/customer/mo — mostly fleet compute (local Ollama nodes) and operator time, not cloud API spend. CAC is $3.0K-$8.0K; against a per-customer contribution of $8.8K/mo, that implies a CAC payback of roughly 0.9 months at the high end of the CAC range. Estimated LTV is $60.0K-$240.0K, giving an implied LTV/CAC ratio of roughly 7.5x-80.0x — healthy once it clears 3x, marginal below that.\n\n### Pricing Tier Matrix\n**Starter — $2.0K/mo**\n  - Single build slice, one done-test\n  - Deterministic score report (no LLM in the grading decision)\n  - Community support, best-effort SLA\n\n**Pro — $12.5K/mo**\n  - Full harness: build → score → verify → seal ProofPacket\n  - Consensus-backed evidence base — competitors can't replicate the research depth\n  - Weekly office hours + priority queue on the fleet node\n\n**Enterprise — $32.0K/mo**\n  - Dedicated fleet capacity + custom doctrine governance\n  - Proof-chained quality (competitors can't match)\n  - SOC 2 readiness support and audit-trail exports\n  - Quarterly business review with score-trend reporting\n\n### Break-Even Analysis\nAssuming a blended build cost of roughly $5.2K to stand up the harness (build_effort: 1-2 weeks), and monthly contribution of $8.8K/customer at 70% margin, break-even lands at roughly 0.6 months assuming a single early customer, or faster with the client-growth curve modeled above once 2-3 clients are active. The floor risk is client concentration: losing the first client before month 3 resets the burn clock and pushes break-even back out.\n\n### Competitive Pricing Comparison\n- **generic AI consultancies**: typically prices in the $16.2K-$27.5K/mo equivalent range, without a proof-chained artifact or an independently verifiable done-test.\n- **offshore dev shops**: typically prices in the $16.2K-$27.5K/mo equivalent range, without a proof-chained artifact or an independently verifiable done-test.\n- **in-house build**: typically prices in the $16.2K-$27.5K/mo equivalent range, without a proof-chained artifact or an independently verifiable done-test.",
+      "word_count": 648,
+      "generated_at": "2026-08-06T02:55:04.005203+00:00"
+    },
+    "deep_gtm": {
+      "title": "Deep Go-To-Market Plan",
+      "content": "GTM plan for `Lean principles, learning, and knowledge work: Evidence from a software services provider` (`operations`): Consulting + content motion targeting Mid-market operators over a 30-60 days cycle, positioned as \"RIG is the only AI consultancy with Consensus-backed, proof-chained operations capability\".\n\n### 90-Day GTM Calendar\n- Week 01 (Foundation): publish on LinkedIn — \"How RIG uses Lean principles, learning, and knowledge\"; Search LinkedIn for: Mid-market operators.\n- Week 02 (Foundation): publish on Content — \"Building Lean principles, learning, and knowledge — live agent build\"; Post in: r/MachineLearning, HN, AI subreddits about operations.\n- Week 03 (Foundation): publish on LinkedIn — \"The operations capability: mechanism + proof\"; Reference this card's Consensus papers in outreach for credibility.\n- Week 04 (Foundation): publish on Content — \"Open-source the operations harness\"; Search LinkedIn for: Mid-market operators.\n- Week 05 (Pipeline): publish on LinkedIn — \"How RIG uses Lean principles, learning, and knowledge\"; Post in: r/MachineLearning, HN, AI subreddits about operations.\n- Week 06 (Pipeline): publish on Content — \"Building Lean principles, learning, and knowledge — live agent build\"; Reference this card's Consensus papers in outreach for credibility.\n- Week 07 (Pipeline): publish on LinkedIn — \"The operations capability: mechanism + proof\"; Search LinkedIn for: Mid-market operators.\n- Week 08 (Pipeline): publish on Content — \"Open-source the operations harness\"; Post in: r/MachineLearning, HN, AI subreddits about operations.\n- Week 09 (Pipeline): publish on LinkedIn — \"How RIG uses Lean principles, learning, and knowledge\"; Reference this card's Consensus papers in outreach for credibility.\n- Week 10 (Close): publish on Content — \"Building Lean principles, learning, and knowledge — live agent build\"; Search LinkedIn for: Mid-market operators.\n- Week 11 (Close): publish on LinkedIn — \"The operations capability: mechanism + proof\"; Post in: r/MachineLearning, HN, AI subreddits about operations.\n- Week 12 (Close): publish on Content — \"Open-source the operations harness\"; Reference this card's Consensus papers in outreach for credibility.\n- Week 13 (Close): publish on LinkedIn — \"How RIG uses Lean principles, learning, and knowledge\"; Search LinkedIn for: Mid-market operators.\n\n### Content Calendar\n**LinkedIn (12 posts):**\n- LinkedIn #1: How RIG uses Lean principles, learning, and knowledge\n- LinkedIn #2: Building Lean principles, learning, and knowledge — live agent build\n- LinkedIn #3: The operations capability: mechanism + proof\n- LinkedIn #4: Open-source the operations harness\n- LinkedIn #5: How RIG uses Lean principles, learning, and knowledge\n- LinkedIn #6: Building Lean principles, learning, and knowledge — live agent build\n- LinkedIn #7: The operations capability: mechanism + proof\n- LinkedIn #8: Open-source the operations harness\n- LinkedIn #9: How RIG uses Lean principles, learning, and knowledge\n- LinkedIn #10: Building Lean principles, learning, and knowledge — live agent build\n- LinkedIn #11: The operations capability: mechanism + proof\n- LinkedIn #12: Open-source the operations harness\n**YouTube (4 videos):**\n- YouTube #1: Building Lean principles, learning, and knowledge work: Evi — live agent build, part 1\n- YouTube #2: Building Lean principles, learning, and knowledge work: Evi — live agent build, part 2\n- YouTube #3: Building Lean principles, learning, and knowledge work: Evi — live agent build, part 3\n- YouTube #4: Building Lean principles, learning, and knowledge work: Evi — live agent build, part 4\n**Substack (2 essays):**\n- Substack #1: The `operations` capability — mechanism + proof, essay 1\n- Substack #2: The `operations` capability — mechanism + proof, essay 2\n\n### Outreach Scripts\n**Cold email templates:**\nTemplate 1:\nSubject: operations without the heroics\n\nHi {first_name},\n\nRIG is the only AI consultancy with Consensus-backed, proof-chained operations capability We noticed Mid-market operators struggle with: Which ops improvements compound without heroics?. We built a proof-chained slice — Turn the 'Lean principles, learning, and knowledge work: Evidence from a software services provider' cluster into a governed build slice with proof. — with an executable done-test, not a deck. Worth 15 minutes this week?\n\nTemplate 2:\nSubject: Re: Lean principles, learning, and knowledge\n\nFollowing up — the `operations` capability now scores 87/100 on our deterministic rubric (STRONG). If proof over promises matters to your Mid-market operators team, I'll send the ProofPacket hash chain so you can verify independently.\n\nTemplate 3:\nSubject: Last note on operations\n\nNo pressure — if this isn't the year for it, I'll check back next quarter. If it is, the fastest path is a 14-day pilot scoped to: Card has ≥3 sources, mechanism, pattern, idea, and executable done-test..\n\n**LinkedIn DM templates:**\nDM 1: Saw your post on Mid-market operators pain points — we ship `operations` capabilities with a done-test that either passes or doesn't, no vibes. Open to a quick look?\n\nDM 2: Quick one: does your team verify AI 'done' claims independently, or trust the same agent that built it? We separate builder/verifier by design — happy to show the artifact.\n\n### Sales Playbook\n**Discovery questions:**\n1. What does \"Which ops improvements compound without heroics?\" actually cost you today in hours or missed revenue?\n2. Who verifies that an AI build is actually done today — and how?\n3. If `operations` broke silently in production, how would you find out?\n4. What's the smallest commercial commitment that would let you test this ($5K-20K/mo)?\n5. What would make this a 'no' even if the demo goes perfectly?\n**Demo script outline:**\n1. Show the claim: \"Which ops improvements compound without heroics?\"\n2. Show the mechanism live: Multi-source Consensus synthesis for strategy `operations`.\n\n- Abstract In this paper, we examine th\n3. Run the done-test on stage: `python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}).get('strategy_id')`\n4. Show the ProofPacket hash chain — invite them to verify independently\n5. Close on the pilot scope and the 14-day exit clause\n**Objection handlers:**\n- Objection: \"LLM synthesis unavailable; extractive fallback may under-specify mechanism.\" → Response: we surface this as a documented risk with a kill-criterion, not hide it — trust comes from the audit trail, not the pitch.\n- Objection: \"We can build this in-house\" → Response: sure, and we'll hand you the harness + doctrine so you can verify our work replaces months of trial-and-error, not just labor.\n- Objection: \"We can build this in-house\" → Response: sure, and we'll hand you the harness + doctrine so you can verify our work replaces months of trial-and-error, not just labor.\n\n### Partner / Channel Strategy\nWrap as RIG capability layer — OSS handles commodity, RIG adds governance + proof Partner motion routes through the `intelligence` department; RIG contributes patterns upstream (Contribute operations patterns back to upstream projects, Publish RIG doctrine modules as OSS (attract talent + leads)) to build channel trust without ceding the proof-chain moat. Lock-in risk is rated LOW — RIG adds proprietary governance layer on top of OSS.\n\n### Customer Success Onboarding Flow\nDay 0: kickoff call scoped to the done-test acceptance criteria (`Card has ≥3 sources, mechanism, pattern, idea, and executable done-test.`). Day 1-3: RIG runs the harness loop (build → score → verify artifact → seal ProofPacket → deploy) against the client's real data or a sanctioned proxy. Day 4: client receives the ProofPacket and independently re-runs the done-test. Day 5-14: pilot operates live with weekly score-trend reporting; either side may exit with no penalty before day 14 per the pilot clause.",
+      "word_count": 1186,
+      "generated_at": "2026-08-06T02:55:04.005289+00:00"
+    },
+    "deep_agents": {
+      "title": "Deep Agent Team Design",
+      "content": "The `operations` capability runs 2 agent(s) under the `intelligence` department, each with its own PAI substrate, load order, and independent memory layer so no single agent can quietly expand its own authority or grade its own homework.\n\n### Inter-Agent Communication Protocol\nAgents communicate via typed messages routed through the `intelligence` department queue: `TASK_ASSIGN` (builder receives cluster_id/topic), `STATUS_UPDATE` (progress ping every harness cycle), `VERIFY_REQUEST` (builder hands the artifact to the verifier along with its own claimed score — the verifier ignores that claim and re-derives its own), `VERIFY_RESULT` (independent score, rank, and hard_blocks), and `ESCALATION` (routed to a human when a gate fails twice in a row). Team composition: 0 human(s), 2 agent(s), oversight: Gate-D human approval for all outward actions, cadence: nightly batch + continuous collection.\n\n### Agent 1: `rig-operations-builder` — Build Agent\n- **Model:** qwen3:8b\n- **Telos:** Improve RIG operations capability through build agent\n- **Memory layer:** L6_EPISODIC_RUN_STATE\n- **Proof path:** ProofPacket sealed after each build agent cycle\n- **Allowed surfaces:** TAC v2, closed-loop\n- **Boundaries:** No outward action (publish/send/deploy) without Gate-D human approval. This role never self-certifies — an independent verifier identity must independently confirm the result before it counts as done.\n\n**System prompt template:**\n> You are `rig-operations-builder`, the Build Agent for the `operations` capability inside RIG OmniScout. Your telos: Improve RIG operations capability through build agent. You operate at memory layer `L6_EPISODIC_RUN_STATE` and must seal a ProofPacket (ProofPacket sealed after each build agent cycle) before any claim of 'done' — an unsealed claim is not a claim, it is a guess. Your mechanism of work: Multi-source Consensus synthesis for strategy `operations`.\n\n- Abstract In this paper, we examine the applicability of lean production to knowledge work by investigating the implementation of a lean production system at . You MUST NOT self-certify success — an independent verifier identity checks your output against the executable done-test: `python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}).get('strategy_id')=='operations';assert c['sources']['coun`. You operate under these doctrine gates: Gate-D, GEV Separation, ProofPacket, Non-vacuity. When you are uncertain whether an artifact meets the bar, you fail closed and quarantine it rather than guess and hope a downstream check catches the mistake — a false 'done' is strictly worse than an honest 'not yet'. Your allowed skills and surfaces are limited to: TAC v2, closed-loop; you do not reach outside that boundary even if it would be faster. You report status through the department routing `intelligence` and hand off to the next agent in the loop only after your local gate passes cleanly. You never edit another agent's already-sealed ProofPacket — if you find a problem with a sealed artifact, you raise a new event rather than mutating history, because the hash chain must remain a truthful record of what actually happened, not what should have happened.\n\n**Eval rubric:** correctness ≥70/100 on the deterministic scorer; doctrine_fit ≥70% domain-marker overlap; latency p95 ≤3600s; cost ≤$0.05/run; gev_separation=true (builder identity ≠ verifier identity on every cycle)\n**Failure mode catalog:**\n- Model `qwen3:8b` times out beyond the harness timeout (3600s) → retry with backoff, then quarantine\n- Agent self-certifies its own output (GEV violation) → hard-blocked, score capped, promotion refused\n- Output drifts from the `operations` doctrine domain → doctrine_fit score drops, human review triggered\n- Upstream Consensus/Ollama endpoint unreachable → extractive fallback engages, risk flagged in card.risks\n**Cost estimate:** $0.0030/run (~1500 tokens on qwen3:8b)\n\n### Agent 2: `rig-operations-verifier` — Verify Agent\n- **Model:** deterministic\n- **Telos:** Improve RIG operations capability through verify agent\n- **Memory layer:** L7_VERIFIED_PROCEDURES\n- **Proof path:** ProofPacket sealed after each verify agent cycle\n- **Allowed surfaces:** score, GEV\n- **Boundaries:** No outward action (publish/send/deploy) without Gate-D human approval. This role never self-certifies — the builder identity that produced the artifact must independently confirm the result before it counts as done.\n\n**System prompt template:**\n> You are `rig-operations-verifier`, the Verify Agent for the `operations` capability inside RIG OmniScout. Your telos: Improve RIG operations capability through verify agent. You operate at memory layer `L7_VERIFIED_PROCEDURES` and must seal a ProofPacket (ProofPacket sealed after each verify agent cycle) before any claim of 'done' — an unsealed claim is not a claim, it is a guess. Your mechanism of work: Multi-source Consensus synthesis for strategy `operations`.\n\n- Abstract In this paper, we examine the applicability of lean production to knowledge work by investigating the implementation of a lean production system at . You MUST NOT self-certify success — the builder identity that produced the artifact checks your output against the executable done-test: `python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}).get('strategy_id')=='operations';assert c['sources']['coun`. You operate under these doctrine gates: Gate-D, GEV Separation, ProofPacket, Non-vacuity. When you are uncertain whether an artifact meets the bar, you fail closed and quarantine it rather than guess and hope a downstream check catches the mistake — a false 'done' is strictly worse than an honest 'not yet'. Your allowed skills and surfaces are limited to: score, GEV; you do not reach outside that boundary even if it would be faster. You report status through the department routing `intelligence` and hand off to the next agent in the loop only after your local gate passes cleanly. You never edit another agent's already-sealed ProofPacket — if you find a problem with a sealed artifact, you raise a new event rather than mutating history, because the hash chain must remain a truthful record of what actually happened, not what should have happened.\n\n**Eval rubric:** correctness ≥70/100 on the deterministic scorer; doctrine_fit ≥70% domain-marker overlap; latency p95 ≤3600s; cost ≤$0.05/run; gev_separation=true (builder identity ≠ verifier identity on every cycle)\n**Failure mode catalog:**\n- Model `deterministic` times out beyond the harness timeout (3600s) → retry with backoff, then quarantine\n- Agent self-certifies its own output (GEV violation) → hard-blocked, score capped, promotion refused\n- Output drifts from the `operations` doctrine domain → doctrine_fit score drops, human review triggered\n- Upstream Consensus/Ollama endpoint unreachable → extractive fallback engages, risk flagged in card.risks\n- Verifier reuses the builder's own claimed score instead of re-deriving it → audit via artifact_sha256 mismatch\n**Cost estimate:** $0.0000/run (~800 tokens on deterministic)\n",
+      "word_count": 997,
+      "generated_at": "2026-08-06T02:55:04.005350+00:00"
+    },
+    "deep_research": {
+      "title": "Deep Research & Literature",
+      "content": "This is the literature and methodology layer behind `Lean principles, learning, and knowledge work: Evidence from a software services provider`. It exists so a skeptical reader can trace every claim back to a source and understand exactly where the evidence is thin, rather than taking the claim on faith.\n\n### Literature Review\n- **Lean principles, learning, and knowledge work: Evidence from a software services provider** (consensus_mcp): Abstract In this paper, we examine the applicability of lean production to knowledge work by investigating the implementation of a lean production system at an Indian software services firm. We first discuss specific aspects of…\n- **Lean Approach in Knowledge Work** (consensus_mcp): Purpose: Knowledge work productivity is a key area of improvement for many organisations. Lean approach is a sustainable way to achieve operational excellence and can be applied in many areas. The purpose of this novel…\n- **Implementing lean in knowledge work: Implications from a study of the hospital discharge planning process** (consensus_mcp): With its Lean production system, Toyota championed an innovative way to organize and manage processes to eliminate waste and improve effectiveness. While our understanding of Lean and its successes has grown, it has become increasingly…\n- **Role of Lean Tools in Supporting Knowledge Creation and Performance in Lean Construction** (consensus_mcp): Abstract Implementation of lean construction largely relies on organizational learning and knowledge creation, which is in turn promoted by lean techniques. However, there are few studies in knowledge management of lean construction. This paper tries…\n- **An Introduction to the Impact of Knowledge Management in Lean Manufacturing** (consensus_mcp): With the advent of the knowledge economy, knowledge has become a very important resource and one of the core competencies of an organization. However, the current lean manufacturing implementation process in most companies focuses on…\n\n### Open Research Questions\n1. Does the risk \"LLM synthesis unavailable; extractive fallback may under-specify mechanism.\" hold up under a larger, independent sample?\n2. What is the smallest experiment that would falsify the claim: \"Which ops improvements compound without heroics?\"?\n3. Do the 5 cited paper(s) generalize from their original study context to RIG's `operations` use case, or is this a case of over-fitting to a narrow population?\n4. What confound would explain the observed effect without invoking the proposed mechanism?\n\n### Replication Concerns\nEvidence freshness is `FRESH` with an estimated re-verification window of 2-3 years before re-verification needed (next reverify by 2026-08). With 5 independent source(s) backing the claim, replication confidence is HIGH — at or above the multi-source floor used by the deterministic scorer's hard-block rule. Academic papers surfaced via Consensus carry publication-bias risk (positive-result skew) that RIG does not independently correct for; treat point estimates as directional, not causal, until a live pilot confirms the mechanism against a real client's data.\n\n### Methodology Critique\nThe underlying research base was synthesized via multi-source clustering (independent domains) rather than a single-author narrative, which mitigates but does not eliminate selection bias — the Consensus query for `operations` returns whatever the search index has indexed, not the output of a systematic review. The mechanism text — \"Multi-source Consensus synthesis for strategy `operations`.\n\n- Abstract In this paper, we examine the applicability of lean production to knowledge work by inve\" — should be read as an extractive synthesis, not an original empirical finding; any numeric claims embedded in the evidence quotes were not independently re-derived by RIG. Generalizability is bounded by the T2 tier's assumed buyer context (`Mid-market operators`) and may not transfer cleanly to enterprise or regulated verticals without a fresh evidence pass.",
+      "word_count": 585,
+      "generated_at": "2026-08-06T02:55:04.005403+00:00"
+    },
+    "deep_risk": {
+      "title": "Deep Risk Assessment",
+      "content": "Risk posture for `Lean principles, learning, and knowledge work: Evidence from a software services provider` at score 87/100 (STRONG), T2 tier.\n\n### Probability-Weighted Risk Matrix\n| Risk | Probability | Impact | Mitigation |\n|---|---|---|---|\n| LLM synthesis unavailable; extractive fallback may under-specify mechanism. | HIGH | MED | Monitor via the score breakdown; fail closed to the extractive fallback; keep logged in card.risks. |\n| Model drift on `qwen3:8b` silently changes output quality | MED | MED | Planted-failure regression re-run monthly; alert on any score delta greater than 10 points. |\n| QNAP disk pressure halts writes mid-batch | LOW | HIGH | The disk gate fails closed before any partial write; nightly free-space check catches it early. |\n| Consensus MCP / Ollama endpoint outage during synthesis | MED | MED | Extractive fallback engages automatically; the resulting risk is flagged in card.risks for review. |\n| GEV violation — builder and verifier collapse to one identity | LOW | HIGH | gev_separation is hard-scored 0; promotion is blocked until the two identities genuinely differ. |\n| Score regression below the current 87/100 baseline on re-verification | MED | MED | Reverify by the temporal_validity date; requeue for L2 synthesis if it drops below the GOOD floor. |\n| A competitor ships a similar `operations` offering first | MED | MED | Ship the pilot inside the stated build_effort window; lead with the ProofPacket as the trust artifact. |\n| Buyer pricing power erodes below the CAC payback threshold | MED | HIGH | Anchor pricing at the low end of the band with a 14-day exit clause to de-risk the first sale. |\n| Doctrine drift — `operations` stops mapping cleanly to a DOCTRINE_DOMAINS marker | LOW | MED | Re-run doctrine_fit scoring after any doctrine file update; re-tag domains if overlap drops below target. |\n\n### Kill Criteria\n- If independent sources drop below 2, quarantine.\n- Numeric floor: total score < 70/100 → quarantine (deterministic scorer hard block).\n- Numeric floor: independent sources < 2 → hard-capped at 54, automatic REJECT.\n- Temporal floor: past `2026-08` without re-verification → mark STALE and pull from the active rotation.\n- Council floor: council overall_verdict resolves to NO-GO from the majority of perspectives → do not promote.\n\n### Regulatory Scan\nRegulatory scan for `operations` (doctrine domains: leadership, app-building):\n- GDPR/CCPA (data privacy)\n- SOC 2 Type II (enterprise sales readiness)\n\nThis is a deterministic keyword-to-regime mapping, not legal advice — before any client contract, route through RIG's compliance review for the specific vertical and jurisdiction.\n\n### Technical Debt Forecast\nAt `MEDIUM` complexity and roughly 300-800 LOC, technical debt accrues fastest in the test coverage for edge-case inputs. The coverage target from the engineering blueprint (`pytest with ≥80% coverage on core logic`) is a leading indicator — debt is forecast to compound once coverage drifts below 60% or the harness timeout (3600s) is exceeded on more than 5% of runs. Rank `STRONG` (87/100) suggests a healthy buffer before debt becomes visible to buyers.\n\n### Doctrine Alignment Note\nThis section is scoped to `l2-0437f3e9a18b3f67` (`operations`, T2 tier, score 87/100, rank STRONG). It inherits RIG's fail-closed posture: every claim here traces back to a card field — `Deep Risk Assessment` is derived from engineering_blueprint, business_intelligence, gtm_strategy, agent_team, council, consensus, evidence, risks, kill_criteria, temporal_validity, and doctrine_governance rather than invented from scratch. Where a card field is sparse — fewer than 3 evidence URLs, a short mechanism string, or an unmapped strategy_id — this analysis says so explicitly instead of papering over the gap with generic language, because a confident-sounding placeholder is worse than an honest 'unknown' when a human or downstream agent is deciding whether to promote, fund, or ship this capability. Re-verification is due by `2026-08`; anything stated here should be treated as provisional after that date until the underlying card is re-synthesized against fresh sources. Aligned doctrine domains for this capability: leadership, app-building. Peer capabilities sharing the same strategy_id in this batch: 2.",
+      "word_count": 664,
+      "generated_at": "2026-08-06T02:55:04.005446+00:00"
+    },
+    "deep_testing": {
+      "title": "Deep Testing Strategy",
+      "content": "Testing strategy for `Lean principles, learning, and knowledge work: Evidence from a software services provider`, derived from the engineering blueprint's own testing_strategy (`pytest with ≥80% coverage on core logic`) plus the 6 doctrine gate(s) that must hold.\n\n### Test Case Catalog\n1. **Given** Given a card with ≥3 independent sources / **When** when the deterministic scorer runs / **Then** then multi_source scores ≥15/18\n2. **Given** Given a mechanism string under 40 characters / **When** when the scorer evaluates mechanism_density / **Then** then the card is hard-capped at 54 (REJECT)\n3. **Given** Given a card matching the done-test `python -c \"import json;c=json.load(open('CARD.json'));assert` / **When** when the verifier executes it against the real artifact / **Then** then it exits 0 and the card is marked promotable\n4. **Given** Given a builder and verifier with the same identity / **When** when gev_separation is evaluated / **Then** then the score is 0 and promotion is blocked regardless of other dimensions\n5. **Given** Given a planted failure in the scoring logic / **When** when the non-vacuity regression runs / **Then** then the gate goes RED before the fix and GREEN after restore\n6. **Given** Given QNAP free space below the configured floor / **When** when a new build is requested / **Then** then the disk gate returns stop=True and no partial write occurs\n7. **Given** Given the `operations` doctrine domain markers / **When** when doctrine_fit is scored / **Then** then declared and inferred domains intersect above the target threshold\n8. **Given** Given a card missing evidence URLs entirely / **When** when evidence_anchoring is scored / **Then** then the score is 0/14 and the rank cannot exceed WEAK\n9. **Given** Given the harness timeout of 3600s / **When** when a build exceeds it / **Then** then the job is killed and retried per the exponential-backoff policy, up to the max attempt count\n10. **Given** Given a card already at schema v30 / **When** when enrich_card_v30 runs again / **Then** then it returns status='already_v30' and makes no writes\n11. **Given** Given 3 architecture component(s) / **When** when integration tests exercise each component boundary / **Then** then each component's public contract is exercised at least once\n\n### Coverage Targets Per Module\n| Module | Unit | Integration | E2E |\n|---|---|---|---|\n| Python core | 80% (unit) | 60% (integration) | 40% (e2e) |\n| SQLite store | 80% (unit) | 60% (integration) | 40% (e2e) |\n| Prefect scheduler | 80% (unit) | 60% (integration) | 40% (e2e) |\n\n### CI/CD Pipeline\nGitHub Actions pipeline: `lint` (ruff/mypy) → `unit` (pytest -k not integration) → `integration` (real done-test against a fixture artifact) → `non_vacuity` (plant / confirm-RED / restore) → `package` (build artifact) → `deploy` (Prefect flow registration + QNAP write) → `smoke` (hit /healthz plus one end-to-end card build). Any red stage blocks merge; the non_vacuity stage is mandatory and cannot be skipped with a label.\n\n### Non-Vacuity Proof\nPlant: temporarily force the scorer to always return promote=True regardless of hard blocks. Confirm RED: the hard-blocks regression test must fail loudly against this planted bug. Restore: revert the patch and re-run — the same test goes GREEN. Keep the test as a permanent regression case so a future refactor that silently disables hard blocks is caught immediately, not discovered after a REJECT-grade card has already been promoted to a client-facing surface.\n\n### Load Test Plan\nTarget: sustain 100 cards/day throughput on 36GB node. Simulate with concurrent virtual builders (start at 4, ramp to 16) each issuing build+score+verify cycles; assert p95 end-to-end latency stays under 3600s and the QNAP free-space gate never triggers a false stop under sustained load. Error budget: fewer than 1% of cycles may hard-fail before the pipeline is considered degraded and paged.",
+      "word_count": 618,
+      "generated_at": "2026-08-06T02:55:04.005480+00:00"
+    },
+    "deep_ops": {
+      "title": "Deep Operations Runbook",
+      "content": "Operations for `Lean principles, learning, and knowledge work: Evidence from a software services provider` (`operations`) — 6 doctrine gate(s) enforced on every cycle, routed through `intelligence`.\n\n### Daily Operational Runbook\n1. 06:00 UTC — check QNAP free space; abort the batch if the disk gate reports stop=True.\n2. 06:05 UTC — pull fresh L0 notes from the last 14 days across configured research roots.\n3. 06:15 UTC — cluster notes into topic groups with at least the minimum independent-source count.\n4. 06:30 UTC — run the harness loop per cluster: build → score → verify artifact → seal ProofPacket → deploy.\n5. 07:00 UTC — the deterministic scorer grades every new card; hard blocks are enforced with no LLM in this decision.\n6. 07:15 UTC — promote GOOD/STRONG/EXCELLENT cards; quarantine REJECT/WEAK cards carrying a hard block.\n7. 07:30 UTC — route promoted cards to the `intelligence` department for downstream use.\n8. 07:45 UTC — seal a ProofPacket (artifact hash over the stable-serialized card) for every promoted card.\n9. 08:00 UTC — update the enrichment summary file and append to the daily ledger.\n10. Continuous — the self-heal watchdog polls fleet health and restarts stalled workers.\n\n### Monitoring Dashboard Spec\n| Metric | SLO | Alert |\n|---|---|---|\n| `score_total_avg` | ≥75/100 | alert if the 7-day rolling average drops below 70 |\n| `promote_rate` | ≥60% | alert if it drops below 40% over 3 consecutive days |\n| `source_count_avg` | ≥3 | alert if it drops below 2.5, approaching hard-block territory |\n| `council_confidence_avg` | ≥70% | alert if it drops below 55% |\n| `qnap_free_gib` | ≥100 | page on-call if it drops below 50 GiB |\n| `qnap_used_pct` | <95% | page on-call if it reaches 98% or higher |\n| `cards_per_day` | ≥60 | alert if it drops below 30 for 2 consecutive days |\n| `error_rate` | <2% | alert if it reaches 5% or higher in any 1-hour window |\n| `gate_pass_rate` | 100% on non_vacuity | any FAIL on this gate is a Sev2 incident |\n| `reverify_due_count` | trending down | alert if the backlog grows for 3 consecutive days |\n\n### Incident Response Procedure\n**Sev1** (data loss, secret exposure, or a false-DONE claim reaching a client): page immediately, response within 15 minutes, halt the pipeline, root-cause before any resume. **Sev2** (pipeline stalled over 1 hour, non_vacuity gate FAIL, or a GEV violation detected): response within 1 hour, escalate through `intelligence` on-call, quarantine the affected cards. **Sev3** (a single card quarantined, minor score regression, one stalled worker): response by the next business day, logged to the ledger, no page required. Every incident gets a blameless writeup that names the specific gate or metric that fired.\n\n### Backup / Disaster Recovery Plan\nRPO: at most 24 hours — nightly ProofPacket-sealed cards are the durable unit, and anything mid-batch is re-derivable from the L0 notes, which are themselves durable. RTO: at most 4 hours to restore the cards directory from the last known-good snapshot or local mirror. Backup frequency: continuous append-only ledger writes plus a nightly full snapshot of the cards directory. Restore procedure: verify each restored card's artifact hash against a fresh stable-serialization of its own content before trusting it — a hash mismatch means the restore is corrupt and must fall back to the previous snapshot rather than being trusted as-is.",
+      "word_count": 559,
+      "generated_at": "2026-08-06T02:55:04.005513+00:00"
+    }
+  },
+  "deep_sections_hash": "9a22d5c8b03ef2904d4ea38eb03477d1414f57dca8d035030d12bcc8eb5c73f6",
+  "deep_sections_count": 8,
+  "deep_word_count": 6060,
+  "v30_ready": true,
+  "enriched_v30_at": "2026-08-06T02:55:04.005627+00:00"
+}

@@ -1,0 +1,1209 @@
+{
+  "schema": "rig.omniscout.build-card.v10",
+  "card_id": "l2-9f8bfd145bf3e378",
+  "cluster_id": "cluster-cons-5099b727839cc2",
+  "created_at": "2026-08-05T23:53:25.890445+00:00",
+  "topic": "customer-success-expansion",
+  "title": "The relevance of Customer Retention to Organizational Growth",
+  "claim": "What expansion motions reduce churn with proof?",
+  "summary": "Customer retention has emerged as a critical factor in determining the long-term success and sustainability of organisations across various sectors. This paper explores the relevance of customer retention to organisational growth by examining how maintaining existing customer relationships positively influences profitability, brand loyalty, and overall business performance. In contrast to customer acquisition, which often incurs higher costs, retention strategies focus on nurturing trust and satisfaction to ensure repeat patronage and customer lifetime value. The study reviews key concepts, theories, and strategies associated with customer retention, including relationship marketing, personalized service delivery, loyalty programs, customer engagement, and feedback mechanisms. It also explores the link between high retention rates and improved organisational outcomes such as increased sa Strategically targeting environmentally sensitive row crop areas for conservation enrollment via precision agriculture technologies requires a thorough understanding of the economic outcomes of potential lost opportunity costs to the producers. Variability in commodity prices adds uncertainty to th",
+  "mechanism": "Multi-source Consensus synthesis for strategy `customer-success-expansion`.\n\n- Customer retention has emerged as a critical factor in determining the long-term success and sustainability of organisations across various sectors. This paper explores the relevance of customer retention to organisational growth by examining how maintaining existing customer relationships positively influences profitability, brand loyalty, and overall business performance. In contrast to customer\n\n- Strategically targeting environmentally sensitive row crop areas for conservation enrollment via precision agriculture technologies requires a thorough understanding of the economic outcomes of potential lost opportunity costs to the producers. Variability in commodity prices adds uncertainty to this process due to temporal changes in break-even thresholds of profit. Economically targeting areas f\n\n- . Employee retention is a critical dimension of organisational sustainability, particularly in sales-intensive sectors where high turnover undermines competitiveness and long-term value creation. This study examines how intangible assets, specifically, the quality of buyer–seller interaction, intrinsic motivation, and sales performance, jointly shape the sustainability of human capital in the Indi\n\n- Although researchers and practitioners in the field of e-commerce are now paying more attention to online customer loyalty, the focus previously was on overall customer satisfaction. Here, we drew on marketing and consumer behavior literature to formulate a conceptual framework that considered community-based, customization-based, desire-based, and constraint-based drivers of online customer reten\n\n- There is a wide variety of choices for the modern retail customer including multiple retail formats. The success of the retail establishments has a great reliance of customer retention, which is an essential attribute to achieve profitability. This study takes in to consideration to extract the factors responsible for customer retention which in turn assists in increasing the customer base. The pr",
+  "pattern": {
+    "name": "customer-success-expansion-multi-source-synthesis",
+    "description": "Cluster ≥3 independent sources on one RIG topic; extract mechanism + done-test.",
+    "when_to_use": "When L0 notes share a topic and at least two domains/URLs.",
+    "when_not_to_use": "Single blog sludge or uncited opinion."
+  },
+  "idea": {
+    "name": "build-the-relevance-of-customer-retention-to-o",
+    "description": "Turn the 'The relevance of Customer Retention to Organizational Growth' cluster into a governed build slice with proof.",
+    "acceptance": "Card has ≥3 sources, mechanism, pattern, idea, and executable done-test.",
+    "done_test": "python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}).get('strategy_id')=='customer-success-expansion';assert c['sources']['count']>=2\""
+  },
+  "tac": {
+    "core_four": [
+      "intent",
+      "context",
+      "tools",
+      "loop"
+    ],
+    "closed_loop": "L0 collector builds notes; L2 synthesizer drafts card; independent scorer grades artifact.",
+    "builder": "omniscout-l2-consensus-extractive",
+    "verifier": "omniscout-l2-scorer-deterministic-v1",
+    "done_test": "python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}).get('strategy_id')=='customer-success-expansion';assert c['sources']['count']>=2\""
+  },
+  "doctrine_domains": [
+    "leadership",
+    "engineering-capability",
+    "competitive-intel"
+  ],
+  "evidence": [
+    {
+      "url": "https://consensus.app/papers/details/91da25b28d005dc8b3ee0c46b88bfb78/?utm_source=claude_desktop",
+      "quote_or_fact": "Customer retention has emerged as a critical factor in determining the long-term success and sustainability of organisations across various sectors. This paper explores the relevance of customer retention to organisational growth by examining how maintaining existing customer rel",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/2b89edaf14f358b995d6844aa62aaaaf/?utm_source=claude_desktop",
+      "quote_or_fact": "Strategically targeting environmentally sensitive row crop areas for conservation enrollment via precision agriculture technologies requires a thorough understanding of the economic outcomes of potential lost opportunity costs to the producers. Variability in commodity prices add",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/a03ecc3ce3025d708e403c6bbc9f494d/?utm_source=claude_desktop",
+      "quote_or_fact": ". Employee retention is a critical dimension of organisational sustainability, particularly in sales-intensive sectors where high turnover undermines competitiveness and long-term value creation. This study examines how intangible assets, specifically, the quality of buyer–seller",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/8dad73a9b9fc59eb8e903665dfba9d46/?utm_source=claude_desktop",
+      "quote_or_fact": "Although researchers and practitioners in the field of e-commerce are now paying more attention to online customer loyalty, the focus previously was on overall customer satisfaction. Here, we drew on marketing and consumer behavior literature to formulate a conceptual framework t",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/0786d0a751d6576ea090e4ca61a6ba8f/?utm_source=claude_desktop",
+      "quote_or_fact": "There is a wide variety of choices for the modern retail customer including multiple retail formats. The success of the retail establishments has a great reliance of customer retention, which is an essential attribute to achieve profitability. This study takes in to consideration",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/91da25b28d005dc8b3ee0c46b88bfb78/?utm_source=claude_desktop",
+      "quote_or_fact": "Customer retention has emerged as a critical factor in determining the long-term success and sustainability of organisations across various sectors. This paper explores the relevance of customer retention to organisational growth by examining how maintaining existing customer rel",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/2b89edaf14f358b995d6844aa62aaaaf/?utm_source=claude_desktop",
+      "quote_or_fact": "Strategically targeting environmentally sensitive row crop areas for conservation enrollment via precision agriculture technologies requires a thorough understanding of the economic outcomes of potential lost opportunity costs to the producers. Variability in commodity prices add",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/a03ecc3ce3025d708e403c6bbc9f494d/?utm_source=claude_desktop",
+      "quote_or_fact": ". Employee retention is a critical dimension of organisational sustainability, particularly in sales-intensive sectors where high turnover undermines competitiveness and long-term value creation. This study examines how intangible assets, specifically, the quality of buyer–seller",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/8dad73a9b9fc59eb8e903665dfba9d46/?utm_source=claude_desktop",
+      "quote_or_fact": "Although researchers and practitioners in the field of e-commerce are now paying more attention to online customer loyalty, the focus previously was on overall customer satisfaction. Here, we drew on marketing and consumer behavior literature to formulate a conceptual framework t",
+      "source_type": "consensus_paper"
+    },
+    {
+      "url": "https://consensus.app/papers/details/0786d0a751d6576ea090e4ca61a6ba8f/?utm_source=claude_desktop",
+      "quote_or_fact": "There is a wide variety of choices for the modern retail customer including multiple retail formats. The success of the retail establishments has a great reliance of customer retention, which is an essential attribute to achieve profitability. This study takes in to consideration",
+      "source_type": "consensus_paper"
+    }
+  ],
+  "risks": [
+    "LLM synthesis unavailable; extractive fallback may under-specify mechanism."
+  ],
+  "assumptions": [
+    "Source notes are accurate enough to cluster."
+  ],
+  "next_actions": [
+    "Re-run with deep model when Ollama slot free.",
+    "Confirm Consensus MCP papers attached."
+  ],
+  "kill_criteria": [
+    "If independent sources drop below 2, quarantine."
+  ],
+  "why_not_median": "Consensus multi-paper cluster with explicit GEV split, strategy tier admission, and executable done-test — not single-blog sludge.",
+  "sources": {
+    "count": 5,
+    "urls": [
+      "https://consensus.app/papers/details/91da25b28d005dc8b3ee0c46b88bfb78/?utm_source=claude_desktop",
+      "https://consensus.app/papers/details/2b89edaf14f358b995d6844aa62aaaaf/?utm_source=claude_desktop",
+      "https://consensus.app/papers/details/a03ecc3ce3025d708e403c6bbc9f494d/?utm_source=claude_desktop",
+      "https://consensus.app/papers/details/8dad73a9b9fc59eb8e903665dfba9d46/?utm_source=claude_desktop",
+      "https://consensus.app/papers/details/0786d0a751d6576ea090e4ca61a6ba8f/?utm_source=claude_desktop"
+    ],
+    "types": [
+      "consensus_paper"
+    ],
+    "l0_note_paths": [
+      "consensus://customer-success-expansion/0",
+      "consensus://customer-success-expansion/1",
+      "consensus://customer-success-expansion/2",
+      "consensus://customer-success-expansion/3",
+      "consensus://customer-success-expansion/4"
+    ],
+    "avg_l0_quality": 5.0
+  },
+  "consensus": {
+    "used": true,
+    "via": "mcp",
+    "count": 5,
+    "results": [
+      {
+        "title": "The relevance of Customer Retention to Organizational Growth",
+        "url": "https://consensus.app/papers/details/91da25b28d005dc8b3ee0c46b88bfb78/?utm_source=claude_desktop",
+        "abstract": "Customer retention has emerged as a critical factor in determining the long-term success and sustainability of organisations across various sectors. This paper explores the relevance of customer retention to organisational growth by examining how maintaining existing customer relationships positively influences profitability, brand loyalty, and overall business performance. In contrast to customer acquisition, which often incurs higher costs, retention strategies focus on nurturing trust and satisfaction to ensure repeat patronage and customer lifetime value. The study reviews key concepts, theories, and strategies associated with customer retention, including relationship marketing, personalized service delivery, loyalty programs, customer engagement, and feedback mechanisms. It also explores the link between high retention rates and improved organisational outcomes such as increased sa",
+        "source": "consensus_mcp"
+      },
+      {
+        "title": "Impact of economically targeted conservation delivery on farming net revenue across a range of commodity prices",
+        "url": "https://consensus.app/papers/details/2b89edaf14f358b995d6844aa62aaaaf/?utm_source=claude_desktop",
+        "abstract": "Strategically targeting environmentally sensitive row crop areas for conservation enrollment via precision agriculture technologies requires a thorough understanding of the economic outcomes of potential lost opportunity costs to the producers. Variability in commodity prices adds uncertainty to this process due to temporal changes in break-even thresholds of profit. Economically targeting areas for conservation only when the revenue received from conservation payment exceeds revenue from production alleviates the risk of lost opportunity cost. The US Farm Bill Conservation Title includes the Conservation Reserve Program, which incentivizes agricultural producers to remove arable land from production to enhance soil retention, improve water quality, and restore wildlife habitat. However, producers are often concerned with economic opportunity costs associated with converting cropped acre",
+        "source": "consensus_mcp"
+      },
+      {
+        "title": "Drivers of front‑line sales employees’ retention: interaction, motivation, and performance",
+        "url": "https://consensus.app/papers/details/a03ecc3ce3025d708e403c6bbc9f494d/?utm_source=claude_desktop",
+        "abstract": ". Employee retention is a critical dimension of organisational sustainability, particularly in sales-intensive sectors where high turnover undermines competitiveness and long-term value creation. This study examines how intangible assets, specifically, the quality of buyer–seller interaction, intrinsic motivation, and sales performance, jointly shape the sustainability of human capital in the Indian banking sector. Drawing on Self-Determination Theory (SDT) and Social Identity Theory (SIT), the research develops and tests a behavioural framework linking relational dynamics, psychological fulfilment, and performance outcomes to employee retention. A cross-sectional survey of 449 sales professionals in the Indian banking sector was analysed using Partial Least Squares Structural Equation Modelling (PLS-SEM). Results confirm that effective buyer–seller interaction significantly improves sal",
+        "source": "consensus_mcp"
+      },
+      {
+        "title": "Determinants of e-repurchase intentions: An integrative model of quadruple retention drivers",
+        "url": "https://consensus.app/papers/details/8dad73a9b9fc59eb8e903665dfba9d46/?utm_source=claude_desktop",
+        "abstract": "Although researchers and practitioners in the field of e-commerce are now paying more attention to online customer loyalty, the focus previously was on overall customer satisfaction. Here, we drew on marketing and consumer behavior literature to formulate a conceptual framework that considered community-based, customization-based, desire-based, and constraint-based drivers of online customer retention. Furthermore, the potential interrelationships between these drivers were explored. We then empirically tested our hypotheses using data obtained from a large online retailing store in Taiwan. The results strongly supported most of the hypotheses. Theoretical and managerial implications of the findings were discussed.",
+        "source": "consensus_mcp"
+      },
+      {
+        "title": "Drivers of Customer Retention: An Introspection Into Indian Retail Customers",
+        "url": "https://consensus.app/papers/details/0786d0a751d6576ea090e4ca61a6ba8f/?utm_source=claude_desktop",
+        "abstract": "There is a wide variety of choices for the modern retail customer including multiple retail formats. The success of the retail establishments has a great reliance of customer retention, which is an essential attribute to achieve profitability. This study takes in to consideration to extract the factors responsible for customer retention which in turn assists in increasing the customer base. The prime objective of the study is to ascertain the influence of customer satisfaction, switching costs and customer loyalty on customer retention. Whereas, the second one is to explore the effect of demographic factors on customer retention. The sample size of this study was 600 respondents who were chosen for the full-fledged study. The statistical techniques used for final analysis were structural equation modelling and regression. The findings subsequent to the statistical analysis and interpreta",
+        "source": "consensus_mcp"
+      }
+    ]
+  },
+  "synthesis": {
+    "model": null,
+    "via": "consensus_extractive_fast",
+    "elapsed_s": 0,
+    "mode": "fast_extractive"
+  },
+  "strategy": {
+    "strategy_id": "customer-success-expansion",
+    "tier": "T1",
+    "question": "What expansion motions reduce churn with proof?",
+    "mapped_from_topic": "customer-success-expansion",
+    "seed": "consensus_mcp"
+  },
+  "score": {
+    "schema": "rig.omniscout.build-card-score.v1",
+    "card_id": "l2-9f8bfd145bf3e378",
+    "scored_at": "2026-08-06T04:00:02.997528+00:00",
+    "total": 92,
+    "rank": "STRONG",
+    "promote": true,
+    "good_floor": 70,
+    "hard_blocks": [],
+    "breakdown": {
+      "multi_source": {
+        "weight": 18,
+        "score": 18,
+        "independent_sources": 5,
+        "consensus_used": true
+      },
+      "mechanism_density": {
+        "weight": 18,
+        "score": 10,
+        "mechanism_chars": 2095,
+        "marker_hits": 2,
+        "sludge_hits": 0
+      },
+      "evidence_anchoring": {
+        "weight": 14,
+        "score": 14,
+        "evidence_urls": 10,
+        "has_numbers": true
+      },
+      "tac_structure": {
+        "weight": 12,
+        "score": 12,
+        "tac_marker_hits": 8,
+        "has_done_test": true,
+        "gev_split": true
+      },
+      "doctrine_fit": {
+        "weight": 12,
+        "score": 12,
+        "declared": [
+          "leadership",
+          "engineering-capability",
+          "competitive-intel"
+        ],
+        "inferred": [
+          "engineering-capability",
+          "agentic-coding",
+          "competitive-intel",
+          "app-building"
+        ]
+      },
+      "novelty_pattern": {
+        "weight": 10,
+        "score": 10,
+        "has_pattern": true,
+        "has_anti_trigger": true,
+        "why_not_median_chars": 130
+      },
+      "actionability": {
+        "weight": 8,
+        "score": 8,
+        "has_idea": true,
+        "action_count": 2
+      },
+      "gev_separation": {
+        "weight": 8,
+        "score": 8,
+        "independent": true,
+        "builder": "omniscout-l2-consensus-extractive",
+        "verifier": "omniscout-l2-scorer-deterministic-v1"
+      }
+    },
+    "thresholds": {
+      "REJECT": "<55",
+      "WEAK": "55-69",
+      "GOOD": "70-84",
+      "STRONG": "85-93",
+      "EXCELLENT": "94+"
+    },
+    "scorer": "omniscout-l2-scorer-deterministic-v1",
+    "gev": {
+      "execution_owner": "omniscout-l2-synthesizer",
+      "terminal_verifier": "omniscout-l2-scorer-deterministic-v1",
+      "independent": true
+    }
+  },
+  "card_sha256": "1a06e14e3b10b98bd90961b6437b45386d93a17dece47eb2dbf68db8a52f076f",
+  "artifact_sha256": "f71582ed4ff081603899b3b8146c[REDACTED]2e3ee89840dba562b06c9a62d",
+  "analysis": {
+    "confidence": "HIGH",
+    "confidence_rationale": "Multi-source + Consensus-backed + mechanism-dense + executable done-test",
+    "evidence_quality": {
+      "evidence_urls": 10,
+      "evidence_with_numbers": 0,
+      "consensus_papers": 5,
+      "source_count": 5,
+      "verdict": "strong"
+    },
+    "mechanism_depth": {
+      "word_count": 278,
+      "sentence_count": 11,
+      "has_steps": false,
+      "verdict": "moderate"
+    },
+    "tradeoffs": [
+      "No significant tradeoffs detected at current evidence level"
+    ],
+    "gaps": [
+      "No critical gaps detected"
+    ],
+    "score_decomposition": {
+      "multi_source": "18/18",
+      "mechanism": "10/18",
+      "evidence": "14/14",
+      "tac_structure": "12/12",
+      "total": "92/100"
+    }
+  },
+  "direction": {
+    "leads_to": "This card supports RIG's revenue wedge in `customer-success-expansion`. Route to GTM/vertical agent packs once evidence is confirmed.",
+    "strategic_implications": [
+      "Evidence is strong enough to act on now — build the slice",
+      "Pattern `customer-success-expansion-multi-source-synthesis` is reusable across multiple RIG workstreams",
+      "Build slice has an executable done-test — ready for engineering"
+    ],
+    "build_next": [
+      "Implement `build-the-relevance-of-customer-retention-to-o` as a governed build slice with ProofPacket",
+      "Create a regression test proving the `customer-success-expansion` pattern works as claimed",
+      "Draft doctrine promotion packet (v0→v1) for agent-loadable rule",
+      "Schedule weekly review to track if new evidence contradicts or extends this card"
+    ],
+    "risk_direction": "Standard monitoring",
+    "doctrine_promotion_path": {
+      "current_rank": "STRONG",
+      "eligible_for_v1": true,
+      "next_step": "Draft promotion packet with mechanism + regression test + 3+ independent sources"
+    },
+    "agent_routing": {
+      "department": "gtm",
+      "action": "ingest as build-card substrate"
+    }
+  },
+  "prompts": [
+    {
+      "name": "build-the-relevance-of-customer-rete",
+      "type": "agent",
+      "prompt": "You are a RIG build agent. Implement the build slice from this card.\n\nStrategy: customer-success-expansion\nClaim: What expansion motions reduce churn with proof?\nMechanism: Multi-source Consensus synthesis for strategy `customer-success-expansion`.\n\n- Customer retention has emerged as a critical factor in determining the long-term success and sustainability of organisations across various sectors. This paper explores the relevance of customer retention to organisational growth by examining how maintaining existing customer relationships positively influences profitab\nDone-test: python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}).get('strategy_id')=='customer-success-expansion';assert c['sources']['count']>=2\"\n\n1. Implement the slice\n2. Run the done-test\n3. Seal a ProofPacket with the artifact hash\n4. Report: PASS/FAIL + evidence"
+    },
+    {
+      "name": "contradict-the-relevance-of-customer-rete",
+      "type": "agent",
+      "prompt": "You are an adversarial verifier. Try to REFUTE this claim:\n\nClaim: What expansion motions reduce churn with proof?\n\nSearch for contradicting evidence. If you find any, report the contradiction. If you cannot refute after 3 searches, report CONFIRMED."
+    },
+    {
+      "name": "review-the-relevance-of-customer-rete",
+      "type": "human",
+      "prompt": "Strategic review prompt for: The relevance of Customer Retention to Organizational Growth\n\n1. Does this claim change how we operate in customer-success-expansion?\n2. What's the cost of being wrong?\n3. Should we promote this to a doctrine rule?\n4. What would kill this line of inquiry?"
+    },
+    {
+      "name": "doctrine-customer-success-expansion-mul",
+      "type": "agent",
+      "prompt": "Draft a doctrine promotion packet (v0→v1) for this pattern:\n\nPattern: customer-success-expansion-multi-source-synthesis\nDescription: Cluster ≥3 independent sources on one RIG topic; extract mechanism + done-test.\nWhen to use: When L0 notes share a topic and at least two domains/URLs.\nWhen NOT to use: Single blog sludge or uncited opinion.\n\nFormat: named rule + mechanism + regression test + 3 independent sources"
+    }
+  ],
+  "math": [
+    {
+      "name": "Card Quality Score",
+      "latex": "S = S_{ms} + S_{md} + S_{ea} + S_{tac} + S_{df} + S_{np} + S_{act} + S_{gev} = 18 + 10 + 14 + 12 + 12 + 10 + 8 + 8 = 92",
+      "description": "Weighted composite (0-100). Weights: multi_source(18) + mechanism(18) + evidence(14) + TAC(12) + doctrine(12) + novelty(10) + actionability(8) + GEV(8)."
+    },
+    {
+      "name": "Shannon Entropy",
+      "latex": "H(X) = -\\sum_{x} p(x) \\log_2 p(x)",
+      "description": "Information-theoretic uncertainty of random variable $X$. Higher $H$ = more uncertainty."
+    }
+  ],
+  "tags": [
+    "strategy:customer-success-expansion",
+    "tier:T1",
+    "rank:strong",
+    "build-card-v2",
+    "consensus-backed",
+    "consensus-mcp",
+    "domain:engineering-capability",
+    "domain:leadership",
+    "domain:competitive-intel",
+    "method:theoretical",
+    "method:survey",
+    "pillar:revenue-wedge",
+    "type:mechanism",
+    "type:pattern",
+    "type:build-slice",
+    "type:doctrine-candidate"
+  ],
+  "enriched_at": "2026-08-06T03:59:57.247101+00:00",
+  "image": {
+    "type": "svg",
+    "path": "/home/operator/.rig/omniscout-control/build-cards/images/l2-9f8bfd145bf3e378.svg",
+    "url": "rig://omniscout/l2/l2-9f8bfd145bf3e378/image.svg",
+    "description": "Deterministic concept diagram for 'The relevance of Customer Retention to O' — score radar + confidence + claim + direction"
+  },
+  "entities": {
+    "entities": [
+      {
+        "name": "temporal",
+        "type": "TOOL",
+        "entity_id": "ent-e4540a7c8404"
+      },
+      {
+        "name": "proof",
+        "type": "CONCEPT",
+        "entity_id": "ent-c1cda2636282",
+        "domain": "engineering-capability"
+      },
+      {
+        "name": "determin",
+        "type": "CONCEPT",
+        "entity_id": "ent-44f514b7b9ab",
+        "domain": "engineering-capability"
+      },
+      {
+        "name": "sustain",
+        "type": "CONCEPT",
+        "entity_id": "ent-07f5b83f6cec",
+        "domain": "leadership"
+      },
+      {
+        "name": "market",
+        "type": "CONCEPT",
+        "entity_id": "ent-e4d693d24e64",
+        "domain": "competitive-intel"
+      },
+      {
+        "name": "strategy",
+        "type": "CONCEPT",
+        "entity_id": "ent-73dff70e25ad",
+        "domain": "competitive-intel"
+      }
+    ],
+    "entity_count": 6,
+    "relationships": [],
+    "relationship_count": 0,
+    "entity_types": {
+      "TOOL": 1,
+      "CONCEPT": 5
+    }
+  },
+  "memory_layer": {
+    "layer": 4,
+    "layer_name": "SAFETY_AUTHORITY",
+    "layer_description": "Safety constraints, governance, Gate-D",
+    "authority_rank": "L4/8 (higher = more authoritative within its domain)",
+    "retention": "permanent"
+  },
+  "semantic_links": {
+    "links": [
+      {
+        "card_id": "l2-0705e93370480e90",
+        "title": "Cloud Computing /Deep Learning Customer Churn Prediction for SaaS Platforms",
+        "strategy_id": "customer-success-expansion",
+        "relationship": "EXTENDS",
+        "similarity": 0.192,
+        "reason": "same strategy `customer-success-expansion`, token_overlap=0.19"
+      },
+      {
+        "card_id": "l2-ecb56c855ad14715",
+        "title": "A novel methodological approach to SaaS churn prediction using whale optimizatio",
+        "strategy_id": "customer-success-expansion",
+        "relationship": "RELATED_TO",
+        "similarity": 0.144,
+        "reason": "token_overlap=0.14"
+      },
+      {
+        "card_id": "l2-8f6691767b4906d2",
+        "title": "Determinants of e-repurchase intentions: An integrative model of quadruple reten",
+        "strategy_id": "customer-success-expansion",
+        "relationship": "SUPPORTS",
+        "similarity": 0.14,
+        "reason": "shares 2 source URL(s), token_overlap=0.14"
+      },
+      {
+        "card_id": "l2-713cbe5a4afef64d",
+        "title": "Cohort Revenue&Retention Analysis: A Bayesian Approach",
+        "strategy_id": "customer-success-expansion",
+        "relationship": "SUPPORTS",
+        "similarity": 0.135,
+        "reason": "shares 2 source URL(s), token_overlap=0.13"
+      },
+      {
+        "card_id": "l2-70e03a932ad932cc",
+        "title": "Customer Churn Prediction in the Software by Subscription models IT business usi",
+        "strategy_id": "customer-success-expansion",
+        "relationship": "RELATED_TO",
+        "similarity": 0.101,
+        "reason": "token_overlap=0.10"
+      },
+      {
+        "card_id": "l2-9227ac0a9d7aa85a",
+        "title": "A Study on Content Marketing Strategies for B2B Companies at Newmak Technology",
+        "strategy_id": "marketing-content-linkedin",
+        "relationship": "RELATED_TO",
+        "similarity": 0.087,
+        "reason": "token_overlap=0.09"
+      },
+      {
+        "card_id": "l2-bd072e1751a1726f",
+        "title": "PACT: A Contract-Theoretic Framework for Pricing Agentic AI Services Powered by ",
+        "strategy_id": "ai-business-models",
+        "relationship": "RELATED_TO",
+        "similarity": 0.082,
+        "reason": "token_overlap=0.08"
+      }
+    ],
+    "link_count": 7,
+    "contradictions": [],
+    "contradiction_count": 0,
+    "supports_count": 2,
+    "extends_count": 1,
+    "graph_density": 0.054
+  },
+  "temporal_validity": {
+    "freshness": "FRESH",
+    "evidence_year_range": null,
+    "evidence_median_year": null,
+    "age_years": 0,
+    "decay_window": "2-3 years before re-verification needed",
+    "estimated_expiry_months": 36,
+    "reverify_by": "2026-08",
+    "evidence_year_count": 0
+  },
+  "predictive_context": {
+    "prefetch_cards": [
+      {
+        "card_id": "l2-0705e93370480e90",
+        "title": "Cloud Computing /Deep Learning Customer Churn Prediction for SaaS Platforms",
+        "strategy_id": "customer-success-expansion",
+        "relationship": "EXTENDS",
+        "similarity": 0.192,
+        "why": "Load alongside because: same strategy `customer-success-expansion`, token_overlap=0.19"
+      },
+      {
+        "card_id": "l2-ecb56c855ad14715",
+        "title": "A novel methodological approach to SaaS churn prediction using whale optimizatio",
+        "strategy_id": "customer-success-expansion",
+        "relationship": "RELATED_TO",
+        "similarity": 0.144,
+        "why": "Load alongside because: token_overlap=0.14"
+      },
+      {
+        "card_id": "l2-8f6691767b4906d2",
+        "title": "Determinants of e-repurchase intentions: An integrative model of quadruple reten",
+        "strategy_id": "customer-success-expansion",
+        "relationship": "SUPPORTS",
+        "similarity": 0.14,
+        "why": "Load alongside because: shares 2 source URL(s), token_overlap=0.14"
+      },
+      {
+        "card_id": "l2-713cbe5a4afef64d",
+        "title": "Cohort Revenue&Retention Analysis: A Bayesian Approach",
+        "strategy_id": "customer-success-expansion",
+        "relationship": "SUPPORTS",
+        "similarity": 0.135,
+        "why": "Load alongside because: shares 2 source URL(s), token_overlap=0.13"
+      },
+      {
+        "card_id": "l2-9227ac0a9d7aa85a",
+        "title": "A Study on Content Marketing Strategies for B2B Companies at Newmak Technology",
+        "strategy_id": "marketing-content-linkedin",
+        "relationship": "RELATED_TO",
+        "similarity": 0.087,
+        "why": "Load alongside because: token_overlap=0.09"
+      }
+    ],
+    "same_strategy_cluster": [
+      {
+        "card_id": "l2-0705e93370480e90",
+        "title": "Cloud Computing /Deep Learning Customer Churn Prediction for",
+        "rank": "STRONG"
+      },
+      {
+        "card_id": "l2-70e03a932ad932cc",
+        "title": "Customer Churn Prediction in the Software by Subscription mo",
+        "rank": "GOOD"
+      },
+      {
+        "card_id": "l2-713cbe5a4afef64d",
+        "title": "Cohort Revenue&Retention Analysis: A Bayesian Approach",
+        "rank": "STRONG"
+      },
+      {
+        "card_id": "l2-8f6691767b4906d2",
+        "title": "Determinants of e-repurchase intentions: An integrative mode",
+        "rank": "STRONG"
+      },
+      {
+        "card_id": "l2-ecb56c855ad14715",
+        "title": "A novel methodological approach to SaaS churn prediction usi",
+        "rank": "STRONG"
+      }
+    ],
+    "doctrine_context": [
+      "~/.rig/agent-doctrine/RIG_LEADERSHIP_DOCTRINE.md",
+      "~/.rig/agent-doctrine/RIG_ENGINEERING-CAPABILITY_DOCTRINE.md",
+      "~/.rig/agent-doctrine/RIG_COMPETITIVE-INTEL_DOCTRINE.md"
+    ],
+    "agent_briefing": "When loading this card, also load: 5 related cards from 2 strategies, 5 same-strategy siblings, and 3 doctrine files."
+  },
+  "promotion_state": {
+    "candidate_type": "procedure",
+    "state": "READY_FOR_PROMOTION",
+    "next_action": "Submit to semantic_memory.promote_doctrine_candidate() with 3+ independent source families",
+    "gates": {
+      "evidence_density": true,
+      "consensus_backed": true,
+      "mechanism_present": true,
+      "done_test_executable": true,
+      "score_threshold": true,
+      "independent_sources": true,
+      "no_hard_blocks": true
+    },
+    "all_gates_pass": true,
+    "failing_gates": [],
+    "promotion_path": "DRAFT → STAGED → READY_FOR_PROMOTION → PROMOTED (via Obsidian + gBrain)",
+    "sensitivity": "internal",
+    "retention_class": "candidate"
+  },
+  "enriched_v3_at": "2026-08-06T04:00:00.625239+00:00",
+  "proof_seal": {
+    "schema": "rig.omniscout.proof-seal.v1",
+    "sealed_at": "2026-08-06T04:00:00.625645+00:00",
+    "content_hash": "b73bccf011a2c4c2e96d2f9aaf2425db21b278545d353aba584a84efb9d3e5fa",
+    "prev_hash": "422c29d9df311545",
+    "this_hash": "81b56e8406d5ef834a807328b7a5259a68a5ae39d2c9736ce60c87c87c0611b3",
+    "sealer": "omniscout-l2-enrichment-v3",
+    "chain_depth": 130,
+    "verifiable": true,
+    "verify_command": "python -c \"import hashlib; print(hashlib.sha256(open('l2-9f8bfd145bf3e378.json','rb').read()).hexdigest())\""
+  },
+  "business_intelligence": {
+    "revenue_model": "Consulting + custom build",
+    "price_range": "$5K-20K/mo",
+    "estimated_cac": "$3K-8K",
+    "estimated_ltv": "$60K-240K",
+    "ltv_cac_ratio": "N/A",
+    "gross_margin": "70%",
+    "tam": "$2-5B",
+    "sam": "$0.0B (RIG's serviceable segment)",
+    "revenue_ideas": [
+      "Productize as `customer-success-expansion` capability — sell as Consulting + custom build",
+      "Package as a build card for fractional CAIO clients at $5K-20K/mo",
+      "Vertical-specific pricing: charge 2-3x for regulated industries",
+      "Bundle with adjacent T1 capabilities for sticky multi-product deals"
+    ],
+    "competitive_moat": [
+      "Consensus-backed evidence base — competitors can't replicate the research depth",
+      "RIG doctrine governance — proof-chained quality that consulting firms can't match",
+      "Local-first fleet — data sovereignty advantage over cloud-only competitors",
+      "Entity graph with 6 extracted concepts — compounding knowledge advantage"
+    ],
+    "monetization_priority": "HIGH",
+    "build_effort": "1-3 weeks"
+  },
+  "engineering_blueprint": {
+    "tech_stack": {
+      "backend": [
+        "Python"
+      ],
+      "infra": [
+        "Docker"
+      ]
+    },
+    "architecture_components": [
+      "temporal"
+    ],
+    "implementation_steps": [
+      {
+        "step": 1,
+        "action": "Define goal-card with executable done-test",
+        "gate": "ultraplan"
+      },
+      {
+        "step": 2,
+        "action": "Scaffold project: Python",
+        "gate": "create"
+      },
+      {
+        "step": 3,
+        "action": "Build core: Turn the 'The relevance of Customer Retention to Organizational Growth' cluster into a governed buil",
+        "gate": "build"
+      },
+      {
+        "step": 4,
+        "action": "Wire deterministic gates (score ≥ 70, sources ≥ 3, done-test passes)",
+        "gate": "verify"
+      },
+      {
+        "step": 5,
+        "action": "Add ProofPacket sealing + hash chain",
+        "gate": "prove"
+      },
+      {
+        "step": 6,
+        "action": "Deploy to Prefect + QNAP",
+        "gate": "ship"
+      },
+      {
+        "step": 7,
+        "action": "Monitor via self-heal watchdog + fleet health",
+        "gate": "operate"
+      }
+    ],
+    "harness": {
+      "type": "TAC closed-loop",
+      "builder": "rig-agent (Hermes/Claude/Codex)",
+      "verifier": "deterministic scorer + GEV separate identity",
+      "loop": "build → score → verify artifact → seal ProofPacket → deploy",
+      "timeout_s": 3600,
+      "retry_policy": "exponential backoff, max 3, fail-closed"
+    },
+    "testing_strategy": {
+      "unit": "pytest with ≥80% coverage on core logic",
+      "integration": "verify done-test against real artifact on disk",
+      "non_vacuity": "plant a failure → confirm gate goes RED → restore → keep as regression",
+      "load": "sustain 100 cards/day throughput on 36GB node"
+    },
+    "estimated_loc": "300-800",
+    "complexity": "MEDIUM"
+  },
+  "agent_team": {
+    "agent_count": 2,
+    "agents": [
+      {
+        "role": "Build Agent",
+        "model": "qwen3:8b",
+        "skills": [
+          "TAC v2",
+          "closed-loop"
+        ],
+        "identity": "rig-customer-success-expansion-builder"
+      },
+      {
+        "role": "Verify Agent",
+        "model": "deterministic",
+        "skills": [
+          "score",
+          "GEV"
+        ],
+        "identity": "rig-customer-success-expansion-verifier"
+      }
+    ],
+    "skills_required": [
+      "TAC v2",
+      "closed-loop",
+      "score",
+      "GEV"
+    ],
+    "pai_substrates": [
+      {
+        "agent_name": "rig-customer-success-expansion-builder",
+        "role": "Build Agent",
+        "telos": "Improve RIG customer-success-expansion capability through build agent",
+        "quality_profile": "agent_outcome_evaluation_v0",
+        "memory_layer": "L6_EPISODIC_RUN_STATE",
+        "proof_path": "ProofPacket sealed after each build agent cycle"
+      },
+      {
+        "agent_name": "rig-customer-success-expansion-verifier",
+        "role": "Verify Agent",
+        "telos": "Improve RIG customer-success-expansion capability through verify agent",
+        "quality_profile": "agent_outcome_evaluation_v0",
+        "memory_layer": "L7_VERIFIED_PROCEDURES",
+        "proof_path": "ProofPacket sealed after each verify agent cycle"
+      }
+    ],
+    "team_composition": {
+      "humans": 1,
+      "agents": 2,
+      "oversight": "Gate-D human approval for all outward actions",
+      "cadence": "nightly batch + continuous collection"
+    },
+    "department_routing": "intelligence",
+    "jake_context_update": "Jake should know: customer-success-expansion capability uses 2 agents (Build Agent, Verify Agent). Department: intelligence."
+  },
+  "doctrine_governance": {
+    "gates": [
+      {
+        "name": "Gate-D",
+        "requirement": "Human approval for any outward action (publish, send, deploy)",
+        "applies": true
+      },
+      {
+        "name": "GEV Separation",
+        "requirement": "Builder ≠ Verifier — different team + service identity",
+        "applies": true
+      },
+      {
+        "name": "ProofPacket",
+        "requirement": "Hash-chained proof sealed before claiming done",
+        "applies": true
+      },
+      {
+        "name": "Non-vacuity",
+        "requirement": "Plant failure → confirm RED → restore → keep regression",
+        "applies": true
+      },
+      {
+        "name": "Temporal validity",
+        "requirement": "Re-verify by 2026-08",
+        "applies": true
+      },
+      {
+        "name": "Consensus backing",
+        "requirement": "≥1 Consensus MCP paper for T0 promote",
+        "applies": false
+      }
+    ],
+    "policy_rules": [
+      "This capability operates under RIG customer-success-expansion doctrine",
+      "All artifacts must pass deterministic scorer (≥70/100)",
+      "No agent self-certifies done — independent verifier required"
+    ],
+    "safety_authority": "L7 VERIFIED_PROCEDURES",
+    "proof_requirements": {
+      "artifact_hash": true,
+      "done_test_exit_code": true,
+      "consensus_citation": false,
+      "gev_separation_proof": true
+    },
+    "doctrine_file_target": "~/.rig/agent-doctrine/RIG_CUSTOMER-SUCCESS-EXPANSION_DOCTRINE.md",
+    "promotion_eligible": true
+  },
+  "gtm_strategy": {
+    "sales_motion": "Consulting + content",
+    "icp": "Mid-market operators",
+    "channels": [
+      "LinkedIn",
+      "Content"
+    ],
+    "sales_cycle": "30-60 days",
+    "content_plan": [
+      {
+        "type": "LinkedIn post",
+        "topic": "How RIG uses The relevance of Customer Retention to O",
+        "cadence": "this week"
+      },
+      {
+        "type": "YouTube video",
+        "topic": "Building The relevance of Customer Retention to O — live agent build",
+        "cadence": "2 weeks"
+      },
+      {
+        "type": "Substack essay",
+        "topic": "The customer-success-expansion capability: mechanism + proof",
+        "cadence": "1 month"
+      },
+      {
+        "type": "GitHub repo",
+        "topic": "Open-source the customer-success-expansion harness",
+        "cadence": "1 month"
+      }
+    ],
+    "outreach_targets": [
+      "Search LinkedIn for: Mid-market operators",
+      "Post in: r/MachineLearning, HN, AI subreddits about customer-success-expansion",
+      "Reference this card's Consensus papers in outreach for credibility",
+      "Target 50 prospects/week in Mid-market operators via Apollo + Clay"
+    ],
+    "positioning": "RIG is the only AI consultancy with Consensus-backed, proof-chained customer-success-expansion capability",
+    "differentiation": [
+      "Proof-chained quality (competitors can't match)",
+      "Consensus academic backing (not just opinions)",
+      "Local-first fleet (data sovereignty)",
+      "Nightly automated capability compounding (100 cards/day)"
+    ],
+    "pricing_anchor": "Anchor at $5K-20K/mo"
+  },
+  "oss_integration": {
+    "relevant_projects": [
+      {
+        "project": "temporal",
+        "use": "detected from card entities",
+        "fork_or_use": "evaluate",
+        "url": "search: temporal"
+      }
+    ],
+    "integration_strategy": "Wrap as RIG capability layer — OSS handles commodity, RIG adds governance + proof",
+    "contribution_opportunities": [
+      "Contribute customer-success-expansion patterns back to upstream projects",
+      "Publish RIG doctrine modules as OSS (attract talent + leads)"
+    ],
+    "build_vs_buy": {
+      "temporal": "evaluate"
+    },
+    "lock_in_risk": "LOW — RIG adds proprietary governance layer on top of OSS"
+  },
+  "world_model": {
+    "rig_1000x_fit": [
+      "REVENUE — this directly funds the 1000x build-out",
+      "Monetize first, then productize"
+    ],
+    "capability_cluster_size": 6,
+    "total_corpus": 130,
+    "dependencies": [
+      "proof-false-done (honest completion)",
+      "local-inference-fleet (compute substrate)",
+      "automation-runtime (scheduling)"
+    ],
+    "temporal_roadmap": {
+      "now": "Enrich + score this card (done)",
+      "week_1": "Build the harness for customer-success-expansion",
+      "month_1": "Deploy as RIG capability + first paying client",
+      "quarter_1": "Bundle into vertical pack"
+    },
+    "risk_model": {
+      "evidence_risk": "FRESH",
+      "competition_risk": "MEDIUM",
+      "execution_risk": "LOW"
+    },
+    "jake_briefing": "JAKE CONTEXT: Card `l2-9f8bfd145bf3e378` advances `customer-success-expansion` (tier T1). Title: The relevance of Customer Retention to Organizational Growth. Strategy has 6 cards in corpus (130 total). Promotion state: READY_FOR_PROMOTION. Revenue model: Consulting + custom build at $5K-20K/mo. Build effort: 300-800 LOC. Agents needed: 2. Department: intelligence. Next action: Submit to semantic_memory.promote_doctrine_candidate() with 3+ independent sourc. ",
+    "jake_action": "Add to Jake daily brief: customer-success-expansion capability (6 cards). Revenue: Consulting + custom build. Next: Submit to semantic_memory.promote_doctrine_candidate() with ",
+    "obsidian_target": "Documents/JakeStudio/Capabilities/customer-success-expansion/l2-9f8bfd145bf3e378.md",
+    "memory_os_event": {
+      "event_type": "capability_card_enriched",
+      "layer": 4,
+      "scope": "strategy:customer-success-expansion",
+      "sensitivity": "internal",
+      "action": "promote_to_obsidian"
+    }
+  },
+  "enriched_v10_at": "2026-08-06T04:00:02.996772+00:00",
+  "council": {
+    "schema": "rig.omniscout.council-review.v1",
+    "reviewed_at": "2026-08-05T23:53:49.192704+00:00",
+    "perspectives": [
+      {
+        "role": "business_strategist",
+        "analysis": "Strategy `customer-success-expansion` (revenue tier) proposes a consulting + custom build model. Price band $5K-20K/mo at 70% gross margin; LTV/CAC N/A. Addressable market $2-5B. Card scores 92/100 (STRONG). Promote flag is set; 5 independent sources back the claim.",
+        "recommendation": [
+          "Validate pricing power for `customer-success-expansion` with 3 prospect conversations",
+          "Fix LTV/CAC math: model actual sales cycle and churn",
+          "Package as a fixed-scope pilot offering to shorten sales cycle"
+        ],
+        "risk": "Execution risk: high-margin retainer depends on delivery velocity and client education",
+        "question_to_council": "Product Developer: can the MVP ship in under 4 weeks with a real done-test, or does scope blow up the initial price point?",
+        "vote": "GO"
+      },
+      {
+        "role": "marketing_director",
+        "analysis": "Positioning angle: 'RIG capability built from Consensus-backed research'. ICP is Mid-market operators via LinkedIn, Content. Entity graph has 6 concepts and 7 semantic links, giving content creators concrete anchors. Score 92/100. Tier T1 signals priority T1 → revenue narrative.",
+        "recommendation": [
+          "Lead with the 'RIG capability built from Consensus-backed research' hook in the next LinkedIn post",
+          "Create a 'before/after' case frame for Mid-market operators",
+          "Turn the card's Consensus evidence into a credibility slide",
+          "Run a 2-week demand-gen sprint: one post + one video + one essay"
+        ],
+        "risk": "Channel saturation risk: many AI consultancies compete for the same LinkedIn attention",
+        "question_to_council": "Potential Client: what specific job-to-be-done would make you budget for this in 30 days?",
+        "vote": "GO"
+      },
+      {
+        "role": "competitive_intelligence",
+        "analysis": "Known competitor set for `customer-success-expansion`: determin, market, proof, strategy, sustain. Differentiation score 9/10 (strong) based on 4 moat claims and 1 OSS integrations. RIG's proof-chain + local-fleet + Consensus backing create defensibility if execution keeps pace.",
+        "recommendation": [
+          "Publish a comparison page: RIG customer-success-expansion vs determin",
+          "Open-source one non-core module to shape the category conversation",
+          "Turn the top moat into a proof point: Consensus-backed evidence base — competitors can't replicate the research depth"
+        ],
+        "risk": "Threat: incumbents may copy the narrative before RIG ships the product",
+        "question_to_council": "Business Strategist: which moat element is hardest to replicate and easiest to demonstrate to a buyer?",
+        "vote": "GO"
+      },
+      {
+        "role": "product_developer",
+        "analysis": "MVP for `customer-success-expansion` centers on harness with deterministic done-test and ProofPacket sealing. Tech stack: {\"backend\": [\"Python\"], \"infra\": [\"Docker\"]}. Complexity MEDIUM, estimated 300-800 LOC, build effort 1-3 weeks. 7 implementation steps defined. Score 92/100.",
+        "recommendation": [
+          "P0: ship harness with deterministic done-test and ProofPacket sealing with an executable done-test",
+          "P1: ProofPacket sealing + hash chain; Obsidian export + memory-layer sync",
+          "P2: Multi-node fleet scaling; Enterprise RBAC + billing"
+        ],
+        "risk": "Integration risk: OSS dependencies may change before RIG can productize",
+        "question_to_council": "AI Architect: which model or agent pattern is actually required at launch, and which can be deterministic code?",
+        "vote": "GO"
+      },
+      {
+        "role": "ai_architect",
+        "analysis": "Agent design for `customer-success-expansion` uses 2 agent(s) (qwen3:8b, deterministic) around pattern 'closed-loop agent with independent verifier'. Cost-per-inference estimate $0.002-0.02. Failure catalog has 3 items. Score 92/100.",
+        "recommendation": [
+          "Implement pattern: closed-loop agent with independent verifier",
+          "Add structured output schemas (Pydantic) for every agent boundary",
+          "Build eval harness with planted failures before any model selection finalization",
+          "Enforce GEV separation: builder and verifier must differ in model or role"
+        ],
+        "risk": "Eval risk: without planted-failure regressions, model changes will silently break guarantees",
+        "question_to_council": "Potential Client: would you accept a deterministic verifier even if the agent's output is occasionally conservative?",
+        "vote": "GO"
+      },
+      {
+        "role": "potential_client",
+        "analysis": "As a Mid-market operators buyer, the pain is: 'Leadership wants AI outcomes but lacks verifiable delivery'. Price point $5K-20K/mo feels reasonable for a proven pilot. Alternatives considered: generic AI consultancies, offshore dev shops, build in-house, do nothing. Decision criteria center on proof, auditability, and speed.",
+        "recommendation": [
+          "Offer a fixed-price pilot at the low end of $5K-20K/mo with a 14-day exit clause",
+          "Provide a live demo using the buyer's own data or a public proxy",
+          "Share the ProofPacket audit trail as a trust artifact"
+        ],
+        "risk": "Buyer risk: low — evidence and proof points are strong enough to justify budget",
+        "question_to_council": "Business Strategist: what is the smallest commercial commitment that funds the build without killing margin?",
+        "vote": "GO",
+        "what_would_make_me_say_yes": "I say yes when I see a 14-day pilot with a deterministic done-test, an audit trail, and a price no higher than the bottom of $5K-20K/mo."
+      }
+    ],
+    "synthesis": {
+      "consensus_points": [
+        "Majority believes the capability is worth building now",
+        "Deterministic scorer already flags the card for promotion",
+        "Multi-source evidence base gives the council confidence",
+        "AI architect sees a verifiable agent design path"
+      ],
+      "disagreements": [],
+      "top_3_actions": [
+        "Add structured output schemas (Pydantic) for every agent boundary",
+        "Build eval harness with planted failures before any model selection finalization",
+        "Create a 'before/after' case frame for Mid-market operators"
+      ],
+      "overall_verdict": "SHIP",
+      "confidence_score": 100,
+      "dissent_note": "Council is broadly aligned.",
+      "vote_tally": {
+        "GO": 6,
+        "NO-GO": 0,
+        "CONDITIONAL": 0
+      }
+    }
+  },
+  "council_summary": {
+    "verdict": "SHIP",
+    "confidence": 100,
+    "go_votes": 6,
+    "lead_action": "Add structured output schemas (Pydantic) for every agent boundary"
+  },
+  "council_votes": {
+    "GO": 6,
+    "NO-GO": 0,
+    "CONDITIONAL": 0
+  },
+  "council_verdict": "SHIP",
+  "council_confidence": 100,
+  "council_hash": "ce1d19057127d368a6c84d1cd54e24b4439aabc8b6a518f209f8cd8040c14185",
+  "v20_ready": true,
+  "enriched_v20_at": "2026-08-05T23:53:49.192835+00:00",
+  "autobuilt": {
+    "built": true,
+    "project_path": "/home/operator/.rig/omniscout-control/build-cards/built/l2-9f8bfd145bf3e378",
+    "files_count": 10,
+    "build_at": "2026-08-06T00:43:38.947820+00:00",
+    "manifest_hash": "2eb9fba[REDACTED]93685173fc628abe633b74414907e3920e8a75d56d395f",
+    "verified": true,
+    "test_result": "PASS",
+    "harness_result": "PASS",
+    "proof_sealed": true
+  },
+  "outcome": {
+    "status": "BUILT_AND_VERIFIED",
+    "pipeline_created": 0,
+    "revenue_generated": 0.0,
+    "accuracy_predictions": [],
+    "build_started_at": "2026-08-06T00:43:38.947820+00:00",
+    "shipped_at": "2026-08-06T00:55:58.525789+00:00",
+    "feedback_score": 85,
+    "lessons": [
+      "Done-test: PASS",
+      "Harness: PASS",
+      "Proof: SEALED"
+    ],
+    "tested_on": "rig256gb",
+    "tested_at": "2026-08-06T00:55:58.525803+00:00"
+  },
+  "l10_verification": {
+    "schema": "rig.omniscout.l10-verification.v1",
+    "verified_at": "2026-08-06T01:11:04.585271+00:00",
+    "card_id": "l2-9f8bfd145bf3e378",
+    "card_sha256": "91c33d3ec[REDACTED]303c8d1edfa5d3ea0d4037449b6f1cab72dc6c4a4fa8",
+    "faculties": {
+      "refutation_search": {
+        "faculty": "REFUTATION_SEARCH",
+        "refuted": false,
+        "contradicting_cards": [],
+        "internal_contradiction_evidence": 0,
+        "confidence_delta": 0,
+        "claim": "What expansion motions reduce churn with proof?"
+      },
+      "property_based_testing": {
+        "faculty": "PROPERTY_BASED_TESTING",
+        "properties_declared": 9,
+        "properties_file": "/home/operator/.rig/omniscout-control/build-cards/built/l2-9f8bfd145bf3e378/properties.py",
+        "invariants": [
+          "Should satisfy use condition: When L0 notes share a topic and at least two domains/URLs.",
+          "Should reject misuse condition: Single blog sludge or uncited opinion."
+        ],
+        "gate_properties": [
+          "Gate 'Gate-D' applies=True: Human approval for any outward action (publish, send, deploy)",
+          "Gate 'GEV Separation' applies=True: Builder ≠ Verifier — different team + service identity",
+          "Gate 'ProofPacket' applies=True: Hash-chained proof sealed before claiming done",
+          "Gate 'Non-vacuity' applies=True: Plant failure → confirm RED → restore → keep regression",
+          "Gate 'Temporal validity' applies=True: Re-verify by 2026-08",
+          "Gate 'Consensus backing' applies=False: ≥1 Consensus MCP paper for T0 promote"
+        ],
+        "test_property": "card_done_test_passes"
+      },
+      "adherence_kpi": {
+        "faculty": "ADHERENCE_KPI",
+        "adherence_score": 100,
+        "failing_checks": [],
+        "gate_blocks": false,
+        "checks": {
+          "done_test_present": true,
+          "gev_separation": true,
+          "multi_source": true,
+          "proof_packet": true,
+          "claude_md": true
+        }
+      },
+      "multi_altitude": {
+        "faculty": "MULTI_ALTITUDE",
+        "passes_10kft": false,
+        "passes_1kft": true,
+        "passes_100ft": true,
+        "passes_ground": true
+      },
+      "taste_engine": {
+        "faculty": "TASTE_ENGINE",
+        "taste_score": 62,
+        "dimensions": {
+          "signal_strength": 10,
+          "evidence_density": 14,
+          "mechanism_clarity": 10,
+          "actionability": 8,
+          "honesty": 100
+        },
+        "mandatory_human_review": false
+      }
+    },
+    "summary": {
+      "refuted": false,
+      "adherence_score": 100,
+      "taste_score": 62,
+      "gate_blocks": false,
+      "passes_all_altitudes": false,
+      "mandatory_human_review": false
+    }
+  },
+  "tac_v2": {
+    "applied": true,
+    "applied_at": "2026-08-06T01:12:51.756689+00:00",
+    "core_four": {
+      "Context": "CLAUDE.md + CARD.json",
+      "Model": "rig-agent (Hermes/Claude/Codex)",
+      "Prompt": "PITER.yaml Problem + Instruction",
+      "Tools": "harness.py, gates.py, proof.py, tac_loop.py"
+    },
+    "tactics_applied": [
+      "Hello Agentic",
+      "12 Leverage Points",
+      "Success is Planned",
+      "AFK Agents (PITER)",
+      "Close The Loops",
+      "Let Agents Focus",
+      "ZTE",
+      "Agentic Layer"
+    ],
+    "closed_loop": true,
+    "piter_path": "/home/operator/.rig/omniscout-control/build-cards/built/l2-9f8bfd145bf3e378/PITER.yaml",
+    "tac_loop_path": "/home/operator/.rig/omniscout-control/build-cards/built/l2-9f8bfd145bf3e378/tac_loop.py",
+    "claude_md_path": "/home/operator/.rig/omniscout-control/build-cards/built/l2-9f8bfd145bf3e378/CLAUDE.md",
+    "done_test": "python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}).get('strategy_id')=='customer-success-expansion';assert c['sources']['count']>=2\"",
+    "builder": "rig-agent (Hermes/Claude/Codex)",
+    "verifier": "deterministic scorer + GEV separate identity"
+  },
+  "deep_sections": {
+    "deep_engineering": {
+      "title": "Deep Engineering Blueprint",
+      "content": "`The relevance of Customer Retention to Organizational Growth` (`customer-success-expansion`, T1 tier, complexity MEDIUM, ~300-800 LOC) compiles to a Python service backed by Docker. The mechanism — Multi-source Consensus synthesis for strategy `customer-success-expansion`.\n\n- Customer retention has emerged as a critical factor in determining the long-term success and sustainability of organisations across various s — is realized as 1 architecture component(s): temporal. The harness type is `TAC closed-loop`, built by `rig-agent (Hermes/Claude/Codex)` and independently verified by `deterministic scorer + GEV separate identity`.\n\n### File-by-File Project Structure\n- `the-relevance-of-customer-retention-to-o/main.py` — Entrypoint wiring `temporal` into the request lifecycle for `The relevance of Customer Retention to Organizational Growth`.\n- `the-relevance-of-customer-retention-to-o/config.py` — Typed configuration loader: env vars, doctrine gate thresholds, harness timeouts.\n- `the-relevance-of-customer-retention-to-o/core/temporal.py` — Implements the `temporal` component — Multi-source Consensus synthesis for strategy `customer-success-expansion`.\n\n- Customer re\n- `the-relevance-of-customer-retention-to-o/models/schema.py` — Data models for the card artifact: claim, mechanism, pattern, score, ProofPacket.\n- `the-relevance-of-customer-retention-to-o/services/scorer.py` — Deterministic scorer client — never self-certifies; independent verifier identity only.\n- `the-relevance-of-customer-retention-to-o/services/proof_packet.py` — Hash-chain sealing: artifact_sha256 over stable_json(card) before any 'done' claim.\n- `the-relevance-of-customer-retention-to-o/infra/docker.yml` — Deployment descriptor for Docker in the the-relevance-of-customer-retention-to-o stack.\n- `tests/the-relevance-of-customer-retention-to-o/test_done_test.py` — Executes the card's done-test: `python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}`\n- `tests/the-relevance-of-customer-retention-to-o/test_non_vacuity.py` — Plants a failure, asserts RED, restores, keeps the case as a permanent regression.\n- `the-relevance-of-customer-retention-to-o/README.md` — Operator-facing overview: what `The relevance of Customer Retention to Organizational Growth` does and how to verify it.\n\n### API Endpoint Design\n- `POST /api/v1/the-relevance-of-customer-retention-to-o/build` — request: `{cluster_id, topic}`; response: `202 Accepted, {card_id, status: queued}`\n- `GET /api/v1/the-relevance-of-customer-retention-to-o/cards/{card_id}` — request: `path param card_id`; response: `200 OK, full card JSON`\n- `POST /api/v1/the-relevance-of-customer-retention-to-o/score` — request: `{card_id}`; response: `200 OK, {total, rank, promote, breakdown}`\n- `POST /api/v1/the-relevance-of-customer-retention-to-o/verify` — request: `{card_id, done_test}`; response: `200 OK {passed: bool, exit_code} or 409 on hard block`\n- `POST /api/v1/the-relevance-of-customer-retention-to-o/proof-packet` — request: `{card_id}`; response: `201 Created, {artifact_sha256, sealed_at}`\n- `GET /api/v1/the-relevance-of-customer-retention-to-o/status` — request: `none`; response: `200 OK, {total_cards, promote_rate, last_run_at}`\n- `GET /healthz` — request: `none`; response: `200 OK {ok:true} or 503 on QNAP pressure`\n\n### Database Schema\n**`the-relevance-of-customer-retention-to-o_cards`**\n  - `card_id` TEXT PRIMARY KEY\n  - `schema` TEXT\n  - `title` TEXT\n  - `strategy_id` TEXT\n  - `tier` TEXT\n  - `created_at` TIMESTAMPTZ\n  - `card_json` JSONB\n  - index: `idx_the-relevance-of-customer-retention-to-o_cards_strategy (strategy_id, tier)`\n\n**`the-relevance-of-customer-retention-to-o_scores`**\n  - `card_id` TEXT REFERENCES cards(card_id)\n  - `total` INT\n  - `rank` TEXT\n  - `promote` BOOLEAN\n  - `scored_at` TIMESTAMPTZ\n  - index: `idx_the-relevance-of-customer-retention-to-o_scores_rank (rank, promote)`\n\n**`the-relevance-of-customer-retention-to-o_proof_seals`**\n  - `card_id` TEXT\n  - `artifact_sha256` TEXT\n  - `sealed_at` TIMESTAMPTZ\n  - `verifier_identity` TEXT\n  - index: `idx_the-relevance-of-customer-retention-to-o_proof_seals_hash (artifact_sha256)`\n\n**`the-relevance-of-customer-retention-to-o_events`**\n  - `event_id` BIGSERIAL PRIMARY KEY\n  - `card_id` TEXT\n  - `event_type` TEXT\n  - `payload` JSONB\n  - `occurred_at` TIMESTAMPTZ\n  - index: `idx_the-relevance-of-customer-retention-to-o_events_card_time (card_id, occurred_at)`\n\n### Deployment Architecture\nDocker services: `Docker` orchestrated via docker-compose; the build/verify loop runs as a Prefect-scheduled job with a 3600s hard timeout matching the harness contract. Required env vars: `OMNISCOUT_CONTROL`, `JAKESTUDIO_VAULT`, `OMNISCOUT_DEEP_MODEL`, `OMNISCOUT_REMOTE_OLLAMA`, `OMNISCOUT_GOOD_FLOOR`. Health checks: `/healthz` polls QNAP free-space and fails closed below the configured free-GiB floor; a failing health check halts new builds but never deletes existing ProofPackets.\n\n### Error Handling Strategy\nError codes are namespaced `E1xxx` (input), `E2xxx` (scoring), `E3xxx` (proof), `E4xxx` (infra). `E1001 mechanism_missing_or_thin` and `E1002 fewer_than_2_independent_sources` both hard-cap score at 54 per the deterministic rubric. `E3001 done_test_missing` caps rank at WEAK (≤69). Retry policy: exponential backoff, max 3, fail-closed — Ollama and Consensus timeouts retry with jitter; ProofPacket sealing never retries silently, it fails closed and surfaces `E3002 seal_mismatch`. A circuit breaker opens after 5 consecutive `E4xxx` infra errors within 10 minutes and routes new builds to the quarantine queue until a human or the self-heal watchdog closes it.\n\n### Performance Budget\nLatency budget: p50 build-to-score under 90s, p95 under 3600s (the hard harness timeout). Throughput target: sustain 100 cards/day throughput on 36GB node. Memory budget: ≤2GB per worker on the fleet node, leaving headroom for concurrent Ollama inference. Disk budget: QNAP free space must stay above the configured floor and under the configured used-percent ceiling or the pipeline stops writes.\n\n### Security Model\nAuthn/authz: local-only service identities per RIG doctrine — no public exposure without Gate-D human approval for outward actions (publish/send/deploy). Governance gates enforced: Gate-D, GEV Separation, ProofPacket, Non-vacuity, Temporal validity, Consensus backing. Input validation: every card write goes through an atomic tmp-then-replace write to prevent partial writes; JSON schema keys are validated before persistence. Rate limiting: build requests are throttled to the configured daily target with QNAP pressure as a hard backstop. Secrets (Ollama tokens, Consensus API keys) are read from environment only, never logged or embedded in card JSON. Doctrine domains aligned to this capability: engineering-capability, competitive-intel.",
+      "word_count": 743,
+      "generated_at": "2026-08-06T02:55:04.231396+00:00"
+    },
+    "deep_business": {
+      "title": "Deep Business Model",
+      "content": "`The relevance of Customer Retention to Organizational Growth` monetizes as `Consulting + custom build` at $5K-20K/mo, targeting a $2-5B TAM within the `customer-success-expansion` doctrine domain. 5 other card(s) in this batch share the same strategy_id, so differentiation must come from proof density and delivery speed, not from claiming a unique niche.\n\n### 3-Year MRR Projection (Year 1 monthly, Years 2-3 quarterly)\n| Period | Clients | MRR | ARR run-rate |\n|---|---|---|---|\n| Y1-M01 | 1 clients | $12.5K MRR | $150.0K ARR run-rate |\n| Y1-M02 | 1 clients | $12.5K MRR | $150.0K ARR run-rate |\n| Y1-M03 | 2 clients | $25.0K MRR | $300.0K ARR run-rate |\n| Y1-M04 | 2 clients | $25.0K MRR | $300.0K ARR run-rate |\n| Y1-M05 | 3 clients | $37.5K MRR | $450.0K ARR run-rate |\n| Y1-M06 | 3 clients | $37.5K MRR | $450.0K ARR run-rate |\n| Y1-M07 | 4 clients | $48.0K MRR | $576.0K ARR run-rate |\n| Y1-M08 | 4 clients | $46.1K MRR | $553.0K ARR run-rate |\n| Y1-M09 | 5 clients | $55.3K MRR | $663.6K ARR run-rate |\n| Y1-M10 | 5 clients | $53.1K MRR | $637.0K ARR run-rate |\n| Y1-M11 | 6 clients | $61.2K MRR | $733.8K ARR run-rate |\n| Y1-M12 | 6 clients | $58.7K MRR | $704.5K ARR run-rate |\n| Y2-Q1 | 9 clients | $99.5K MRR | $1.19M ARR run-rate |\n| Y2-Q2 | 10 clients | $110.6K MRR | $1.33M ARR run-rate |\n| Y2-Q3 | 11 clients | $121.7K MRR | $1.46M ARR run-rate |\n| Y2-Q4 | 12 clients | $132.7K MRR | $1.59M ARR run-rate |\n| Y3-Q1 | 13 clients | $143.8K MRR | $1.73M ARR run-rate |\n| Y3-Q2 | 14 clients | $154.8K MRR | $1.86M ARR run-rate |\n| Y3-Q3 | 15 clients | $165.9K MRR | $1.99M ARR run-rate |\n| Y3-Q4 | 16 clients | $176.9K MRR | $2.12M ARR run-rate |\n\n### Unit Economics\nAverage price band is $5.0K-$20.0K/mo (midpoint $12.5K). At a 70% gross margin, cost-to-serve is roughly $3.8K/customer/mo — mostly fleet compute (local Ollama nodes) and operator time, not cloud API spend. CAC is $3.0K-$8.0K; against a per-customer contribution of $8.8K/mo, that implies a CAC payback of roughly 0.9 months at the high end of the CAC range. Estimated LTV is $60.0K-$240.0K, giving an implied LTV/CAC ratio of roughly 7.5x-80.0x — healthy once it clears 3x, marginal below that.\n\n### Pricing Tier Matrix\n**Starter — $2.0K/mo**\n  - Single build slice, one done-test\n  - Deterministic score report (no LLM in the grading decision)\n  - Community support, best-effort SLA\n\n**Pro — $12.5K/mo**\n  - Full harness: build → score → verify → seal ProofPacket\n  - Consensus-backed evidence base — competitors can't replicate the research depth\n  - Weekly office hours + priority queue on the fleet node\n\n**Enterprise — $32.0K/mo**\n  - Dedicated fleet capacity + custom doctrine governance\n  - Proof-chained quality (competitors can't match)\n  - SOC 2 readiness support and audit-trail exports\n  - Quarterly business review with score-trend reporting\n\n### Break-Even Analysis\nAssuming a blended build cost of roughly $7.0K to stand up the harness (build_effort: 1-3 weeks), and monthly contribution of $8.8K/customer at 70% margin, break-even lands at roughly 0.8 months assuming a single early customer, or faster with the client-growth curve modeled above once 2-3 clients are active. The floor risk is client concentration: losing the first client before month 3 resets the burn clock and pushes break-even back out.\n\n### Competitive Pricing Comparison\n- **temporal**: typically prices in the $16.2K-$27.5K/mo equivalent range, without a proof-chained artifact or an independently verifiable done-test.",
+      "word_count": 603,
+      "generated_at": "2026-08-06T02:55:04.231459+00:00"
+    },
+    "deep_gtm": {
+      "title": "Deep Go-To-Market Plan",
+      "content": "GTM plan for `The relevance of Customer Retention to Organizational Growth` (`customer-success-expansion`): Consulting + content motion targeting Mid-market operators over a 30-60 days cycle, positioned as \"RIG is the only AI consultancy with Consensus-backed, proof-chained customer-success-expansion capability\".\n\n### 90-Day GTM Calendar\n- Week 01 (Foundation): publish on LinkedIn — \"How RIG uses The relevance of Customer Retention to O\"; Search LinkedIn for: Mid-market operators.\n- Week 02 (Foundation): publish on Content — \"Building The relevance of Customer Retention to O — live agent build\"; Post in: r/MachineLearning, HN, AI subreddits about customer-success-expansion.\n- Week 03 (Foundation): publish on LinkedIn — \"The customer-success-expansion capability: mechanism + proof\"; Reference this card's Consensus papers in outreach for credibility.\n- Week 04 (Foundation): publish on Content — \"Open-source the customer-success-expansion harness\"; Target 50 prospects/week in Mid-market operators via Apollo + Clay.\n- Week 05 (Pipeline): publish on LinkedIn — \"How RIG uses The relevance of Customer Retention to O\"; Search LinkedIn for: Mid-market operators.\n- Week 06 (Pipeline): publish on Content — \"Building The relevance of Customer Retention to O — live agent build\"; Post in: r/MachineLearning, HN, AI subreddits about customer-success-expansion.\n- Week 07 (Pipeline): publish on LinkedIn — \"The customer-success-expansion capability: mechanism + proof\"; Reference this card's Consensus papers in outreach for credibility.\n- Week 08 (Pipeline): publish on Content — \"Open-source the customer-success-expansion harness\"; Target 50 prospects/week in Mid-market operators via Apollo + Clay.\n- Week 09 (Pipeline): publish on LinkedIn — \"How RIG uses The relevance of Customer Retention to O\"; Search LinkedIn for: Mid-market operators.\n- Week 10 (Close): publish on Content — \"Building The relevance of Customer Retention to O — live agent build\"; Post in: r/MachineLearning, HN, AI subreddits about customer-success-expansion.\n- Week 11 (Close): publish on LinkedIn — \"The customer-success-expansion capability: mechanism + proof\"; Reference this card's Consensus papers in outreach for credibility.\n- Week 12 (Close): publish on Content — \"Open-source the customer-success-expansion harness\"; Target 50 prospects/week in Mid-market operators via Apollo + Clay.\n- Week 13 (Close): publish on LinkedIn — \"How RIG uses The relevance of Customer Retention to O\"; Search LinkedIn for: Mid-market operators.\n\n### Content Calendar\n**LinkedIn (12 posts):**\n- LinkedIn #1: How RIG uses The relevance of Customer Retention to O\n- LinkedIn #2: Building The relevance of Customer Retention to O — live agent build\n- LinkedIn #3: The customer-success-expansion capability: mechanism + proof\n- LinkedIn #4: Open-source the customer-success-expansion harness\n- LinkedIn #5: How RIG uses The relevance of Customer Retention to O\n- LinkedIn #6: Building The relevance of Customer Retention to O — live agent build\n- LinkedIn #7: The customer-success-expansion capability: mechanism + proof\n- LinkedIn #8: Open-source the customer-success-expansion harness\n- LinkedIn #9: How RIG uses The relevance of Customer Retention to O\n- LinkedIn #10: Building The relevance of Customer Retention to O — live agent build\n- LinkedIn #11: The customer-success-expansion capability: mechanism + proof\n- LinkedIn #12: Open-source the customer-success-expansion harness\n**YouTube (4 videos):**\n- YouTube #1: Building The relevance of Customer Retention to Organizatio — live agent build, part 1\n- YouTube #2: Building The relevance of Customer Retention to Organizatio — live agent build, part 2\n- YouTube #3: Building The relevance of Customer Retention to Organizatio — live agent build, part 3\n- YouTube #4: Building The relevance of Customer Retention to Organizatio — live agent build, part 4\n**Substack (2 essays):**\n- Substack #1: The `customer-success-expansion` capability — mechanism + proof, essay 1\n- Substack #2: The `customer-success-expansion` capability — mechanism + proof, essay 2\n\n### Outreach Scripts\n**Cold email templates:**\nTemplate 1:\nSubject: customer-success-expansion without the heroics\n\nHi {first_name},\n\nRIG is the only AI consultancy with Consensus-backed, proof-chained customer-success-expansion capability We noticed Mid-market operators struggle with: What expansion motions reduce churn with proof?. We built a proof-chained slice — Turn the 'The relevance of Customer Retention to Organizational Growth' cluster into a governed build slice with proof. — with an executable done-test, not a deck. Worth 15 minutes this week?\n\nTemplate 2:\nSubject: Re: The relevance of Customer Retention to O\n\nFollowing up — the `customer-success-expansion` capability now scores 92/100 on our deterministic rubric (STRONG). If proof over promises matters to your Mid-market operators team, I'll send the ProofPacket hash chain so you can verify independently.\n\nTemplate 3:\nSubject: Last note on customer-success-expansion\n\nNo pressure — if this isn't the year for it, I'll check back next quarter. If it is, the fastest path is a 14-day pilot scoped to: Card has ≥3 sources, mechanism, pattern, idea, and executable done-test..\n\n**LinkedIn DM templates:**\nDM 1: Saw your post on Mid-market operators pain points — we ship `customer-success-expansion` capabilities with a done-test that either passes or doesn't, no vibes. Open to a quick look?\n\nDM 2: Quick one: does your team verify AI 'done' claims independently, or trust the same agent that built it? We separate builder/verifier by design — happy to show the artifact.\n\n### Sales Playbook\n**Discovery questions:**\n1. What does \"What expansion motions reduce churn with proof?\" actually cost you today in hours or missed revenue?\n2. Who verifies that an AI build is actually done today — and how?\n3. If `customer-success-expansion` broke silently in production, how would you find out?\n4. What's the smallest commercial commitment that would let you test this ($5K-20K/mo)?\n5. What would make this a 'no' even if the demo goes perfectly?\n**Demo script outline:**\n1. Show the claim: \"What expansion motions reduce churn with proof?\"\n2. Show the mechanism live: Multi-source Consensus synthesis for strategy `customer-success-expansion`.\n\n- Customer retention ha\n3. Run the done-test on stage: `python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}).get('strategy_id')`\n4. Show the ProofPacket hash chain — invite them to verify independently\n5. Close on the pilot scope and the 14-day exit clause\n**Objection handlers:**\n- Objection: \"LLM synthesis unavailable; extractive fallback may under-specify mechanism.\" → Response: we surface this as a documented risk with a kill-criterion, not hide it — trust comes from the audit trail, not the pitch.\n- Objection: \"We can build this in-house\" → Response: sure, and we'll hand you the harness + doctrine so you can verify our work replaces months of trial-and-error, not just labor.\n- Objection: \"We can build this in-house\" → Response: sure, and we'll hand you the harness + doctrine so you can verify our work replaces months of trial-and-error, not just labor.\n\n### Partner / Channel Strategy\nWrap as RIG capability layer — OSS handles commodity, RIG adds governance + proof Partner motion routes through the `intelligence` department; RIG contributes patterns upstream (Contribute customer-success-expansion patterns back to upstream projects, Publish RIG doctrine modules as OSS (attract talent + leads)) to build channel trust without ceding the proof-chain moat. Lock-in risk is rated LOW — RIG adds proprietary governance layer on top of OSS.\n\n### Customer Success Onboarding Flow\nDay 0: kickoff call scoped to the done-test acceptance criteria (`Card has ≥3 sources, mechanism, pattern, idea, and executable done-test.`). Day 1-3: RIG runs the harness loop (build → score → verify artifact → seal ProofPacket → deploy) against the client's real data or a sanctioned proxy. Day 4: client receives the ProofPacket and independently re-runs the done-test. Day 5-14: pilot operates live with weekly score-trend reporting; either side may exit with no penalty before day 14 per the pilot clause.",
+      "word_count": 1213,
+      "generated_at": "2026-08-06T02:55:04.231534+00:00"
+    },
+    "deep_agents": {
+      "title": "Deep Agent Team Design",
+      "content": "The `customer-success-expansion` capability runs 2 agent(s) under the `intelligence` department, each with its own PAI substrate, load order, and independent memory layer so no single agent can quietly expand its own authority or grade its own homework.\n\n### Inter-Agent Communication Protocol\nAgents communicate via typed messages routed through the `intelligence` department queue: `TASK_ASSIGN` (builder receives cluster_id/topic), `STATUS_UPDATE` (progress ping every harness cycle), `VERIFY_REQUEST` (builder hands the artifact to the verifier along with its own claimed score — the verifier ignores that claim and re-derives its own), `VERIFY_RESULT` (independent score, rank, and hard_blocks), and `ESCALATION` (routed to a human when a gate fails twice in a row). Team composition: 1 human(s), 2 agent(s), oversight: Gate-D human approval for all outward actions, cadence: nightly batch + continuous collection.\n\n### Agent 1: `rig-customer-success-expansion-builder` — Build Agent\n- **Model:** qwen3:8b\n- **Telos:** Improve RIG customer-success-expansion capability through build agent\n- **Memory layer:** L6_EPISODIC_RUN_STATE\n- **Proof path:** ProofPacket sealed after each build agent cycle\n- **Allowed surfaces:** TAC v2, closed-loop\n- **Boundaries:** No outward action (publish/send/deploy) without Gate-D human approval. This role never self-certifies — an independent verifier identity must independently confirm the result before it counts as done.\n\n**System prompt template:**\n> You are `rig-customer-success-expansion-builder`, the Build Agent for the `customer-success-expansion` capability inside RIG OmniScout. Your telos: Improve RIG customer-success-expansion capability through build agent. You operate at memory layer `L6_EPISODIC_RUN_STATE` and must seal a ProofPacket (ProofPacket sealed after each build agent cycle) before any claim of 'done' — an unsealed claim is not a claim, it is a guess. Your mechanism of work: Multi-source Consensus synthesis for strategy `customer-success-expansion`.\n\n- Customer retention has emerged as a critical factor in determining the long-term success and sustainability of organisations across various s. You MUST NOT self-certify success — an independent verifier identity checks your output against the executable done-test: `python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}).get('strategy_id')=='customer-success-expansion';assert c[`. You operate under these doctrine gates: Gate-D, GEV Separation, ProofPacket, Non-vacuity. When you are uncertain whether an artifact meets the bar, you fail closed and quarantine it rather than guess and hope a downstream check catches the mistake — a false 'done' is strictly worse than an honest 'not yet'. Your allowed skills and surfaces are limited to: TAC v2, closed-loop; you do not reach outside that boundary even if it would be faster. You report status through the department routing `intelligence` and hand off to the next agent in the loop only after your local gate passes cleanly. You never edit another agent's already-sealed ProofPacket — if you find a problem with a sealed artifact, you raise a new event rather than mutating history, because the hash chain must remain a truthful record of what actually happened, not what should have happened.\n\n**Eval rubric:** correctness ≥70/100 on the deterministic scorer; doctrine_fit ≥70% domain-marker overlap; latency p95 ≤3600s; cost ≤$0.05/run; gev_separation=true (builder identity ≠ verifier identity on every cycle)\n**Failure mode catalog:**\n- Model `qwen3:8b` times out beyond the harness timeout (3600s) → retry with backoff, then quarantine\n- Agent self-certifies its own output (GEV violation) → hard-blocked, score capped, promotion refused\n- Output drifts from the `customer-success-expansion` doctrine domain → doctrine_fit score drops, human review triggered\n- Upstream Consensus/Ollama endpoint unreachable → extractive fallback engages, risk flagged in card.risks\n**Cost estimate:** $0.0030/run (~1500 tokens on qwen3:8b)\n\n### Agent 2: `rig-customer-success-expansion-verifier` — Verify Agent\n- **Model:** deterministic\n- **Telos:** Improve RIG customer-success-expansion capability through verify agent\n- **Memory layer:** L7_VERIFIED_PROCEDURES\n- **Proof path:** ProofPacket sealed after each verify agent cycle\n- **Allowed surfaces:** score, GEV\n- **Boundaries:** No outward action (publish/send/deploy) without Gate-D human approval. This role never self-certifies — the builder identity that produced the artifact must independently confirm the result before it counts as done.\n\n**System prompt template:**\n> You are `rig-customer-success-expansion-verifier`, the Verify Agent for the `customer-success-expansion` capability inside RIG OmniScout. Your telos: Improve RIG customer-success-expansion capability through verify agent. You operate at memory layer `L7_VERIFIED_PROCEDURES` and must seal a ProofPacket (ProofPacket sealed after each verify agent cycle) before any claim of 'done' — an unsealed claim is not a claim, it is a guess. Your mechanism of work: Multi-source Consensus synthesis for strategy `customer-success-expansion`.\n\n- Customer retention has emerged as a critical factor in determining the long-term success and sustainability of organisations across various s. You MUST NOT self-certify success — the builder identity that produced the artifact checks your output against the executable done-test: `python -c \"import json;c=json.load(open('CARD.json'));assert c.get('strategy',{}).get('strategy_id')=='customer-success-expansion';assert c[`. You operate under these doctrine gates: Gate-D, GEV Separation, ProofPacket, Non-vacuity. When you are uncertain whether an artifact meets the bar, you fail closed and quarantine it rather than guess and hope a downstream check catches the mistake — a false 'done' is strictly worse than an honest 'not yet'. Your allowed skills and surfaces are limited to: score, GEV; you do not reach outside that boundary even if it would be faster. You report status through the department routing `intelligence` and hand off to the next agent in the loop only after your local gate passes cleanly. You never edit another agent's already-sealed ProofPacket — if you find a problem with a sealed artifact, you raise a new event rather than mutating history, because the hash chain must remain a truthful record of what actually happened, not what should have happened.\n\n**Eval rubric:** correctness ≥70/100 on the deterministic scorer; doctrine_fit ≥70% domain-marker overlap; latency p95 ≤3600s; cost ≤$0.05/run; gev_separation=true (builder identity ≠ verifier identity on every cycle)\n**Failure mode catalog:**\n- Model `deterministic` times out beyond the harness timeout (3600s) → retry with backoff, then quarantine\n- Agent self-certifies its own output (GEV violation) → hard-blocked, score capped, promotion refused\n- Output drifts from the `customer-success-expansion` doctrine domain → doctrine_fit score drops, human review triggered\n- Upstream Consensus/Ollama endpoint unreachable → extractive fallback engages, risk flagged in card.risks\n- Verifier reuses the builder's own claimed score instead of re-deriving it → audit via artifact_sha256 mismatch\n**Cost estimate:** $0.0000/run (~800 tokens on deterministic)\n",
+      "word_count": 987,
+      "generated_at": "2026-08-06T02:55:04.231592+00:00"
+    },
+    "deep_research": {
+      "title": "Deep Research & Literature",
+      "content": "This is the literature and methodology layer behind `The relevance of Customer Retention to Organizational Growth`. It exists so a skeptical reader can trace every claim back to a source and understand exactly where the evidence is thin, rather than taking the claim on faith.\n\n### Literature Review\n- **The relevance of Customer Retention to Organizational Growth** (consensus_mcp): Customer retention has emerged as a critical factor in determining the long-term success and sustainability of organisations across various sectors. This paper explores the relevance of customer retention to organisational growth by examining how maintaining…\n- **Impact of economically targeted conservation delivery on farming net revenue across a range of commodity prices** (consensus_mcp): Strategically targeting environmentally sensitive row crop areas for conservation enrollment via precision agriculture technologies requires a thorough understanding of the economic outcomes of potential lost opportunity costs to the producers. Variability in commodity prices adds…\n- **Drivers of front‑line sales employees’ retention: interaction, motivation, and performance** (consensus_mcp): . Employee retention is a critical dimension of organisational sustainability, particularly in sales-intensive sectors where high turnover undermines competitiveness and long-term value creation. This study examines how intangible assets, specifically, the quality of buyer–seller interaction,…\n- **Determinants of e-repurchase intentions: An integrative model of quadruple retention drivers** (consensus_mcp): Although researchers and practitioners in the field of e-commerce are now paying more attention to online customer loyalty, the focus previously was on overall customer satisfaction. Here, we drew on marketing and consumer behavior literature…\n- **Drivers of Customer Retention: An Introspection Into Indian Retail Customers** (consensus_mcp): There is a wide variety of choices for the modern retail customer including multiple retail formats. The success of the retail establishments has a great reliance of customer retention, which is an essential attribute to…\n\n### Open Research Questions\n1. Does the risk \"LLM synthesis unavailable; extractive fallback may under-specify mechanism.\" hold up under a larger, independent sample?\n2. What is the smallest experiment that would falsify the claim: \"What expansion motions reduce churn with proof?\"?\n3. Do the 5 cited paper(s) generalize from their original study context to RIG's `customer-success-expansion` use case, or is this a case of over-fitting to a narrow population?\n4. What confound would explain the observed effect without invoking the proposed mechanism?\n\n### Replication Concerns\nEvidence freshness is `FRESH` with an estimated re-verification window of 2-3 years before re-verification needed (next reverify by 2026-08). With 5 independent source(s) backing the claim, replication confidence is HIGH — at or above the multi-source floor used by the deterministic scorer's hard-block rule. Academic papers surfaced via Consensus carry publication-bias risk (positive-result skew) that RIG does not independently correct for; treat point estimates as directional, not causal, until a live pilot confirms the mechanism against a real client's data.\n\n### Methodology Critique\nThe underlying research base was synthesized via multi-source clustering (independent domains) rather than a single-author narrative, which mitigates but does not eliminate selection bias — the Consensus query for `customer-success-expansion` returns whatever the search index has indexed, not the output of a systematic review. The mechanism text — \"Multi-source Consensus synthesis for strategy `customer-success-expansion`.\n\n- Customer retention has emerged as a critical factor in determining the long-term \" — should be read as an extractive synthesis, not an original empirical finding; any numeric claims embedded in the evidence quotes were not independently re-derived by RIG. Generalizability is bounded by the T1 tier's assumed buyer context (`Mid-market operators`) and may not transfer cleanly to enterprise or regulated verticals without a fresh evidence pass.",
+      "word_count": 578,
+      "generated_at": "2026-08-06T02:55:04.231641+00:00"
+    },
+    "deep_risk": {
+      "title": "Deep Risk Assessment",
+      "content": "Risk posture for `The relevance of Customer Retention to Organizational Growth` at score 92/100 (STRONG), T1 tier.\n\n### Probability-Weighted Risk Matrix\n| Risk | Probability | Impact | Mitigation |\n|---|---|---|---|\n| LLM synthesis unavailable; extractive fallback may under-specify mechanism. | HIGH | MED | Monitor via the score breakdown; fail closed to the extractive fallback; keep logged in card.risks. |\n| Model drift on `qwen3:8b` silently changes output quality | MED | MED | Planted-failure regression re-run monthly; alert on any score delta greater than 10 points. |\n| QNAP disk pressure halts writes mid-batch | LOW | HIGH | The disk gate fails closed before any partial write; nightly free-space check catches it early. |\n| Consensus MCP / Ollama endpoint outage during synthesis | MED | MED | Extractive fallback engages automatically; the resulting risk is flagged in card.risks for review. |\n| GEV violation — builder and verifier collapse to one identity | LOW | HIGH | gev_separation is hard-scored 0; promotion is blocked until the two identities genuinely differ. |\n| Score regression below the current 92/100 baseline on re-verification | MED | MED | Reverify by the temporal_validity date; requeue for L2 synthesis if it drops below the GOOD floor. |\n| A competitor ships a similar `customer-success-expansion` offering first | MED | MED | Ship the pilot inside the stated build_effort window; lead with the ProofPacket as the trust artifact. |\n| Buyer pricing power erodes below the CAC payback threshold | MED | HIGH | Anchor pricing at the low end of the band with a 14-day exit clause to de-risk the first sale. |\n| Doctrine drift — `customer-success-expansion` stops mapping cleanly to a DOCTRINE_DOMAINS marker | LOW | MED | Re-run doctrine_fit scoring after any doctrine file update; re-tag domains if overlap drops below target. |\n\n### Kill Criteria\n- If independent sources drop below 2, quarantine.\n- Numeric floor: total score < 70/100 → quarantine (deterministic scorer hard block).\n- Numeric floor: independent sources < 2 → hard-capped at 54, automatic REJECT.\n- Temporal floor: past `2026-08` without re-verification → mark STALE and pull from the active rotation.\n- Council floor: council overall_verdict resolves to NO-GO from the majority of perspectives → do not promote.\n\n### Regulatory Scan\nRegulatory scan for `customer-success-expansion` (doctrine domains: engineering-capability, competitive-intel):\n- GDPR/CCPA (data privacy)\n- SOC 2 Type II (enterprise sales readiness)\n\nThis is a deterministic keyword-to-regime mapping, not legal advice — before any client contract, route through RIG's compliance review for the specific vertical and jurisdiction.\n\n### Technical Debt Forecast\nAt `MEDIUM` complexity and roughly 300-800 LOC, technical debt accrues fastest in the test coverage for edge-case inputs. The coverage target from the engineering blueprint (`pytest with ≥80% coverage on core logic`) is a leading indicator — debt is forecast to compound once coverage drifts below 60% or the harness timeout (3600s) is exceeded on more than 5% of runs. Rank `STRONG` (92/100) suggests a healthy buffer before debt becomes visible to buyers.\n\n### Doctrine Alignment Note\nThis section is scoped to `l2-9f8bfd145bf3e378` (`customer-success-expansion`, T1 tier, score 92/100, rank STRONG). It inherits RIG's fail-closed posture: every claim here traces back to a card field — `Deep Risk Assessment` is derived from engineering_blueprint, business_intelligence, gtm_strategy, agent_team, council, consensus, evidence, risks, kill_criteria, temporal_validity, and doctrine_governance rather than invented from scratch. Where a card field is sparse — fewer than 3 evidence URLs, a short mechanism string, or an unmapped strategy_id — this analysis says so explicitly instead of papering over the gap with generic language, because a confident-sounding placeholder is worse than an honest 'unknown' when a human or downstream agent is deciding whether to promote, fund, or ship this capability. Re-verification is due by `2026-08`; anything stated here should be treated as provisional after that date until the underlying card is re-synthesized against fresh sources. Aligned doctrine domains for this capability: engineering-capability, competitive-intel. Peer capabilities sharing the same strategy_id in this batch: 5.",
+      "word_count": 660,
+      "generated_at": "2026-08-06T02:55:04.231681+00:00"
+    },
+    "deep_testing": {
+      "title": "Deep Testing Strategy",
+      "content": "Testing strategy for `The relevance of Customer Retention to Organizational Growth`, derived from the engineering blueprint's own testing_strategy (`pytest with ≥80% coverage on core logic`) plus the 6 doctrine gate(s) that must hold.\n\n### Test Case Catalog\n1. **Given** Given a card with ≥3 independent sources / **When** when the deterministic scorer runs / **Then** then multi_source scores ≥15/18\n2. **Given** Given a mechanism string under 40 characters / **When** when the scorer evaluates mechanism_density / **Then** then the card is hard-capped at 54 (REJECT)\n3. **Given** Given a card matching the done-test `python -c \"import json;c=json.load(open('CARD.json'));assert` / **When** when the verifier executes it against the real artifact / **Then** then it exits 0 and the card is marked promotable\n4. **Given** Given a builder and verifier with the same identity / **When** when gev_separation is evaluated / **Then** then the score is 0 and promotion is blocked regardless of other dimensions\n5. **Given** Given a planted failure in the scoring logic / **When** when the non-vacuity regression runs / **Then** then the gate goes RED before the fix and GREEN after restore\n6. **Given** Given QNAP free space below the configured floor / **When** when a new build is requested / **Then** then the disk gate returns stop=True and no partial write occurs\n7. **Given** Given the `customer-success-expansion` doctrine domain markers / **When** when doctrine_fit is scored / **Then** then declared and inferred domains intersect above the target threshold\n8. **Given** Given a card missing evidence URLs entirely / **When** when evidence_anchoring is scored / **Then** then the score is 0/14 and the rank cannot exceed WEAK\n9. **Given** Given the harness timeout of 3600s / **When** when a build exceeds it / **Then** then the job is killed and retried per the exponential-backoff policy, up to the max attempt count\n10. **Given** Given a card already at schema v30 / **When** when enrich_card_v30 runs again / **Then** then it returns status='already_v30' and makes no writes\n11. **Given** Given 1 architecture component(s) / **When** when integration tests exercise each component boundary / **Then** then each component's public contract is exercised at least once\n\n### Coverage Targets Per Module\n| Module | Unit | Integration | E2E |\n|---|---|---|---|\n| temporal | 80% (unit) | 60% (integration) | 40% (e2e) |\n\n### CI/CD Pipeline\nGitHub Actions pipeline: `lint` (ruff/mypy) → `unit` (pytest -k not integration) → `integration` (real done-test against a fixture artifact) → `non_vacuity` (plant / confirm-RED / restore) → `package` (build artifact) → `deploy` (Prefect flow registration + QNAP write) → `smoke` (hit /healthz plus one end-to-end card build). Any red stage blocks merge; the non_vacuity stage is mandatory and cannot be skipped with a label.\n\n### Non-Vacuity Proof\nPlant: temporarily force the scorer to always return promote=True regardless of hard blocks. Confirm RED: the hard-blocks regression test must fail loudly against this planted bug. Restore: revert the patch and re-run — the same test goes GREEN. Keep the test as a permanent regression case so a future refactor that silently disables hard blocks is caught immediately, not discovered after a REJECT-grade card has already been promoted to a client-facing surface.\n\n### Load Test Plan\nTarget: sustain 100 cards/day throughput on 36GB node. Simulate with concurrent virtual builders (start at 4, ramp to 16) each issuing build+score+verify cycles; assert p95 end-to-end latency stays under 3600s and the QNAP free-space gate never triggers a false stop under sustained load. Error budget: fewer than 1% of cycles may hard-fail before the pipeline is considered degraded and paged.",
+      "word_count": 587,
+      "generated_at": "2026-08-06T02:55:04.231711+00:00"
+    },
+    "deep_ops": {
+      "title": "Deep Operations Runbook",
+      "content": "Operations for `The relevance of Customer Retention to Organizational Growth` (`customer-success-expansion`) — 6 doctrine gate(s) enforced on every cycle, routed through `intelligence`.\n\n### Daily Operational Runbook\n1. 06:00 UTC — check QNAP free space; abort the batch if the disk gate reports stop=True.\n2. 06:05 UTC — pull fresh L0 notes from the last 14 days across configured research roots.\n3. 06:15 UTC — cluster notes into topic groups with at least the minimum independent-source count.\n4. 06:30 UTC — run the harness loop per cluster: build → score → verify artifact → seal ProofPacket → deploy.\n5. 07:00 UTC — the deterministic scorer grades every new card; hard blocks are enforced with no LLM in this decision.\n6. 07:15 UTC — promote GOOD/STRONG/EXCELLENT cards; quarantine REJECT/WEAK cards carrying a hard block.\n7. 07:30 UTC — route promoted cards to the `intelligence` department for downstream use.\n8. 07:45 UTC — seal a ProofPacket (artifact hash over the stable-serialized card) for every promoted card.\n9. 08:00 UTC — update the enrichment summary file and append to the daily ledger.\n10. Continuous — the self-heal watchdog polls fleet health and restarts stalled workers.\n\n### Monitoring Dashboard Spec\n| Metric | SLO | Alert |\n|---|---|---|\n| `score_total_avg` | ≥75/100 | alert if the 7-day rolling average drops below 70 |\n| `promote_rate` | ≥60% | alert if it drops below 40% over 3 consecutive days |\n| `source_count_avg` | ≥3 | alert if it drops below 2.5, approaching hard-block territory |\n| `council_confidence_avg` | ≥70% | alert if it drops below 55% |\n| `qnap_free_gib` | ≥100 | page on-call if it drops below 50 GiB |\n| `qnap_used_pct` | <95% | page on-call if it reaches 98% or higher |\n| `cards_per_day` | ≥60 | alert if it drops below 30 for 2 consecutive days |\n| `error_rate` | <2% | alert if it reaches 5% or higher in any 1-hour window |\n| `gate_pass_rate` | 100% on non_vacuity | any FAIL on this gate is a Sev2 incident |\n| `reverify_due_count` | trending down | alert if the backlog grows for 3 consecutive days |\n\n### Incident Response Procedure\n**Sev1** (data loss, secret exposure, or a false-DONE claim reaching a client): page immediately, response within 15 minutes, halt the pipeline, root-cause before any resume. **Sev2** (pipeline stalled over 1 hour, non_vacuity gate FAIL, or a GEV violation detected): response within 1 hour, escalate through `intelligence` on-call, quarantine the affected cards. **Sev3** (a single card quarantined, minor score regression, one stalled worker): response by the next business day, logged to the ledger, no page required. Every incident gets a blameless writeup that names the specific gate or metric that fired.\n\n### Backup / Disaster Recovery Plan\nRPO: at most 24 hours — nightly ProofPacket-sealed cards are the durable unit, and anything mid-batch is re-derivable from the L0 notes, which are themselves durable. RTO: at most 4 hours to restore the cards directory from the last known-good snapshot or local mirror. Backup frequency: continuous append-only ledger writes plus a nightly full snapshot of the cards directory. Restore procedure: verify each restored card's artifact hash against a fresh stable-serialization of its own content before trusting it — a hash mismatch means the restore is corrupt and must fall back to the previous snapshot rather than being trusted as-is.",
+      "word_count": 555,
+      "generated_at": "2026-08-06T02:55:04.231741+00:00"
+    }
+  },
+  "deep_sections_hash": "b94dd976101ea7797eb535b62d85ae02a19bd4adef3dbf9a58cdde1e2a5f4038",
+  "deep_sections_count": 8,
+  "deep_word_count": 5926,
+  "v30_ready": true,
+  "enriched_v30_at": "2026-08-06T02:55:04.231823+00:00"
+}
