@@ -1,5 +1,7 @@
 # RIG Pattern Engines — Three Novel-to-the-World Strategic Analysis Engines
 
+<p align="center"><img src="assets/rig-pattern-engines-hero.png" alt="RIG Pattern Engines strategic analysis system" width="100%" /></p>
+
 Deterministic pattern-recognition engines for V30 build-cards. No LLM calls, no API keys, no black boxes — just structured signal extracted from a corpus of 141-field-aware cards.
 [![smoke](https://img.shields.io/github/actions/workflow/status/mrodgersjs-web/rig-pattern-engines/smoke.yml?branch=main)](https://github.com/mrodgersjs-web/rig-pattern-engines/actions/workflows/smoke.yml)
 
