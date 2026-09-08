@@ -174,9 +174,10 @@ def test_contradiction_brief() -> None:
     car_result = compute_car(cards)
     entries = score_all_contradictions(cards)
     brief = generate_brief(car_result, entries)
-    assert "top_pairs" in brief
-    assert "breakthrough_candidates" in brief
-    assert "computed_at" in brief
+    assert brief["schema"].startswith("rig.foundry.pattern-contradiction")
+    assert brief["top"]
+    assert brief["summary"]["total_pairs"] == car_result["metadata"]["count"]
+    assert "date" in brief
 
 
 # ---------------------------------------------------------------------------
@@ -220,19 +221,14 @@ def test_drift_brief() -> None:
 
 
 def test_drift_vocabulary_and_migration() -> None:
-    from rig_pattern_engines.pattern_drift import (
-        load_cards,
-        _vocabulary_summary,
-        _compute_cross_domain_migration_candidates,
-    )
+    from rig_pattern_engines.pattern_drift import compute_drift, load_cards
 
     cards = load_cards(FIXTURES_DIR)
-    vocab = _vocabulary_summary(cards)
+    report = compute_drift(cards=cards)
+    vocab = report["vocabulary_summary"]
     assert "unique_token_count" in vocab
     assert "top_tokens" in vocab
-
-    migrants = _compute_cross_domain_migration_candidates(cards)
-    assert isinstance(migrants, list)
+    assert isinstance(report["cross_domain_migration_candidates"], list)
 
 
 # ---------------------------------------------------------------------------

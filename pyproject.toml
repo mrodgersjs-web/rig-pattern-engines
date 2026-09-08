@@ -44,9 +44,9 @@ rig-pattern-dashboard = "rig_pattern_engines.pattern_dashboard:main"
 rig-pattern-generate = "rig_pattern_engines.pattern_generate:main"
 
 [project.urls]
-Homepage = "https://github.com/rig-intelligence/rig-pattern-engines"
-Repository = "https://github.com/rig-intelligence/rig-pattern-engines"
-Issues = "https://github.com/rig-intelligence/rig-pattern-engines/issues"
+Homepage = "https://github.com/mrodgersjs-web/rig-pattern-engines"
+Repository = "https://github.com/mrodgersjs-web/rig-pattern-engines"
+Issues = "https://github.com/mrodgersjs-web/rig-pattern-engines/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["rig_pattern_engines"]
