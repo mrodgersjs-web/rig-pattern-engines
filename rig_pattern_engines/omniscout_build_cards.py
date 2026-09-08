@@ -45,6 +45,10 @@ def _default_l2_root() -> Path:
     env = os.environ.get("OMNISCOUT_L2_ROOT")
     if env:
         return Path(env)
+    if "OMNISCOUT_CONTROL" in os.environ:
+        local = CONTROL / "build-cards"
+        local.mkdir(parents=True, exist_ok=True)
+        return local
     qnap = Path("/Volumes/RIGLake/RIG/omniscout/build-cards")
     try:
         qnap.mkdir(parents=True, exist_ok=True)
@@ -53,7 +57,7 @@ def _default_l2_root() -> Path:
         probe.unlink(missing_ok=True)
         return qnap
     except OSError:
-        local = Path.home() / ".rig" / "omniscout-control" / "build-cards"
+        local = CONTROL / "build-cards"
         local.mkdir(parents=True, exist_ok=True)
         return local
 
