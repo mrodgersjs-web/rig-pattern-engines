@@ -35,13 +35,13 @@ flowchart LR
 ## Install
 
 ```bash
-pip install rig-pattern-engines
+pip install git+https://github.com/mrodgersjs-web/rig-pattern-engines.git
 ```
 
 Or clone and install in editable mode:
 
 ```bash
-git clone https://github.com/rig-intelligence/rig-pattern-engines.git
+git clone https://github.com/mrodgersjs-web/rig-pattern-engines.git
 cd rig-pattern-engines
 pip install -e .
 ```
