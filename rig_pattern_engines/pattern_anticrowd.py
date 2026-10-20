@@ -1,4 +1,4 @@
-"""Anti-Crowd Score (ACS) engine — 1000x upgrade for RIG build-card strategy zones.
+"""Anti-Crowd Score (ACS) engine for RIG build-card strategy zones.
 
 Scores every strategy zone (not just empty ones) with a multi-dimensional
 opportunity model: market sizing, regulatory moat, competitor density, RIG
@@ -239,7 +239,7 @@ def _parse_build_effort(value: Any) -> float | None:
     for m in re.finditer(r"(\d+(?:\.\d+)?)", s):
         nums.append(float(m.group(1)))
     unit = "week"
-    for u, days in _BUILD_EFFORT_DAYS.items():
+    for u, _days in _BUILD_EFFORT_DAYS.items():
         if u in s or (u == "day" and "days" in s):
             unit = u
             break
@@ -565,7 +565,7 @@ def _legacy_rig_advantage(
 
 
 # ---------------------------------------------------------------------------
-# Core ACS + 1000x dimensions
+# Core ACS + extended dimensions
 # ---------------------------------------------------------------------------
 
 
@@ -577,7 +577,7 @@ def compute_acs(
     cards_by_strategy: dict[str, list[dict[str, Any]]],
     all_cards: list[dict[str, Any]],
 ) -> dict[str, Any]:
-    """Compute the Anti-Crowd Score + 1000x opportunity dimensions.
+    """Compute the Anti-Crowd Score plus the extended opportunity dimensions.
 
     Returns a dict with the legacy ACS (0-100), 8+ score dimensions, and
     a strategy recommendation.
@@ -601,7 +601,7 @@ def compute_acs(
     ) / (1.0 + risk)
     acs = round(raw * 100.0, 2)
 
-    # ---- 1000x dimensions -------------------------------------------------
+    # ---- extended dimensions ---------------------------------------------
     tam_stats = _strategy_tam_stats(
         strategy_id, cards_in_strategy, adjacent_strategies, cards_by_strategy
     )
@@ -641,7 +641,7 @@ def compute_acs(
         "risk_penalty": risk,
         "acs": acs,
         "adjacent_strategies": sorted(adjacent_strategies),
-        # 1000x dimensions
+        # extended dimensions
         "market_size": tam_stats,
         "market_size_score": round(market_size_score, 4),
         "regulatory_barrier": reg["score"],
@@ -914,7 +914,7 @@ def _print_brief(brief: dict[str, Any]) -> None:
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description="Anti-Crowd Score engine (1000x)")
+    parser = argparse.ArgumentParser(description="Anti-Crowd Score engine")
     parser.add_argument(
         "cmd",
         choices=["all", "brief", "status"],

@@ -1,4 +1,4 @@
-"""Contradiction Arbitrage Rank (CAR) engine — 1000x upgrade.
+"""Contradiction Arbitrage Rank (CAR) engine.
 
 Builds a proper contradiction graph, computes PageRank centrality over the
 entity-contradiction network, enriches each contradiction with 7+ score
@@ -11,22 +11,18 @@ All deterministic; no LLM calls.
 from __future__ import annotations
 
 import argparse
-import hashlib
 import json
 import math
 import re
-import sys
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 from .omniscout_build_cards import (
-    DOCTRINE_DOMAINS,
     L2_CARDS,
     L2_ROOT,
     atomic_json,
-    score_build_card,
     sha256_text,
     stable_json,
     utc_now,
@@ -1008,7 +1004,7 @@ def _format_brief(brief: dict[str, Any]) -> str:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
-        description="Contradiction Arbitrage Rank engine (1000x upgrade)"
+        description="Contradiction Arbitrage Rank engine"
     )
     parser.add_argument(
         "command",

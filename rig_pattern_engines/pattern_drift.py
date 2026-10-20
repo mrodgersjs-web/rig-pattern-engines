@@ -1,4 +1,4 @@
-"""Epistemic Drift engine — 1000x upgrade.
+"""Epistemic Drift engine.
 
 Detects concept vocabulary neighborhoods, cross-domain bridge concepts,
 temporal drift velocity, and category-formation frontiers from V30 build
@@ -25,7 +25,6 @@ from pathlib import Path
 from typing import Any
 
 from .omniscout_build_cards import (
-    DOCTRINE_DOMAINS,
     L2_CARDS,
     L2_ROOT,
     atomic_json,
