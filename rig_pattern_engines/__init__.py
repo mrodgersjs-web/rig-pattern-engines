@@ -1,13 +1,16 @@
 """RIG Pattern Engines — public API.
 
-Three deterministic pattern-recognition engines for V30 build-cards:
+Three deterministic analysis engines for research-card corpora:
 
-* Anti-Crowd Score (ACS)      — "Where is everyone wrong together?"
-* Contradiction Arbitrage Rank (CAR) — "What are two experts saying that cancels out?"
-* Epistemic Drift             — "What word no longer means what it meant?"
+* Anti-Crowd Score (ACS): how attractive is a strategy zone relative to how
+  crowded it is, with an ENTER / WATCH / IGNORE recommendation.
+* Contradiction Arbitrage Rank (CAR): which pairs of cards disagree, and how
+  close each disagreement is to resolving.
+* Epistemic Drift: which vocabulary is new, crossing domains, and arriving
+  fastest, per strategy zone.
 
-Each engine is pure Python, has no LLM dependency, and produces JSON reports
-and human-readable briefs from a directory of `l2-*.json` build cards.
+Each engine is pure Python, makes no network or LLM calls, and produces JSON
+reports and human-readable briefs from a directory of `l2-*.json` build cards.
 """
 
 from __future__ import annotations
@@ -24,22 +27,40 @@ from .omniscout_build_cards import (
 )
 from .pattern_anticrowd import (
     compute_acs as anticrowd_compute,
+)
+from .pattern_anticrowd import (
     detect_synergies as anticrowd_synergies,
+)
+from .pattern_anticrowd import (
     generate_brief as anticrowd_brief,
+)
+from .pattern_anticrowd import (
     score_all_strategies as anticrowd_score,
 )
 from .pattern_contradiction import (
     build_contradiction_graph,
+)
+from .pattern_contradiction import (
     compute_car as contradiction_compute,
+)
+from .pattern_contradiction import (
     generate_brief as contradiction_brief,
+)
+from .pattern_contradiction import (
     score_all_contradictions as contradiction_score,
 )
 from .pattern_dashboard import generate_dashboard
 from .pattern_drift import (
     build_cooccurrence_matrix,
     build_ego_vectors,
+)
+from .pattern_drift import (
     compute_drift as drift_compute,
+)
+from .pattern_drift import (
     generate_brief as drift_brief,
+)
+from .pattern_drift import (
     score_all_strategies as drift_score,
 )
 from .pattern_generate import generate_pattern_cards
