@@ -10,13 +10,12 @@ from __future__ import annotations
 import argparse
 import html
 import json
-import math
 import os
 import re
 import statistics
 import webbrowser
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -24,24 +23,18 @@ from typing import Any
 # package-local; the fallback path is only for direct-script convenience.
 try:
     from .omniscout_build_cards import (
-        DOCTRINE_DOMAINS,
-        L2_CARDS,
         L2_ROOT,
         atomic_json,
         atomic_text,
-        score_build_card,
         sha256_text,
         stable_json,
         utc_now,
     )
 except ImportError:  # pragma: no cover - direct execution fallback
     from omniscout_build_cards import (  # type: ignore[import-not-found]
-        DOCTRINE_DOMAINS,
-        L2_CARDS,
         L2_ROOT,
         atomic_json,
         atomic_text,
-        score_build_card,
         sha256_text,
         stable_json,
         utc_now,
@@ -491,7 +484,6 @@ def build_256gb_results(cards: list[dict[str, Any]]) -> list[dict[str, Any]]:
         outcome = card.get("outcome") or {}
         if outcome.get("tested_on") != "rig256gb":
             continue
-        autobuilt = card.get("autobuilt") or {}
         status = _build_status(card)
         started = _parse_dt(outcome.get("build_started_at"))
         shipped = _parse_dt(outcome.get("shipped_at"))
@@ -656,7 +648,6 @@ def _portfolio_html(cards: list[dict[str, Any]]) -> str:
     for card in cards:
         sid = card.get("strategy", {}).get("strategy_id", "unknown")
         tier = card.get("strategy", {}).get("tier", "—")
-        rank = card.get("score", {}).get("rank", "—")
         score = _safe_float(card.get("score", {}).get("total"), 0.0)
         status = _build_status(card)
         verdict = _council_verdict(card)
