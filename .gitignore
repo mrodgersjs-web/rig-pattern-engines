@@ -8,3 +8,4 @@ dist/
 .venv/
 *.jsonl
 pattern-*.json
+.coverage
