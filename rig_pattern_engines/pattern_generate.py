@@ -662,9 +662,6 @@ def generate_pattern_cards(
 
     Returns a summary dict with the generated cards and write paths.
     """
-    root = l2_root or L2_ROOT
-    cdir = cards_dir or L2_CARDS
-
     # Load corpus once.
     cards = _load_corpus()
 
@@ -706,10 +703,12 @@ def status() -> dict[str, Any]:
     inputs = {}
     for engine, path in ENGINE_FILES.items():
         data = _load_json(path)
+        if not isinstance(data, dict):
+            data = {}
         inputs[engine] = {
             "exists": path.exists(),
             "path": str(path),
-            "schema": data.get("schema") if data else None,
+            "schema": data.get("schema"),
             "opportunity_count": (
                 len(data.get("strategies", [])) if isinstance(data.get("strategies"), list)
                 else len(data.get("pairs", [])) if isinstance(data.get("pairs"), list)
