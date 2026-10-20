@@ -74,7 +74,7 @@ def _all_fixture_cards() -> list[dict[str, Any]]:
 
 
 def test_anticrowd_imports() -> None:
-    from rig_pattern_engines import anticrowd_score, anticrowd_brief, anticrowd_compute
+    from rig_pattern_engines import anticrowd_brief, anticrowd_compute, anticrowd_score
 
     assert callable(anticrowd_score)
     assert callable(anticrowd_brief)
@@ -105,7 +105,7 @@ def test_anticrowd_scores_strategies(control_dir: Path) -> None:
 
 
 def test_anticrowd_brief(control_dir: Path) -> None:
-    from rig_pattern_engines.pattern_anticrowd import score_all_strategies, generate_brief
+    from rig_pattern_engines.pattern_anticrowd import generate_brief, score_all_strategies
 
     summary = score_all_strategies(cards_dir=control_dir / "build-cards" / "cards")
     brief = generate_brief(summary)
@@ -120,9 +120,9 @@ def test_anticrowd_brief(control_dir: Path) -> None:
 
 def test_contradiction_imports() -> None:
     from rig_pattern_engines import (
+        contradiction_brief,
         contradiction_compute,
         contradiction_score,
-        contradiction_brief,
     )
 
     assert callable(contradiction_compute)
@@ -132,8 +132,8 @@ def test_contradiction_imports() -> None:
 
 def test_contradiction_graph_and_scores() -> None:
     from rig_pattern_engines.pattern_contradiction import (
-        load_cards,
         compute_car,
+        load_cards,
         score_all_contradictions,
     )
 
@@ -164,10 +164,10 @@ def test_contradiction_graph_and_scores() -> None:
 
 def test_contradiction_brief() -> None:
     from rig_pattern_engines.pattern_contradiction import (
-        load_cards,
         compute_car,
-        score_all_contradictions,
         generate_brief,
+        load_cards,
+        score_all_contradictions,
     )
 
     cards = load_cards(FIXTURES_DIR)
@@ -186,7 +186,7 @@ def test_contradiction_brief() -> None:
 
 
 def test_drift_imports() -> None:
-    from rig_pattern_engines import drift_compute, drift_score, drift_brief
+    from rig_pattern_engines import drift_brief, drift_compute, drift_score
 
     assert callable(drift_compute)
     assert callable(drift_score)
@@ -237,8 +237,78 @@ def test_drift_vocabulary_and_migration() -> None:
 
 
 def test_load_build_card_helpers() -> None:
-    from rig_pattern_engines import score_build_card, stable_json, sha256_text
+    from rig_pattern_engines import score_build_card, sha256_text, stable_json
 
     assert callable(score_build_card)
     assert callable(stable_json)
     assert callable(sha256_text)
+
+
+# ---------------------------------------------------------------------------
+# Determinism, helpers, and the shipped example
+# ---------------------------------------------------------------------------
+
+
+def test_public_api_exports() -> None:
+    import rig_pattern_engines as rpe
+
+    for name in ("anticrowd_score", "contradiction_compute", "drift_compute", "sha256_text"):
+        assert hasattr(rpe, name), f"missing export: {name}"
+
+
+def test_sha256_text_stable() -> None:
+    from rig_pattern_engines import sha256_text
+
+    assert sha256_text("abc") == sha256_text("abc")
+    assert sha256_text("abc") != sha256_text("abd")
+
+
+def test_stable_json_is_sorted() -> None:
+    from rig_pattern_engines import stable_json
+
+    assert stable_json({"b": 1, "a": 2}) == stable_json({"a": 2, "b": 1})
+
+
+def test_engines_are_deterministic() -> None:
+    from rig_pattern_engines import anticrowd_score, drift_compute
+
+    one = anticrowd_score(cards_dir=FIXTURES_DIR)
+    two = anticrowd_score(cards_dir=FIXTURES_DIR)
+    assert stable_hash(one) == stable_hash(two)
+
+    d1 = drift_compute(cards_dir=FIXTURES_DIR)
+    d2 = drift_compute(cards_dir=FIXTURES_DIR)
+    assert stable_hash(d1) == stable_hash(d2)
+
+
+def stable_hash(payload: object) -> str:
+    import hashlib
+
+    def strip_times(obj: object) -> object:
+        if isinstance(obj, dict):
+            return {
+                k: strip_times(v)
+                for k, v in obj.items()
+                if not any(tok in k for tok in ("computed_at", "generated_at", "timestamp", "scored_at", "artifact_sha256", "report_sha256"))
+            }
+        if isinstance(obj, list):
+            return [strip_times(v) for v in obj]
+        return obj
+
+    normalized = strip_times(payload)
+    return hashlib.sha256(json.dumps(normalized, sort_keys=True, default=str).encode()).hexdigest()
+
+
+def test_example_script_runs() -> None:
+    import subprocess
+    import sys
+
+    root = Path(__file__).resolve().parent.parent
+    result = subprocess.run(
+        [sys.executable, str(root / "examples" / "run_all.py")],
+        capture_output=True,
+        text=True,
+        timeout=120,
+    )
+    assert result.returncode == 0, result.stderr
+    assert "Contradictions found:" in result.stdout
