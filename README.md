@@ -5,7 +5,7 @@ signals: crowded opportunities, disputed claims, and concepts on the move. Built
 analysts who want repeatable numbers instead of opinions. No LLM calls, no API keys,
 fully offline.
 
-[![CI](https://github.com/mrodgersjs-web/rig-pattern-engines/actions/workflows/ci.yml/badge.svg)](https://github.com/mrodgersjs-web/rig-pattern-engines/actions/workflows/ci.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/mrodgersjs-web/rig-pattern-engines/ci.yml?branch=main&label=CI)](https://github.com/mrodgersjs-web/rig-pattern-engines/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 
