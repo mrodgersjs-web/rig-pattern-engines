@@ -73,9 +73,9 @@ L2_INDEX = L2_ROOT / "index.json"
 L2_STOP = L2_ROOT / "STOP"
 SCORE_RUBRIC_PATH = L2_ROOT / "SCORE_RUBRIC.md"
 
-REMOTE_HOST = os.environ.get("OMNISCOUT_REMOTE_HOST", "rig36gb")
+REMOTE_HOST = os.environ.get("OMNISCOUT_REMOTE_HOST", "localhost")
 REMOTE_L0 = os.environ.get(
-    "OMNISCOUT_REMOTE_L0", "/Users/rig36gb/Documents/JakeStudio/Research"
+    "OMNISCOUT_REMOTE_L0", "/data/research"
 )
 REMOTE_OLLAMA = os.environ.get("OMNISCOUT_REMOTE_OLLAMA", "http://127.0.0.1:11434")
 DEEP_MODEL = os.environ.get("OMNISCOUT_DEEP_MODEL", "qwen3-coder:30b")
@@ -457,7 +457,7 @@ for p in root.rglob('*.md'):
         'captured_at': fm.get('captured_at') or '',
     })
 print(json.dumps(out))
-""" % (REMOTE_L0, CLUSTER_LOOKBACK_DAYS)
+""" % (REMOTE_L0, CLUSTER_LOOKBACK_DAYS)  # noqa: UP031
     try:
         r = subprocess.run(
             [
@@ -1641,17 +1641,17 @@ def daily_strategy_counts() -> dict[str, int]:
     return dict(counts)
 
 
-def annotate_cluster_strategy(cluster: "SourceCluster", strategy: dict[str, Any] | None = None) -> dict[str, Any]:
+def annotate_cluster_strategy(cluster: SourceCluster, strategy: dict[str, Any] | None = None) -> dict[str, Any]:
     blob = " ".join(n.summary for n in cluster.notes[:3])
     return map_label_to_strategy(cluster.topic, blob, strategy)
 
 
 def prioritize_clusters_for_strategy(
-    clusters: list["SourceCluster"],
+    clusters: list[SourceCluster],
     *,
     limit: int,
     strategy: dict[str, Any] | None = None,
-) -> list[tuple["SourceCluster", dict[str, Any]]]:
+) -> list[tuple[SourceCluster, dict[str, Any]]]:
     """Order clusters by tier deficit, then sources, then L0 quality."""
     strategy = strategy or load_topic_strategy()
     done = already_processed_cluster_ids()
@@ -1726,7 +1726,7 @@ def prioritize_clusters_for_strategy(
     return out
 
 
-def consensus_query_for_meta(meta: dict[str, Any], cluster: "SourceCluster") -> str:
+def consensus_query_for_meta(meta: dict[str, Any], cluster: SourceCluster) -> str:
     qs = list(meta.get("consensus_queries") or [])
     if not qs:
         return f"{cluster.topic} {cluster.title}"[:200]
@@ -2065,8 +2065,10 @@ def run_until_qnap_pressure(
         import fcntl
         _camp_lock_fh = (L2_ROOT / "campaign.lock").open("a+", encoding="utf-8")
         fcntl.flock(_camp_lock_fh.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
-        _camp_lock_fh.seek(0); _camp_lock_fh.truncate()
-        _camp_lock_fh.write(f"pid={os.getpid()} at={utc_now()}\n"); _camp_lock_fh.flush()
+        _camp_lock_fh.seek(0)
+        _camp_lock_fh.truncate()
+        _camp_lock_fh.write(f"pid={os.getpid()} at={utc_now()}\n")
+        _camp_lock_fh.flush()
     except BlockingIOError:
         return {
             "schema": SCHEMA_CAMPAIGN,
