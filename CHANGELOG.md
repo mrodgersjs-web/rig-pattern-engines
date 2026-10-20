@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- This commit adds tests/test_generate_fallbacks.py covering the card generator helpers and the fallback readers, raising test coverage from 77 to 81 percent.
 - This commit rewrites tests/test_repo_hygiene.py without the yaml import so all five hygiene checks run on a plain dev install.
 - This commit adds tests/test_repo_hygiene.py, which checks the code owner file, the agent instructions file, the README badge and footer, and the workflow timeouts from the files on disk.
 - This commit switches the README CI badge to the shields.io workflow status URL and adds a 15 minute timeout to both workflow jobs.
