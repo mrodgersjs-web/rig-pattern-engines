@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "rig-pattern-engines"
 version = "0.2.0"
-description = "Three deterministic pattern-recognition engines for strategic build-card analysis."
+description = "Three deterministic analysis engines for research-card corpora: crowding, contradiction, and vocabulary drift."
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.10"
@@ -15,10 +15,10 @@ authors = [
 keywords = [
     "strategy",
     "pattern-recognition",
-    "build-cards",
-    "contradiction-arbitrage",
-    "epistemic-drift",
-    "anti-crowd",
+    "research-cards",
+    "contradiction-detection",
+    "vocabulary-drift",
+    "crowding-score",
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -35,7 +35,7 @@ classifiers = [
 dependencies = []
 
 [project.optional-dependencies]
-test = ["pytest>=7.0"]
+dev = ["pytest>=7.0", "pytest-cov>=4.0", "ruff>=0.4"]
 
 [project.scripts]
 rig-anticrowd = "rig_pattern_engines.pattern_anticrowd:main"
@@ -55,3 +55,18 @@ packages = ["rig_pattern_engines"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = ["E501"]
+
+[tool.coverage.run]
+source = ["rig_pattern_engines"]
+omit = ["rig_pattern_engines/omniscout_build_cards.py"]
+
+[tool.coverage.report]
+exclude_lines = ["pragma: no cover", "if __name__ == .__main__.:"]
