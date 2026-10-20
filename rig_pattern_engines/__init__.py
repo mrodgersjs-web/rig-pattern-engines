@@ -65,7 +65,7 @@ from .pattern_drift import (
 )
 from .pattern_generate import generate_pattern_cards
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 __all__ = [
     # package meta
