@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- This commit makes the smoke workflow install the `dev` extra (the `test` extra no longer exists, so CI had no pytest) and adds `tests/test_workflow_extras.py`, which fails when a workflow installs an extra that pyproject.toml does not define.
+
 ### Added
 
 - This commit adds tests/test_generate_fallbacks.py covering the card generator helpers and the fallback readers, raising test coverage from 77 to 81 percent.
