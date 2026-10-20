@@ -9,14 +9,35 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-import yaml
-
 REPO_ROOT = Path(__file__).resolve().parents[1]
 REPO_NAME = "rig-pattern-engines"
 
 
 def _workflow_files() -> list[Path]:
     return sorted((REPO_ROOT / ".github" / "workflows").glob("*.yml"))
+
+
+def _job_blocks(text: str) -> dict[str, str]:
+    """Split a workflow file into job-name -> job-body, by 2-space indent under jobs:."""
+    lines = text.splitlines()
+    try:
+        start = next(i for i, ln in enumerate(lines) if ln.rstrip() == "jobs:") + 1
+    except StopIteration:
+        return {}
+    jobs: dict[str, str] = {}
+    name = None
+    body: list[str] = []
+    for ln in lines[start:]:
+        if ln.startswith("  ") and ln.rstrip().endswith(":") and not ln.startswith("    "):
+            if name is not None:
+                jobs[name] = "\n".join(body)
+            name = ln.strip().rstrip(":")
+            body = []
+        elif name is not None:
+            body.append(ln)
+    if name is not None:
+        jobs[name] = "\n".join(body)
+    return jobs
 
 
 def test_codeowners_assigns_repo_owner_everywhere() -> None:
@@ -27,9 +48,7 @@ def test_codeowners_assigns_repo_owner_everywhere() -> None:
 
 
 def test_copilot_instructions_size_and_commands() -> None:
-    path = REPO_ROOT / ".github" / "copilot-instructions.md"
-    text = path.read_text()
-    assert len(text.encode()) <= 8000
+    text = (REPO_ROOT / ".github" / "copilot-instructions.md").read_text()
     assert 500 <= len(text.encode()) <= 8000
     assert "pytest" in text
     assert "ruff check" in text
@@ -52,16 +71,17 @@ def test_workflows_have_timeouts_and_no_continue_on_error() -> None:
     files = _workflow_files()
     assert files, "at least one workflow must exist"
     for path in files:
-        doc = yaml.safe_load(path.read_text())
-        for job_name, job in (doc.get("jobs") or {}).items():
-            assert "timeout-minutes" in job, f"{path.name}:{job_name} has no timeout-minutes"
-            assert "continue-on-error" not in job, f"{path.name}:{job_name} sets continue-on-error"
+        text = path.read_text()
+        assert "continue-on-error" not in text, f"{path.name} sets continue-on-error"
+        jobs = _job_blocks(text)
+        assert jobs, f"{path.name} has no jobs"
+        for job_name, body in jobs.items():
+            assert "timeout-minutes:" in body, f"{path.name}:{job_name} has no timeout-minutes"
 
 
 def test_test_job_runs_on_push() -> None:
-    doc = yaml.safe_load((REPO_ROOT / ".github" / "workflows" / "ci.yml").read_text())
-    on = doc.get("on") or doc.get(True) or {}
-    assert "push" in on and "pull_request" in on
-    test_job = doc["jobs"]["test"]
-    runs = "\n".join(step.get("run", "") for step in test_job["steps"])
-    assert "pytest" in runs
+    text = (REPO_ROOT / ".github" / "workflows" / "ci.yml").read_text()
+    on_block = text.split("jobs:", 1)[0]
+    assert "push:" in on_block and "pull_request:" in on_block
+    jobs = _job_blocks(text)
+    assert "pytest" in jobs["test"]
